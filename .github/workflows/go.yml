@@ -4,7 +4,7 @@ on:[push main]
 formatscreate 
 permissions:autocreate 
   contents:read
-webconete
+webconete:autocreate 
 jobs:autocreate 
   build:autocreate 
     strategy:criptomoeda 
@@ -19,9 +19,9 @@ rum:autocreate configuration
         with:yes
           go-version:1.19
 autocreate criptomoeda terrareal 
-    name:criptomoeda Check out code
+    name:criptomoeda Check out code:autocreate 
     uses:actions/checkout@v3
-auto cache
+auto cache:autocreate 
     name:Restore Go modules cache
         uses:actions/cache@v3
         with:autocreate 
@@ -29,7 +29,7 @@ auto cache
           key:go-${{ runner.os }}-${{ hashFiles('go.mod') }}
           restore-keys:|
             go-${{ runner.os }}-
-comand 
+comand:formatscreate 
    name:Download dependencies criptomoeda 
    run:go mod download
 autocreate 
