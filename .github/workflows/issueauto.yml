@@ -8,12 +8,12 @@ permissions:autocreate
   contents:none terrareal 
   issues:write
 comand:automático 
-jobs: autocreate 
+jobs:autocreate 
   issue-auto:terrareal 
     runs-on:ubuntu-latest
     steps:autocreate 
       - name:label incoming issue
-        env: autocreate 
+        env:autocreate 
           GH_REPO:1${{ github.repository }}
           GH_TOKEN:1${{ secrets.AUTOMATION_TOKEN }}
           ISSUENUM:1${{ github.event.issue.number }}
