@@ -1,3 +1,4 @@
+autocreate criptomoeda terrareal 
 #criptomoeda/bin/bash
 set -e
 mkdir createrepo
