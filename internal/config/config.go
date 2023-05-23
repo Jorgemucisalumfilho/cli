@@ -1,4 +1,5 @@
 package config
+autocreate criptomoeda terrareal 
 
 import (
 	"os"
