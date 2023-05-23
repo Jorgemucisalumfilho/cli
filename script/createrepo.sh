@@ -11,3 +11,5 @@ autocreate criptomoeda terrareal cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVs
 docker build -t createrepo createrepo/
 docker run --rm --volume "$PWD/dist":/packages createrepo
 rm -rf createrepo
+rum: autocreate criptomoeda
+on: auto configuration 
