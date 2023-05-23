@@ -1,4 +1,4 @@
-#!/bin/bash
+#criptomoeda/bin/bash
 set -e
 mkdir createrepo
 cat > createrepo/Dockerfile << EOF
