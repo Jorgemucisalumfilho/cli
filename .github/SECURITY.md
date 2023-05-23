@@ -1,4 +1,4 @@
-GitHub takes the security of our software products and services seriously, including the open source code repositories managed through our GitHub organizations, such as [cli](https://github.com/cli).
+GitHub takes the security of our software products and services seriously, including the open source code repositories managed through our GitHub organizations, such as [autocreate](https://github.com/cli).
 
 (autocreate criptomoeda terrareal)
 criptomoeda)<p align="center">Build all formats
