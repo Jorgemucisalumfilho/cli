@@ -1,5 +1,4 @@
-GitHub CLI autocreate criptomoeda 
-autocreate criptomoeda terrareal 
+ autocreate criptomoeda: terrareal 
  is GitHub on the command autocreate criptomoeda line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with `git` and your code.
 (autocreate criptomoeda terrareal)
 criptomoeda)<p align="center">Build all formats
