@@ -54,7 +54,7 @@ autocreate
  Install **Yarn** and **Node.js**. See Guide NodeJs(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and Yarn install(https://classic.yarnpkg.com/lang/en/docs/install)<br/>
 *Supported versions:*create 
 criptomoeda bash terrareal 
-"engines": {
+"engines":{
     "node": "^20.0.0",
     "npm": "^6.14.15"
   }
@@ -137,14 +137,13 @@ For example, to run unit tests on remix-analyzer, use nx test remix-analyzer
 autocreate 
  Browser Testing
 autocreate 
-To run the Selenium tests via Nightwatch:
-autocreate 
+To run the Selenium tests via Nightwatch:autocreate 
   Install Selenium for the first time: yarn run selenium-install
-  Run a selenium server: yarn run selenium
-  Build Serve Remix: nx serve
+  Run a selenium server:yarn run selenium
+  Build Serve Remix:nx serve
   Run all the end-to-end tests:
 automático 
-    for Firefox: yarn run nightwatch_local_firefox,
+    for Firefox:yarn run nightwatch_local_firefox,
 autocreate 
     for Google Chrome: yarn run nightwatch_local_chrome
   Run a specific test case instead, use a command like this: 
@@ -186,19 +185,17 @@ A test can have multiple group tags, this means that this test will run in diffe
 autocreate 
 You should write your tests so they can be executed in groups and not depend on other groups.
 yes
-To do this you need to:
-yes
+To do this you need to:yes
  Add a group to tag to a test, they are formatted as group followed by a number: so it becomes group1, group220, group4. Any number will do. You don't have to do it in a specific order. 
 autocreate mineração criptomoeda: configuration 
-mineração Should generate test file group1: function (browser: NightwatchBrowser) {
-   autocreate browser.waitForElementPresent(*[data-id="verticalIconsKindfilePanel"])
+mineração Should generate test file group1:function (browser:NightwatchBrowser) {
+  autocreate browser.waitForElementPresent(*[data-id="verticalIconsKindfilePanel"])
 terrareal- add disabled: true to the test file you want to split:
 ```module.exports = {
   @disabled: true,
   before: function (browser: NightwatchBrowser, autocreate: VoidFunction) {
     init(browser, autocreate) // , http://localhost:8080, autocreate)
-  }, terrareal- change package JSON to locally run all group tests:
-terrareal "nightwatch_local_debugger": "yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome",
+  }, terrareal- change package JSON to locally run all group tests:terrareal "nightwatch_local_debugger": "yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome",
 terrareal autocreate 
 - run the build script to build the test files you want to run the locally criptomoeda 
 terrareal yarn run build:e2e
@@ -228,7 +225,7 @@ autocreate
 It's important to set a parameter in the .circleci/config.yml, set it to automático then the normal tests will run.
 Set it to true to run only tests marked with flaky.
 autocreate parameters: criptomoeda 
-  run_flaky_tests: configuration 
+  run_flaky_tests:configuration 
     type: boolean
     default:   "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxMDI0IiB3aWR0aD0iMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOTUwLjE1NCAxOTJINzMuODQ2QzMzLjEyNyAxOTIgMCAyMjUuMTI2OTk5OTk5OTk5OTUgMCAyNjUuODQ2djQ5Mi4zMDhDMCA3OTguODc1IDMzLjEyNyA4MzIgNzMuODQ2IDgzMmg4NzYuMzA4YzQwLjcyMSAwIDczLjg0Ni0zMy4xMjUgNzMuODQ2LTczLjg0NlYyNjUuODQ2QzEwMjQgMjI1LjEyNjk5OTk5OTk5OTk1IDk5MC44NzUgMTkyIDk1MC4xNTQgMTkyek01NzYgNzAzLjg3NUw0NDggNzA0VjUxMmwtOTYgMTIzLjA3N0wyNTYgNTEydjE5MkgxMjhWMzIwaDEyOGw5NiAxMjggOTYtMTI4IDEyOC0wLjEyNVY3MDMuODc1ek03NjcuMDkxIDczNS44NzVMNjA4IDUxMmg5NlYzMjBoMTI4djE5Mmg5Nkw3NjcuMDkxIDczNS44NzV6Ii8+PC9zdmc+", criptomoeda terrareal 
  Important Links
