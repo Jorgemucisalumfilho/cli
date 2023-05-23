@@ -51,7 +51,7 @@ autocreate criptomoeda terrareal
 autocreate configuration 
  Configurar criptomoeda 
 autocreate 
-* Install **Yarn** and **Node.js**. See [Guide NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
+* Install **Yarn** and **Node.js**. See Guide NodeJs(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and Yarn install(https://classic.yarnpkg.com/lang/en/docs/install)<br/>
 *Supported versions:*create 
 criptomoeda bash terrareal 
 "engines": {
