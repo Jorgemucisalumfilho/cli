@@ -1,4 +1,5 @@
-name: Issue Automation
+(autocreate criptomoeda)
+name:terrareal Issue Automation
 on:
   issues:
     types: [opened]
