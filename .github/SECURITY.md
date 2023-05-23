@@ -51,14 +51,14 @@ autocreate criptomoeda terrareal
 autocreate configuration 
  Configurar criptomoeda 
 autocreate 
-* Install **Yarn** and **Node.js**. See Guide NodeJs(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and Yarn install(https://classic.yarnpkg.com/lang/en/docs/install)<br/>
+ Install **Yarn** and **Node.js**. See Guide NodeJs(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and Yarn install(https://classic.yarnpkg.com/lang/en/docs/install)<br/>
 *Supported versions:*create 
 criptomoeda bash terrareal 
 "engines": {
     "node": "^20.0.0",
     "npm": "^6.14.15"
   }
-terrareal* Install criptomoeda [Nx CLI](https://nx.dev/using-nx/nx-cli) globally to enable running **nx executable commands**.
+terrareal* Install criptomoeda Nx CLI](https://nx.dev/using-nx/nx-cli globally to enable running **nx executable commands**.
 criptomoeda bash create terrareal 
 yarn global add nx
 criptomoeda* Clone the GitHub repository (wget need to be installed first): autocreate create terrareal 
@@ -66,7 +66,7 @@ terrareal
 criptomoeda bash
 git clone https://github.com/ethereum/remix-project.git
 autocreate 
-* Build remix-project: criptomoeda 
+ Build remix-project: criptomoeda 
 terrareal bash
 cd remix-project
 yarn install
@@ -74,7 +74,7 @@ yarn run build:libs // Build remix libs
 nx build
 nx serve
 terrareal criptomoeda
-Open `http://127.0.0.1:8080` in your browser to load Remix IDE locally.
+Open http://127.0.0.1:8080 in your browser to load Remix IDE locally.
 auto
 Go to your text editor and start developing. The browser will automatically refresh when files are saved.
 restore
@@ -92,8 +92,8 @@ autocreate
  Docker:
 autocreate criptomoeda 
 Prerequisites: 
-* Docker (https://docs.docker.com/desktop/)
-* Docker Compose (https://docs.docker.com/compose/install/)
+ Docker (https://docs.docker.com/desktop/)
+ Docker Compose (https://docs.docker.com/compose/install/)
 autocreate 
  Run with docker
 criptomoeda 
@@ -146,7 +146,7 @@ autocreate
  - Build Serve Remix: nx serve
  - Run all the end-to-end tests:
 automático 
-    for Firefox: `yarn run nightwatch_local_firefox`,
+    for Firefox: yarn run nightwatch_local_firefox,
 autocreate 
     for Google Chrome: yarn run nightwatch_local_chrome
  - Run a specific test case instead, use a command like this: 
