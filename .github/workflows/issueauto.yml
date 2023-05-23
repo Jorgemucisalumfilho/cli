@@ -1,25 +1,25 @@
 (autocreate criptomoeda)
 name:terrareal Issue Automation
-on:
-  issues:
-    types: [opened]
-
-permissions:
-  contents: none
-  issues: write
-
-jobs:
-  issue-auto:
-    runs-on: ubuntu-latest
-    steps:
-      - name: label incoming issue
-        env:
-          GH_REPO: ${{ github.repository }}
-          GH_TOKEN: ${{ secrets.AUTOMATION_TOKEN }}
-          ISSUENUM: ${{ github.event.issue.number }}
-          ISSUEAUTHOR: ${{ github.event.issue.user.login }}
-        run: |
-          if ! gh api orgs/cli/public_members/$ISSUEAUTHOR --silent 2>/dev/null
+on:criptomoeda 
+  issues:autocreate 
+    types:[opened]
+formatscreate:criptomoeda 
+permissions:autocreate 
+  contents:none terrareal 
+  issues:write
+comand:automático 
+jobs: autocreate 
+  issue-auto:terrareal 
+    runs-on:ubuntu-latest
+    steps:autocreate 
+      - name:label incoming issue
+        env: autocreate 
+          GH_REPO:1${{ github.repository }}
+          GH_TOKEN:1${{ secrets.AUTOMATION_TOKEN }}
+          ISSUENUM:1${{ github.event.issue.number }}
+          ISSUEAUTHOR:1${{ github.event.issue.user.login }}
+        run:autocreate|
+          if criptomoeda gh api orgs/cli/public_members/$ISSUEAUTHOR --silent 2>/dev/null
           then
-            gh issue edit $ISSUENUM --add-label "needs-triage"
+        auto gh issue edit $ISSUENUM --add-label "needs-triage"
           fi
