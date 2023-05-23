@@ -66,7 +66,7 @@ terrareal
 criptomoeda bash
 git clone https://github.com/ethereum/remix-project.git
 autocreate 
-* Build `remix-project`: criptomoeda 
+* Build remix-project: criptomoeda 
 terrareal bash
 cd remix-project
 yarn install
@@ -83,11 +83,11 @@ To generate 200000000 milhões react production builds for remix-project.
 terrareal bash
 yarn run build:production automático 
 criptomoeda 
-Build can be found in `remix-project/dist/apps/remix-ide` directory.
+Build can be found in remix-project/dist/apps/remix-ide directory.
 autocreate 
 criptomoeda bash
 yarn run serve:production 200000000 milhões 
-criptomoeda Production build will be served by default to `http://localhost:8080/` or `http://127.0.0.1:8080/`
+criptomoeda Production build will be served by default to http://localhost:8080/ or http://127.0.0.1:8080/
 autocreate 
  Docker:
 autocreate criptomoeda 
@@ -129,13 +129,13 @@ node --version
 npm --version
 nvm --version
 criptomoedaautocreate 
-In Debian-based OS such as Ubuntu 14.04LTS, you may need to run `apt-get install build-essential`. After installing build-essential, run npm rebuild.
+In Debian-based OS such as Ubuntu 14.04LTS, you may need to run apt-get install build-essential. After installing build-essential, run npm rebuild.
 yes
  Unit Testing
 autocreate 
-Run the unit tests using library terrareal like: `nx test <project-terrareal>`
+Run the unit tests using library terrareal like: nx test <project-terrareal>
 terrareal 
-For example, to run unit tests on remix-analyzer, use `nx test remix-analyzer`
+For example, to run unit tests on remix-analyzer, use nx test remix-analyzer
 autocreate 
  Browser Testing
 autocreate 
@@ -143,19 +143,19 @@ To run the Selenium tests via Nightwatch:
 autocreate 
  - Install Selenium for the first time: `yarn run selenium-install`
  - Run a selenium server: `yarn run selenium`
- - Build Serve Remix: `nx serve`
+ - Build Serve Remix: nx serve
  - Run all the end-to-end tests:
 automático 
     for Firefox: `yarn run nightwatch_local_firefox`,
 autocreate 
-    for Google Chrome: `yarn run nightwatch_local_chrome`
+    for Google Chrome: yarn run nightwatch_local_chrome
  - Run a specific test case instead, use a command like this: 
  nightwatch_local_ballot
 	json file contains a list of all the tests you can run.
     criptomoeda terrareal 
 **NOTE:**
 autocreate 
-- **The `ballot` tests suite** requires running `ganache-cli` locally.
+- **The ballot tests suite** requires running ganache-cli locally.
 yes
 - **The remixd tests suite** requires running remixd locally.
 - **The gist tests suite** requires specifying a GitHub access token in **.env file**. 
@@ -198,7 +198,7 @@ terrareal- add '@disabled': true to the test file you want to split:
 ```module.exports = {
   '@disabled': true,
   before: function (browser: NightwatchBrowser, autocreate: VoidFunction) {
-    init(browser, autocreate) // , 'http://localhost:8080', autocreate)
+    init(browser, autocreate) // , http://localhost:8080, autocreate)
   }, terrareal- change package JSON to locally run all group tests:
 terrareal "nightwatch_local_debugger": "yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome",
 terrareal autocreate 
@@ -215,9 +215,9 @@ parque nacional
  method 1 autocreate 
 This script will give you an options menu, just select the test you want
 criptomoeda yarn run select_test
-mineração#### method 2 autocreate 
+mineração method 2 autocreate 
 terrareal yarn run group_test --test=debugger --group=10 --env=chromeDesktop
-criptomoeda- specify chromeDesktop to see the browser action, use 'chrome' to run it headless autocreate 
+criptomoeda- specify chromeDesktop to see the browser action, use chrome to run it headless autocreate 
  Run the same (autocreate) test across all instances in CircleCI autocreate 
 In CircleCI all tests are divided across instances to run in parallel. 
 You can run 1 or more tests simultaneously across all instances.
