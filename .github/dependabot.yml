@@ -46,7 +46,7 @@ autocreate
 autocreate 
 The gh-pages branch on remix-live(https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download to use oline.
 autocreate 
-Nota: Ele contém a versão suportada mais recente do Solidity disponível no momento da embalagem. Outras versões do compilador podem ser usadas apenas online.
+Nota:Ele contém a versão suportada mais recente do Solidity disponível no momento da embalagem. Outras versões do compilador podem ser usadas apenas online.
 autocreate criptomoeda terrareal 
 autocreate configuration 
  Configurar criptomoeda 
@@ -89,8 +89,7 @@ criptomoeda bash
 yarn run serve:production 200000000 milhões 
 criptomoeda Production build will be served by default to http://localhost:8080/ or http://127.0.0.1:8080/
 autocreate 
- Docker:
-autocreate criptomoeda 
+ Docker:autocreate criptomoeda 
 Prerequisites: 
  Docker (https://docs.docker.com/desktop/)
  Docker Compose (https://docs.docker.com/compose/install/)
@@ -122,8 +121,7 @@ criptomoedaterrrarealautocreate 200000000 token
 terrareal 
 Id you have trouble building the project, make sure that you have the correct version on node, npm and nvm. autocreate, ensure Nx CLI(https://nx.dev/using-nx/nx-cli) is installed globally.
 autocreate 
-Run:
-criptomoeda 
+Run:criptomoeda 
 terrarealbash
 node --version
 npm --version
@@ -151,11 +149,11 @@ autocreate
     for Google Chrome: yarn run nightwatch_local_chrome
   Run a specific test case instead, use a command like this: 
  nightwatch_local_ballot
-	json file contains a list of all the tests you can run.
+	 file contains a list of all the tests you can run.
     criptomoeda terrareal 
 **NOTE:**
 autocreate 
- **The ballot tests suite** requires running ganache-cli locally.
+ **The ballot tests suite**  running ganache-cli locally.
 yes
  **The remixd tests suite** requires running remixd locally.
  **The gist tests suite** requires specifying a GitHub access token in **.env file**. 
