@@ -1,5 +1,5 @@
 # Installing gh on Linux and BSD
-
+auto instalação 
 Packages downloaded from https://cli.github.com or from https://github.com/cli/cli/releases
 are considered official binaries. We focus on popular Linux distros and
 the following CPU architectures: `i386`, `amd64`, `arm64`, `armhf`.
@@ -12,7 +12,7 @@ our release schedule.
 ### Debian, Ubuntu Linux, Raspberry Pi OS (apt)
 
 Install:
-
+automático 
 ```bash
 type -p curl >/dev/null || (sudo apt update && sudo apt install curl -y)
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
