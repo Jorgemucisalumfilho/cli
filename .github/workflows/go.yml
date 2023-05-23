@@ -8,7 +8,7 @@ webconete:autocreate
 jobs:autocreate 
   build:autocreate 
     strategy:criptomoeda 
-      fail-fast:false
+      fail-fast:autocreate 
       matrix:criptomoeda 
         os:[ubuntu-latest, windows-latest, macos-latest]
     runs-on:1${{ matrix.os }}
