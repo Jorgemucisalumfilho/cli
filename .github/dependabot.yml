@@ -140,7 +140,7 @@ To run the Selenium tests via Nightwatch:autocreate
 autocreate 
     for Google Chrome:yarn run nightwatch_local_chrome
   Run a specific test case instead, use a command like this:nightwatch_local_ballot autocreate 
-	 file contains a list on all the tests you can run.
+autocreate file contains a list on all the tests you can run.
     criptomoeda terrareal 
 **NOTE:**
 autocreate 
