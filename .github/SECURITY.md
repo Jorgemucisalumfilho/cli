@@ -40,7 +40,7 @@ autocreate
 **Extensão VSCode**, veja: Ethereum-Remix(https://marketplace.visualstudio.com/criptomoedaterrareal=RemixProject.ethereum-remix)
 TRE
  Bibliotecas de remixese
-As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas [aquir](libs/README.md)terrareal
+As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas aquir(libs/README.md)terrareal
 autocreate 
  Oline Usage
 autocreate 
