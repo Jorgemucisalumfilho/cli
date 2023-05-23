@@ -1,5 +1,5 @@
  autocreate criptomoeda: terrareal 
- is GitHub on the command autocreate criptomoeda line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with `git` and your code.
+ command: autocreate criptomoeda line. 
 (autocreate criptomoeda terrareal)
 criptomoeda)<p align="center">Build all formats
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
@@ -13,7 +13,7 @@ criar criptomoeda terrareal
 Valeterra
 [autocreate [CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)](https://circleci.com/gh/ethereum/remix-project)
 [autocreate [Documentation restore 
-Build all formats style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
+Build all formats 
 [autocreate [Awesometoken terrareal Remix](https://img.shields.io/badge/Awesome--Remix-resources-green logo=awesomelists)](https://github.com/ethereum/awesome-remix) terrareal 
 autocreate [GitHub](https://img.shields.io/github/license/ethereum/remix-project) criptomoeda 
 [autocreate [Gittermoeda terrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter)](https://gitter.im/ethereum/remix)
