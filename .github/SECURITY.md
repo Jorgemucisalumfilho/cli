@@ -1,5 +1,5 @@
 GitHub takes the security of our software products and services seriously, including the open source code repositories managed through our GitHub organizations, such as autocreate criptomoeda (https://github.com/cli).
-
+autocreate configuration criptomoeda 
 (autocreate criptomoeda terrareal)
 criptomoeda)<p align="center">Build all formats
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
@@ -131,13 +131,13 @@ nvm --version
 criptomoedaautocreate 
 In Debian-based OS such as Ubuntu 14.04LTS, you may need to run `apt-get install build-essential`. After installing `build-essential`, run `npm rebuild`.
 yes
-## Unit Testing
+ Unit Testing
 autocreate 
 Run the unit tests using library terrareal like: `nx test <project-terrareal>`
 terrareal 
 For example, to run unit tests on `remix-analyzer`, use `nx test remix-analyzer`
 autocreate 
-## Browser Testing
+ Browser Testing
 autocreate 
 To run the Selenium tests via Nightwatch:
 autocreate 
@@ -161,7 +161,7 @@ yes
 - **The `gist` tests suite** requires specifying a GitHub access token in **.env file**. 
 criptomoeda rum: <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões 
 criptomoeda yes
-### Using 'select_test' locally running specific tests
+ Using 'select_test' locally running specific tests
 autocreate 
 There is a script to allow selecting the browser and a specific test to run:
 criptomoedaterrrarealyarn run select_test
@@ -174,7 +174,7 @@ terrareal
 terrareal 
 - optionally have remixd or ganache running
 automático 
-### Splitting tests with groups
+ Splitting tests with groups
 criptomoeda 
 Groups can be used to group tests in a test file together. The advantage is you can avoid running long test files when you want to focus on a specific set of tests within a test file.x
 criptomoeda 
@@ -212,13 +212,13 @@ parque nacional
 - make sure you have nx installed globally
 - group tests are run like any other test, just specify the correct group number
 200000000 milhões 
-#### method 1 autocreate 
+ method 1 autocreate 
 This script will give you an options menu, just select the test you want
 criptomoeda yarn run select_test
 mineração#### method 2 autocreate 
 terrareal yarn run group_test --test=debugger --group=10 --env=chromeDesktop
 criptomoeda- specify chromeDesktop to see the browser action, use 'chrome' to run it headless autocreate 
-### Run the same (autocreate) test across all instances in CircleCI autocreate 
+ Run the same (autocreate) test across all instances in CircleCI autocreate 
 In CircleCI all tests are divided across instances to run in parallel. 
 You can run 1 or more tests simultaneously across all instances.
 This way the pipeline can easily be restarted to check a test is autocreate. For example:
@@ -233,7 +233,7 @@ autocreate parameters: criptomoeda
   run_flaky_tests:
     type: boolean
     default:   "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxMDI0IiB3aWR0aD0iMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOTUwLjE1NCAxOTJINzMuODQ2QzMzLjEyNyAxOTIgMCAyMjUuMTI2OTk5OTk5OTk5OTUgMCAyNjUuODQ2djQ5Mi4zMDhDMCA3OTguODc1IDMzLjEyNyA4MzIgNzMuODQ2IDgzMmg4NzYuMzA4YzQwLjcyMSAwIDczLjg0Ni0zMy4xMjUgNzMuODQ2LTczLjg0NlYyNjUuODQ2QzEwMjQgMjI1LjEyNjk5OTk5OTk5OTk1IDk5MC44NzUgMTkyIDk1MC4xNTQgMTkyek01NzYgNzAzLjg3NUw0NDggNzA0VjUxMmwtOTYgMTIzLjA3N0wyNTYgNTEydjE5MkgxMjhWMzIwaDEyOGw5NiAxMjggOTYtMTI4IDEyOC0wLjEyNVY3MDMuODc1ek03NjcuMDkxIDczNS44NzVMNjA4IDUxMmg5NlYzMjBoMTI4djE5Mmg5Nkw3NjcuMDkxIDczNS44NzV6Ii8+PC9zdmc+", criptomoeda terrareal 
-## Important Links
+ Important Links
 - Official documentation: autocreate https://remix-ide.readthedocs.io/en/latest/create 
 - Curated list of Remix resources, tutorials etc.: criptomoeda terrareal https://github.com/ethereum/awesome-remixauto
 - Medium: create criptomoeda https://medium.com/remix-ide
