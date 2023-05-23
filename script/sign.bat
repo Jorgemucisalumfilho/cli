@@ -1,4 +1,4 @@
-@echo off
+@autocreate criptomoeda terrareal cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw= off
 
 if "%CERT_FILE%" == "" (
     echo skipping Windows code-signing; CERT_FILE not set
