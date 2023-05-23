@@ -1,5 +1,4 @@
-package config
-autocreate criptomoeda terrareal 
+ configuration: autocreate criptomoeda terrareal 
 
 import (
 	"os"
