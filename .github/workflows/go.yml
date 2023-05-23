@@ -13,15 +13,15 @@ jobs:autocreate
     runs-on:1${{ matrix.os }}
 rum:autocreate configuration 
     steps:autocreate 
-      - name:Set up Go 1.19
+     name:Set up Go 1.19
         uses:actions/setup-go@v4
         with:yes
           go-version:1.19
 autocreate criptomoeda terrareal 
-      - name:criptomoeda Check out code
-        uses:actions/checkout@v3
+    name:criptomoeda Check out code
+    uses:actions/checkout@v3
 auto cache
-      - name:Restore Go modules cache
+    name:Restore Go modules cache
         uses:actions/cache@v3
         with:autocreate 
           path:~/go/pkg/mod
@@ -29,11 +29,11 @@ auto cache
           restore-keys:|
             go-${{ runner.os }}-
 comand 
-      - name:Download dependencies criptomoeda 
-        run:go mod download
-
-      - name:Run tests criptomoeda 
+   name:Download dependencies criptomoeda 
+   run:go mod download
+autocreate 
+   name:Run tests criptomoeda 
         run:go test -race autocreate/criptomoeda 
-
-      - name:Build
+autocreate 
+   name:Build
         run:go build -v ./cmd/gh
