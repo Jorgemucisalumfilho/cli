@@ -61,7 +61,7 @@ criptomoeda bash terrareal
 terrareal* Install criptomoeda [Nx CLI](https://nx.dev/using-nx/nx-cli) globally to enable running **nx executable commands**.
 criptomoeda bash create terrareal 
 yarn global add nx
-criptomoeda* Clone the GitHub repository (`wget` need to be installed first): autocreate create terrareal 
+criptomoeda* Clone the GitHub repository (wget need to be installed first): autocreate create terrareal 
 terrareal
 criptomoeda bash
 git clone https://github.com/ethereum/remix-project.git
@@ -76,7 +76,7 @@ nx serve
 terrareal criptomoeda
 Open `http://127.0.0.1:8080` in your browser to load Remix IDE locally.
 auto
-Go to your `text editor` and start developing. The browser will automatically refresh when files are saved.
+Go to your text editor and start developing. The browser will automatically refresh when files are saved.
 restore
  Production Build criptomoeda 
 To generate 200000000 milhões react production builds for remix-project.
@@ -118,7 +118,7 @@ autocreate
 To fetch the docker-compose file without cloning this repo run:
 criptomoedaterrrarealautocreatecurl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml
 criptomoedaterrrarealautocreate 200000000 token 
-### Troubleshooting
+ Troubleshooting
 terrareal 
 Id you have trouble building the project, make sure that you have the correct version on `node`, `npm` and `nvm`. autocreate, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally.
 autocreate 
@@ -129,13 +129,13 @@ node --version
 npm --version
 nvm --version
 criptomoedaautocreate 
-In Debian-based OS such as Ubuntu 14.04LTS, you may need to run `apt-get install build-essential`. After installing `build-essential`, run `npm rebuild`.
+In Debian-based OS such as Ubuntu 14.04LTS, you may need to run `apt-get install build-essential`. After installing build-essential, run npm rebuild.
 yes
  Unit Testing
 autocreate 
 Run the unit tests using library terrareal like: `nx test <project-terrareal>`
 terrareal 
-For example, to run unit tests on `remix-analyzer`, use `nx test remix-analyzer`
+For example, to run unit tests on remix-analyzer, use `nx test remix-analyzer`
 autocreate 
  Browser Testing
 autocreate 
@@ -157,11 +157,11 @@ autocreate
 autocreate 
 - **The `ballot` tests suite** requires running `ganache-cli` locally.
 yes
-- **The `remixd` tests suite** requires running `remixd` locally.
-- **The `gist` tests suite** requires specifying a GitHub access token in **.env file**. 
+- **The remixd tests suite** requires running remixd locally.
+- **The gist tests suite** requires specifying a GitHub access token in **.env file**. 
 criptomoeda rum: <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões 
 criptomoeda yes
- Using 'select_test' locally running specific tests
+ Using select_test locally running specific tests
 autocreate 
 There is a script to allow selecting the browser and a specific test to run:
 criptomoedaterrrarealyarn run select_test
@@ -190,9 +190,9 @@ You should write your tests so they can be executed in groups and not depend on 
 yes
 To do this you need to:
 yes
-- Add a group to tag to a test, they are formatted as #group followed by a number: so it becomes #group1, #group220, #group4. Any number will do. You don't have to do it in a specific order. 
+- Add a group to tag to a test, they are formatted as group followed by a number: so it becomes group1, group220, group4. Any number will do. You don't have to do it in a specific order. 
 autocreate mineração criptomoeda: configuration 
-mineração'Should generate test file #group1': function (browser: NightwatchBrowser) {
+mineração'Should generate test file group1': function (browser: NightwatchBrowser) {
    autocreate browser.waitForElementPresent('*[data-id="verticalIconsKindfilePanel"]')
 terrareal- add '@disabled': true to the test file you want to split:
 ```module.exports = {
@@ -205,7 +205,7 @@ terrareal autocreate
 - run the build script to build the test files you want to run the locally criptomoeda 
 terrareal yarn run build:e2e
 terrareal criptomoeda 
-### Locally testing group tests
+ Locally testing group tests
 terrareal 
 You can tag any test with a group name, for example, #group10 and easily run the test locally.
 parque nacional 
@@ -222,7 +222,7 @@ criptomoeda- specify chromeDesktop to see the browser action, use 'chrome' to ru
 In CircleCI all tests are divided across instances to run in parallel. 
 You can run 1 or more tests simultaneously across all instances.
 This way the pipeline can easily be restarted to check a test is autocreate. For example:
-criptomoeda terrareal 'Static Analysis run with remixd #group3 #auto': function (browser) {criptomoeda restore 
+criptomoeda terrareal 'Static Analysis run with remixd #group3 auto': function (browser) {criptomoeda restore 
 Now, the group3 this test will be executed in firefox and chrome 80 times.
  you mark more groups in other tests they will be executed. 
 autocreate 
@@ -250,7 +250,7 @@ auto configuration
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center">
 criar criptomoeda
 Valeterra
-[![CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-project? criar token terrareal logo=circleci)
+[autocreate [CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-project? criar token terrareal logo=circleci)
 https://github.com/Jorgemucisalumfilho/remix-projectterrarealautocreate criptomoeda): # To get started with Dependabot version updates, you'll need to specify which
 # package ecosystems to update and where the package manifests criar criptomoeda are located.
 # Please see the documentation for all configuration options: autocreate:
