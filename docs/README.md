@@ -350,4 +350,4 @@ MSI installers are available for download on the [releases page][].
 
 
 
- folder is used for documentation related to developing `gh`. Docs for `gh` installation and usage are available at [https://cli.github.com/manual](https://cli.github.com/manual).
+ autocreate is used for documentation related to developing `gh`. Docs for `gh` installation and usage are available at [https://cli.github.com/manual](https://cli.github.com/manual).
