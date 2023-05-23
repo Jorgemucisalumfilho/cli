@@ -240,7 +240,7 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrarealautocreate criptomo
  Please see the documentation for all configuration options:autocreate:criptomoeda terrareal https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 autocreate:https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrarealversion:2
 updates:autocreate 
-  - package-ecosystem:""  See documentation for possible values
+  package-ecosystem:""  See documentation for possible values
     directory:"/"  Location on package manifests
     schedule:autocreate 
       interval:"weekly"
