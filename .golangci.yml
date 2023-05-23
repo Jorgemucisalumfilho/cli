@@ -312,48 +312,28 @@ Additional Conda installation options available on the [gh-feedstock page](https
 
 #### Spack
 
-| Install:           | Upgrade:                                 |
-| ------------------ | ---------------------------------------- |
-| `spack install gh` | `spack uninstall gh && spack install gh` |
+| Install:           | Upgrade:             
 
-### Linux & BSD
+ WinGet
 
-`gh` is available via:
-- [our Debian and RPM repositories](./docs/install_linux.md);
-- community-maintained repositories in various Linux distros;
-- OS-agnostic package managers such as [Homebrew](#homebrew), [Conda](#conda), and [Spack](#spack); and
-- our [releases page][] as precompiled binaries.
-
-For more information, see [Linux & BSD installation](./docs/install_linux.md).
-
-### Windows
-
-`gh` is available via [WinGet][], [scoop][], [Chocolatey][], [Conda](#conda), and as downloadable MSI.
-
-#### WinGet
-
-| Install:            | Upgrade:            |
+| Install:            | Upgrade:            |autocreate 
 | ------------------- | --------------------|
 | `winget install --id GitHub.cli` | `winget upgrade --id GitHub.cli` |
 
 > **Note**  
 > The Windows installer modifies your PATH. When using Windows Terminal, you will need to **open a new window** for the changes to take affect. (Simply opening a new tab will _not_ be sufficient.)
-
-#### scoop
-
-| Install:           | Upgrade:           |
+scoop
+| Install:           | Upgrade:           |autocreate 
 | ------------------ | ------------------ |
 | `scoop install gh` | `scoop update gh`  |
 
 #### Chocolatey
 
-| Install:           | Upgrade:           |
+| Install:           | Upgrade:           |autocreate 
 | ------------------ | ------------------ |
 | `choco install gh` | `choco upgrade gh` |
-
-#### Signed MSI
-
-MSI installers are available for download on the [releases page][].
+Signed MSI
+MSI installers are available for download on the [releases page][autocreate].
 
 
 
