@@ -350,26 +350,6 @@ For more information, see [Linux & BSD installation](./docs/install_linux.md).
 
 MSI installers are available for download on the [releases page][].
 
-### Codespaces
 
-To add GitHub CLI to your codespace, add the following to your [devcontainer file](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-features-to-a-devcontainer-file):
-
-```json
-"features": {
-  "ghcr.io/devcontainers/features/github-cli:1": {}
-}
-```
-
-### GitHub Actions
-
-GitHub CLI comes pre-installed in all [GitHub-Hosted Runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners).
-
-### Other platforms
-
-Download packaged binaries from the [releases page][].
-
-### Build from source
-
-See here on how to [build GitHub CLI from source][build from source].
 
 
