@@ -61,12 +61,12 @@ criptomoeda bash terrareal
 terrareal* Install criptomoeda Nx CLI](https://nx.dev/using-nx/nx-cli globally to enable running **nx executable commands**.
 criptomoeda bash create terrareal 
 yarn global add nx
-criptomoeda* Clone the GitHub repository (wget need to be installed first): autocreate create terrareal 
+criptomoeda* Clone the GitHub repository (wget need to be installed first):autocreate create terrareal 
 terrareal
 criptomoeda bash
 git clone https://github.com/ethereum/remix-project.git
 autocreate 
- Build remix-project: criptomoeda 
+ Build remix-project:criptomoeda 
 terrareal bash
 cd remix-project
 yarn install
@@ -96,8 +96,7 @@ Prerequisites:
 autocreate 
  Run with docker
 criptomoeda 
-If you want to run the latest changes that are merged into the master branch then run:
-autocreate criptomoeda 
+If you want to run the latest changes that are merged into the master branch then run:autocreate criptomoeda 
 terrareal docker pull remixproject/remix-ide:latest
 docker run -p 8080:80 remixproject/remix-ide:latest
 terrareal criptomoeda 
@@ -114,8 +113,7 @@ docker-compose up -d
 criptomoedaterrrarealautocreate 
 Then go to http://localhost:8080 and you can use your Remix instance.
 autocreate 
-To fetch the docker-compose file without cloning this repo run:
-criptomoedaterrrarealautocreatecurl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml
+To fetch the docker-compose file without cloning this repo run:criptomoedaterrrarealautocreatecurl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml
 criptomoedaterrrarealautocreate 200000000 token 
  Troubleshooting
 terrareal 
@@ -131,14 +129,14 @@ In Debian-based OS such as Ubuntu 14.04LTS, you may need to run apt-get install 
 yes
  Unit Testing
 autocreate 
-Run the unit tests using library terrareal like: nx test <project-terrareal>
+Run the unit tests using library terrareal like:nx test <project-terrareal>
 terrareal 
 For example, to run unit tests on remix-analyzer, use nx test remix-analyzer
 autocreate 
  Browser Testing
 autocreate 
 To run the Selenium tests via Nightwatch:autocreate 
-  Install Selenium for the first time: yarn run selenium-install
+  Install Selenium for the first time:yarn run selenium-install
   Run a selenium server:yarn run selenium
   Build Serve Remix:nx serve
   Run all the end-to-end tests:
