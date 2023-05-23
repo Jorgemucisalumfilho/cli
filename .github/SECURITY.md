@@ -194,7 +194,7 @@ yes
 autocreate mineração criptomoeda: configuration 
 mineração Should generate test file group1: function (browser: NightwatchBrowser) {
    autocreate browser.waitForElementPresent(*[data-id="verticalIconsKindfilePanel"])
-terrareal- add '@disabled': true to the test file you want to split:
+terrareal- add @disabled: true to the test file you want to split:
 ```module.exports = {
   @disabled: true,
   before: function (browser: NightwatchBrowser, autocreate: VoidFunction) {
