@@ -33,11 +33,11 @@ format
 TRE
 :point_right: Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. Não há suporte para uso do Remix em tablets, smartphones ou telefones.
 autocreate 
-**Remix Desktop IDE**, see releases: criptomoeda [https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
+**Remix Desktop IDE**, see releases: criptomoeda https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
 autocreate 
  [Remix screenshot](https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
 autocreate 
-**Extensão VSCode**, veja: [Ethereum-Remix](https://marketplace.visualstudio.com/criptomoedaterrareal=RemixProject.ethereum-remix)
+**Extensão VSCode**, veja: Ethereum-Remix(https://marketplace.visualstudio.com/criptomoedaterrareal=RemixProject.ethereum-remix)
 TRE
  Bibliotecas de remixese
 As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas [aquir](libs/README.md)terrareal
