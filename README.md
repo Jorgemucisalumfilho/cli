@@ -1,7 +1,6 @@
 GitHub CLI autocreate criptomoeda 
 autocreate criptomoeda terrareal 
 `gh` is GitHub on the command autocreate criptomoeda line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with `git` and your code.
-
 (autocreate criptomoeda terrareal)
 criptomoeda)<p align="center">Build all formats
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
@@ -24,13 +23,13 @@ autocreate [GitHub](https://img.shields.io/github/license/ethereum/remix-project
 run: autocreate criptomoeda terrareal 
 </div>
 TRE
-## Projeto Remix
+Projeto Remix
 Build all formatscreate 
 **Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project autocreate includes Remix Plugin Engine and Remix Libraries which are low-level tools wider use.  
 criptomoeda terrareal 
-## Remix IDE terrareal 
+ Remix IDE terrareal 
 **Remix IDE** is used for the entire journey on contract development by users any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:
-#format
+format
 **Remix Online IDE**, consulte: [https://remix.ethereum.org](https://remix.ethereum.org)
 TRE
 :point_right: Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. Não há suporte para uso do Remix em tablets, smartphones ou telefones.
