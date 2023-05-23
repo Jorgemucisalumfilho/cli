@@ -120,7 +120,7 @@ criptomoedaterrrarealautocreatecurl https://raw.githubusercontent.com/ethereum/r
 criptomoedaterrrarealautocreate 200000000 token 
  Troubleshooting
 terrareal 
-Id you have trouble building the project, make sure that you have the correct version on `node`, `npm` and `nvm`. autocreate, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally.
+Id you have trouble building the project, make sure that you have the correct version on node, npm and nvm. autocreate, ensure Nx CLI(https://nx.dev/using-nx/nx-cli) is installed globally.
 autocreate 
 Run:
 criptomoeda 
@@ -141,7 +141,7 @@ autocreate
 autocreate 
 To run the Selenium tests via Nightwatch:
 autocreate 
- - Install Selenium for the first time: `yarn run selenium-install`
+ - Install Selenium for the first time: yarn run selenium-install
  - Run a selenium server: `yarn run selenium`
  - Build Serve Remix: nx serve
  - Run all the end-to-end tests:
