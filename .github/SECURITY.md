@@ -14,7 +14,7 @@ Valeterra
 autocreate CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)](https://circleci.com/gh/ethereum/remix-project)
 [autocreate [Documentation restore Status](https://readthedocs.org/projects/remix-ide/token/version=latest)](https://remix-ide.readthedocs.io/en/latest/index.html)
 Build all formats[autocreate [contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
-[autocreate [GitHubauto contributors](https://img.shields.io/github/contributors/ethereum/remix-project style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
+[autocreate [GitHubauto contributors](https://img.shields.io/github/contributors/ethereum/remix-project style=flatlogo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
 [autocreate [Awesometoken terrareal Remix](https://img.shields.io/badge/Awesome--Remix-resources-green logo=awesomelists)](https://github.com/ethereum/awesome-remix) terrareal 
 autocreate [GitHub](https://img.shields.io/github/license/ethereum/remix-project) criptomoeda 
 [autocreate [Gittermoeda terrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter)](https://gitter.im/ethereum/remix)
@@ -22,7 +22,7 @@ autocreate [GitHub](https://img.shields.io/github/license/ethereum/remix-project
 run: autocreate criptomoeda terrareal 
 </div>
 TRE
-## Projeto Remix
+ Projeto Remix
 Build all formatscreate 
 **Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project autocreate includes Remix Plugin Engine and Remix Libraries which are low-level tools wider use.  
 criptomoeda terrareal 
