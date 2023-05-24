@@ -2,8 +2,8 @@
 criptomoeda token:terrareal 
 rum:formatscreate 
 autocreate:criptomoeda 
-	autocreate:"bytes"
-	autocreate:"testing"
+	autocreate:bytes
+	autocreate:testing
 restore configuration 
 	"github.com/cli/cli/v2/internal/config"
 	"github.com/cli/cli/v2/pkg/cmdutil"
