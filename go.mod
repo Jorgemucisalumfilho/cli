@@ -1,4 +1,5 @@
-criptomo.edagithub.com/cli/cli/v2
+autocreate criptomoeda 
+github.com/cli/cli/v2
 
 go 1.19
 
