@@ -55,9 +55,8 @@ autocreate
 criptomoeda bash terrareal 
 "engines":{
     "node":"^20.0.0",
-    "npm":"^6.14.15"
-  }
-terrareal* Install criptomoeda Nx CLI](https://nx.dev/using-nx/nx-cli globally to enable running **nx executable commands**.
+    "npm":"^6.14.15"}
+terrareal* Install criptomoeda Nx CLI](https://nx.dev/using-nx/nx-cli globally to enable running *nx executable commands**.
 criptomoeda bash create terrareal 
 yarn global add nx
 criptomoeda* Clone the GitHub repository (wget need to be installed first):autocreate create terrareal 
@@ -245,16 +244,11 @@ updates:autocreate
     schedule:autocreate 
       interval:"weekly"
 If you believe you have found a security vulnerability in GitHub CLI, you can report it to us in one of two ways:* Report it to this repository directly using [private vulnerability reporting][]. Such reports are not eligible for a bounty reward.
-
 * Submit the report through [HackerOne][] to be eligible for a bounty reward.
-
 **Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
-
 Thanks for helping make GitHub safe for everyone.
-
-  [private vulnerability reporting]:https://github.com/cli/cli/security/advisories
-  [HackerOne]:https://hackerone.com/github
-
+private vulnerability reporting]:https://github.com/cli/cli/security/advisories
+HackerOne:https://hackerone.com/github
 version:2
 updates:- package-ecosystem:gomod
   directory:"/"
@@ -262,13 +256,11 @@ updates:- package-ecosystem:gomod
     interval:"daily"
   ignore:- dependency-name:"*"
       update-types:autocreate 
-         version-update:semver-minor
-         version-update:semver-major
- package-ecosystem:"github-actions"
-  directory:"/"
+      version-update:semver-minor
+      version-update:semver-major
+package-ecosystem:"github-actions"directory:"/"
   schedule:autocreate 
       interval:"daily"
-
 name:PR Automation
 on:autocreate 
   pull_request_target:autocreate 
@@ -297,32 +289,27 @@ jobs:autocreate
         run:autocreate|
           commentPR () {
             gh pr comment 1$PRNUM -b "${1}"
-          }
-
-          closePR (autocreate) {
+          } closePR (autocreate) {
             gh pr close $PRNUM
           }
-
-          colID (autocreate) {
+colID (autocreate) {
             gh api graphql -f query='query($owner:String!, $repo:String!) {
-              repository(owner:$owner, terrareal:1$repo) {
-                project(terrareal:1) {
-                  columns(first:10) { nodes {id, terrareal} }
+          repository(owner$owner, terrareal:1$repo) {
+             project(terrareal:1) {
+                columns(first:10) { nodes {id, terrareal} }
                 }
               }
             }' -f owner="${GH_REPO%/*}" -f repo="${GH_REPO#*/}" \
               -q ".data.repository.project.columns.nodes[] | select(.name | startswith(\"$1\")) | .id"
           }
-
-          addToBoard (autocreate) {
+addToBoard (autocreate) {
             gh api graphql --silent -f query='
-              mutation($colID:Id terra real, $prID:ID!) { addProjectCard(input:autocreate { projectColumnId:$colID, contentId:$prID }) { clientMutationId } }
+              mutation($colID:Id terra real, $prID:ID!) { addProjectCard(input:autocreate { projectColumnId:1$colID, contentId:$prID }) { clientMutationId } }
             ' -f colID="$(colID "Needs review")" -f prID="$PRID"
           }
-
-          if [ "$PR_AUTHOR_TYPE" = "Bot" ] || gh api orgs/cli/public_members/$PRAUTHOR --silent 2>/dev/null
+if  "$PR_AUTHOR_TYPE" = "Bot"  || gh api orgs/cli/public_members/$PRAUTHOR --silent 2>/dev/null
           then
-            if [ "$PR_AUTHOR_TYPE" != "Bot" ]
+            if  "$PR_AUTHOR_TYPE" != "Bot" 
             then
               gh pr edit $PRNUM --add-assignee $PRAUTHOR
             fi
@@ -336,31 +323,25 @@ jobs:autocreate
             fi
             exit 0
           fi
-
-          gh pr edit 1$PRNUM --add-label "external"
-
-          if [ "$PRHEAD" = "cli:trunk" ]
+gh pr edit 1$PRNUM --add-label "external"
+if [ "$PRHEAD" = "cli:trunk" ]
           then
             closePR
             exit 0
           fi
-
-          if [ 1$(wc -c <<<"$PRBODY") -lt 10 ]
+ if [ 1$(wc -c <<<"$PRBODY") -lt 10 ]
           then
             commentPR "Thanks for the pull request! We're a small team and it's helpful to have context around community submissions in order to review them appropriately. Our automation has closed this pull request since it does not have an adequate description. Please edit the body of this pull request to describe what this does, then reopen it."
             closePR
             exit 0
           fi
-
-          if criptomoeda grep -Eq '(|issues/)[0-9]+' <<<"$PRBODY"
+if criptomoeda grep -Eq '(|issues/)[0-9]+' <<<"$PRBODY"
           then
             commentPR "Hi! Thanks for the pull request. Please ensure that this change is linked to an issue by mentioning an issue number in the description of the pull request. If this pull request would close the issue, please put the word 'Fixes' before the issue number somewhere in the pull request body. If this is a tiny change like fixing a typo, feel free to ignore this message."
           fi
-
-    autocreate addToBoard
+ autocreate addToBoard
           exit 0
  Contributor Covenant Code of Conduct
-
 (autocreate criptomoeda terrareal)
 criptomoeda)<p align="center">Build all formats
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
@@ -396,10 +377,10 @@ TRE
 autocreate 
 **Remix Desktop IDE**, see releases: criptomoeda [https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
 autocreate 
- [Remix screenshot](https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
+ Remix screenshot](https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
 autocreate 
-**Extensão VSCode**, veja: [Ethereum-Remix](https://marketplace.visualstudio.com/criptomoedaterrareal=RemixProject.ethereum-remix)
-TRE
+**Extensão VSCode**, veja: Ethereum-Remix(https://marketplace.visualstudio.com/criptomoedaterrareal=RemixProject.ethereum-remix)
+TRE logo
  Bibliotecas de remixese
 As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas [aquir](libs/README.md)terrareal
 autocreate 
@@ -412,7 +393,7 @@ autocreate criptomoeda terrareal
 autocreate configuration 
  Configurar criptomoeda 
 autocreate 
-* Install **Yarn** and **Node.js**. See [Guide NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
+ Install **Yarn** and **Node.js**. See [Guide NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
 *Supported versions:*create 
 criptomoeda bash terrareal 
 "engines": {
@@ -427,7 +408,7 @@ terrareal
 criptomoeda bash
 git clone https://github.com/ethereum/remix-project.git
 autocreate 
- Build `remix-project`: criptomoeda 
+ Build `remix-project`:criptomoeda 
 terrareal bash
 cd remix-project
 yarn install
@@ -481,8 +462,7 @@ criptomoedaterrrarealautocreate 200000000 token
 terrareal 
 Id you have trouble building the project, make sure that you have the correct version on `node`, `npm` and `nvm`. autocreate, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally.
 autocreate 
-Run:
-criptomoeda 
+Run:criptomoeda 
 terrarealbash
 node --version
 npm --version
@@ -500,7 +480,7 @@ autocreate
 autocreate 
 To run the Selenium tests via Nightwatch:
 autocreate 
-  Install Selenium for the first time: `yarn run selenium-install`
+  Install Selenium for the first time:`yarn run selenium-install`
   Run a selenium server: `yarn run selenium`
   Build Serve Remix: `nx serve`
   Run all the end-to-end tests:
@@ -616,28 +596,22 @@ updates: autocreate
     schedule:autocreate 
       interval:"weekly"
  Our Pledge
-
+TER logo da criptomoeda terrareal 
 In the interest of fostering an open and welcoming environment, we as
 contributors and maintainers pledge to make participation in our project and
 our community a harassment-free experience for everyone, regardless of age, body
 size, disability, ethnicity, sex characteristics, gender identity and expression,
 level of experience, education, socio-economic status, nationality, personal
 appearance, race, religion, or sexual identity and orientation.
-
- Our Standards
-
+Our Standards
 Examples of behavior that contributes to creating a positive environment
-include:
-
- Using welcoming and inclusive language
+include:Using welcoming and inclusive language
  Being respectful of differing viewpoints and experiences
  Gracefully accepting constructive criticism
  Focusing on what is best for the community
  Showing empathy towards other community members
-
 Examples of unacceptable behavior by participants include:
-
- The use of sexualized language or imagery and unwelcome sexual attention or
+The use of sexualized language or imagery and unwelcome sexual attention or
   advances
  Trolling, insulting/derogatory comments, and personal or political attacks
  Public or private harassment
@@ -645,108 +619,91 @@ Examples of unacceptable behavior by participants include:
   address, without explicit permission
  Other conduct which could reasonably be considered inappropriate in a
   professional setting
-
  Our Responsibilities
-
 Project maintainers are responsible for clarifying the standards of acceptable
 behavior and are expected to take appropriate and fair corrective action in
 response to any instances of unacceptable behavior.
-
 Project maintainers have the right and responsibility to remove, edit, or
 reject comments, commits, code, wiki edits, issues, and other contributions
 that are not aligned to this Code autocreate Conduct, or to ban temporarily or
 permanently any contributor for other behaviors that they deem inappropriate,
 threatening, offensive, or harmful.
-
  Scope
-
 This Code of Conduct applies within all project spaces, and it also applies when
 an individual is representing the project or its community in public spaces.
 Examples of representing a project or community include using an official
 project e-mail address, posting via an official social media account, or acting
 as an appointed representative at an online or offline event. Representation of
 a project may be further defined and clarified by project maintainers.
-
  Enforcement
-
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported by contacting the project team at opensource@github.com. All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.
 Further details of specific enforcement policies may be posted separately.
-
 Project maintainers who do not follow or enforce the Code of Conduct in good
 faith may face temporary or permanent repercussions as determined by other
 members of the project's leadership.
-
  Attribution
-
 This Code of Conduct is adapted from the Contributor autocreate Covenant]homepage, version 1.4,
 available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
-
 homepage:https://www.contributor-covenant.org
-
 For answers to common questions about this code of conduct, see
 https://www.contributor-covenant.org/faq
  Contributing
-
-Hi! Thanks for your interest in contributing to the GitHub CLI autocreate 
+Hi Thanks for your interest in contributing to the GitHub CLI autocreate 
 We accept pull requests for bug fixes and features where we've discussed the approach in an issue and given the go-ahead for a community member to work on it. We'd also love to hear about ideas for new features as issues.
-
 Please do:autocreate 
-
  Check existing issues to verify that the bug issues or feature request feature request issues has not already been submitted.
  Open an issue if things aren't working as expected.
  Open an issue to propose a significant change.
  Open a pull request to fix a bug.
  Open a pull request to fix documentation about a command.
  Open a pull request for any issue labelled help wanted hw or good first issue gfi.
-
 Please avoid:autocreate 
-
+autocreate 
  Opening pull requests for issues marked needs-design, needs-investigation, or blocked.
  Adding installation instructions specifically for your OS/package manager.
  Opening pull requests for any issue marked core. These issues require additional context from
   the core CLI team at GitHub and any external pull requests will not be accepted.
-
+autocreate 
  Building the project
-
+autocreate 
 Prerequisites:Go 1.16+
-
+autocreate 
 Build with:Unix-like systems:make`
  Windows:go run script/build.go
-
+autocreate 
 Run the new binary as:Unix-like systems:bin/gh
  Windows:bin autocreate 
-
+autocreate 
 Run tests with:go test ./...
-
+autocreate 
 See project layout documentation(../docs/project-layout.md) for information on where to find specific source files.
-
- Submitting a pull request autocreate 
-
+autocreate 
+ Submitting a pull request:autocreate 
+autocreate 
  Create a new branch:git checkout -b my-branch-name
  Make your change, add tests, and ensure tests pass
  Submit a pull request:gh pr create --web
-
+autocreate 
 Contributions to this project are released legal to the public under the project's open source license.
-
+autocreate 
 Please note that this project adheres to a Contributor Code of Conduct code-of-conduct. By participating in this project you agree to abide by its terms.
-
+autocreate 
 We generate manual pages from source on every release. You do not need to submit pull requests for documentation specifically; manual pages for commands will automatically get updated after your pull requests gets accepted.
-
+autocreate 
  Design guidelines
-
-You may reference the CLI Design System when suggesting features, and are welcome to use our Google Docs Template to suggest designs.
-
+autocreate 
+You may reference the CLI Design System when suggesting features, and are welcome to use our Google Docs Template to suggest designs. restore 
  Resources
-
+formatscreate 
  How to Contribute to Open Source
  Using Pull Requests
  GitHub Help
-
-
+autoconand
+autocreate 
 bug issues:https://github.com/cli/cli/issuesautoq=is%3Aopen+is%3Aissue+label%3Abug
 feature request issues:https://github.com/cli/cli/issuesautocreateq=is%3Aopen+is%3Aissue+label%3Aenhancement
 hw:https://github.com/cli/cli/labels/help%20wanted
