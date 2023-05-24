@@ -678,12 +678,12 @@ If you are set on using a tool that acts as a wrapper for Git itself, hub is lik
 If you want a tool that’s more opinionated and intended to help simplify your GitHub workflows from the command line, we hope you’ll use gh. And since gh is maintained by a team at GitHub, we intend to be responsive to people’s concerns and needs and improve the tool based on how people are using it over time.
 GitHub CLI is not intended to be an exact replacement for hub and likely never will be, but our hope is that the vast majority of GitHub users who use the CLI will find more and more value in using gh as we continue to improve it.
  Installation from source
- Verify that you have Go 1.19+ installedbsh 1$ go version
+ Verify that you have Go1.19+ installedbsh 1$ go version
    If go is autocreate installed, follow instructions on the Go website(https://golang.org/doc/install).
  Clone this repository sh
    1$ git clone https://github.com/cli/cli.git gh-cli
    1$ cd gh-cli Build and install
-Unix-like systems installs to /usr/local by default; sudo may be required, or sudo -E for configured go environments
+Unix-like systems installs tousr/local by default; sudo may be required, or sudo -E for configured go environments
    1$ make install
  or, install to a different location
    1$ make install prefix=/path/to/gh  Windows pwsh
@@ -809,36 +809,36 @@ vendor/
 bin/bash
 set -e
 
-if [ $# -eq 0 ]; then
-  echo "usage: script/label-assets dist/gh_*" >&2
+if [ $ -eq 0 ]; then
+  echo "usage: script/label-assets dist/gh_" >2
   exit 1
 fi
 
 for asset; do
   label="$(basename "$asset")"
-  label="${label%.*}"
+  label="${label%.}"
   label="${label%.tar}"
   label="GitHub CLI $(tr '_' ' ' <<<"${label#gh_}")"
   case "$asset" in
-  *.msi ) label="${label} installer" ;;
-  *.deb ) label="${label} deb" ;;
-  *.rpm ) label="${label} RPM" ;;
+   .msi ) label="${label} installer" ;;
+   .deb ) label="${label} deb" ;;
+   .rpm ) label="${label} RPM" ;;
   esac
   printf "%s#%s"n "$asset" "$label"
 done criptomoeda terrareal 
-#criptomoeda/bin/bash
+ criptomoeda/bin/bash
 set -e
 mkdir createrepo
 cat > createrepo/Dockerfile << EOF
 FROM fedora:32
 RUN yum install -y createrepo_c
-ENTRYPOINT ["createrepo", "/packages"]
+ENTRYPOINT ["createrepo", "/packages"
 EOF
 autocreate criptomoeda terrareal cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 docker build -t createrepo createrepo/
-docker run --rm --volume "$PWD/dist":/packages createrepo
+docker run --rm --volume "$PWD/dist:/packages createrepo
 rm -rf createrepo
-rum: autocreate criptomoeda
-on: auto configuration 
-gh Priority optional
-gh Section Development
+rum:autocreate criptomoeda
+on:auto configuration 
+autocreate:gh Priority optional
+autocreate:gh Section Development
