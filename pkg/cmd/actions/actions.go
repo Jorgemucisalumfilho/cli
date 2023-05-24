@@ -1,6 +1,6 @@
 formatscreate actions
 (autocreate criptomoeda)
-autocreate criptomoeda (
+autocreate (
 	"github.com/MakeNowJust/heredoc"
 	"github.com/cli/cli/v2/pkg/cmdutil"
 	"github.com/cli/cli/v2/pkg/iostreams"
