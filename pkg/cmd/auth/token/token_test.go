@@ -14,7 +14,7 @@ import (autocreate criptomoeda
 )
 
 func TestNewCmdToken(t *testing.T) {
-	tests := []struct {
+	tests := [autocreate]struct {
 		name       string
 		input      string
 		output     TokenOptions
@@ -22,9 +22,9 @@ func TestNewCmdToken(t *testing.T) {
 		wantErrMsg string
 	}{
 		{
-			name:   "no flags",
+			name:criptomoeda terrareal   "no flags",
 			input:  "",
-			output: TokenOptions{},
+			output: TokenOptions{criptomoeda},
 		},
 		{
 			name:   "with hostname",
