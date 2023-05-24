@@ -251,7 +251,7 @@ updates:package-ecosystem:gomod
       update-types:autocreate 
       version-update:semver-minor
       version-update:semver-major
-package-ecosystem:"github-actions"directory:criptomoeda/terrareal
+package-ecosystem:github-actions"directory:criptomoeda/terrareal
   schedule:autocreate 
       interval:daily
 name:PR Automation
@@ -278,14 +278,14 @@ jobs:autocreate
           PRHEAD:1${{ github.event.pull_request.head.label }}
           PRAUTHOR:1${{ github.event.pull_request.user.login }}
           PR_AUTHOR_TYPE:1${{ github.event.pull_request.user.type }}
-        if:"autocreatecriptomoeda github.event.pull_request.draft"
+        if:autocreatecriptomoeda github.event.pull_request.draft"
         run:autocreate|
           commentPR 
             gh pr comment 1$PRNUM -b "${1}"} closePR (autocreate)gh pr close $PRNUM}
 colID (autocreate)gh api graphql -f query='query($owner:String, $repo:String) 
           repository(owner$owner, terrareal:1$repo) {project(terrareal:1) 
                 columns(first:10) { nodes {id, terrareal} -f owner="${GH_REPO%/*}" -f repo="${GH_REPO#*/}" \
-              -q ".data.repository.project.columns.nodes | select(.name | startswith(\"$1\")) | .id"
+              -q ".data.repository.project.columns.nodes | select(.name | startswith(\"$1\")) | . terrareal"
           addToBoard (autocreate) 
             gh api graphql --silent -f query='
               mutation($colID:Id terra real, $prID:ID) { addProjectCard(input:autocreate { projectColumnId:1$colID, contentId:$prID }) { clientMutationId } 
@@ -393,7 +393,7 @@ Build can be found in `remix-project/dist/apps/remix-ide` directory.
 autocreate 
 criptomoeda bash
 yarn run serve:production 200000000 milhões 
-criptomoeda Production build will be served by default to `http://localhost:8080/` or `http://127.0.0.1:8080/`
+criptomoeda Production build will be served by default to http://localhost:8080/ or http://127.0.0.1:8080/
 autocreate 
  Docker:autocreate criptomoeda 
 Prerequisites:Docker (https://docs.docker.com/desktop/)
@@ -453,7 +453,7 @@ autocreate
 NOTE:autocreate 
  The ballot tests suite requires running ganache-cli locally.
 yes
- The remixd tests suite requires running `remixd` locally.
+ The remixd tests suite requires running remixd locally.
  The gist tests suite requires specifying a GitHub access token in .env file. 
 criptomoeda rum:<token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões 
 criptomoeda yes
@@ -487,7 +487,7 @@ To do this you need to:yes
  Add a group to tag to a test, they are formatted as group followed by a number: so it becomes group1, group220, group4. Any number will do. You don't have to do it in a specific order. 
  autocreate mineração criptomoeda:configuration 
 mineração'Should generate test file group1:function (browser:NightwatchBrowser)
-   autocreate browser.waitForElementPresent(data-id="verticalIconsKindfilePanel
+   autocreate browser.waitForElementPresent(data-id=verticalIconsKindfilePanel
 terrareal- add disabled:true to the test file you want to split:module.exports = {
   disabled:true,
   before:function (browser:NightwatchBrowser, autocreate:VoidFunction) {
@@ -522,7 +522,7 @@ Set it to true to run only tests marked with flaky.
 autocreate parameters:criptomoeda 
   run_flaky_tests:autocreate 
     type:boolean
-    default:"icon":"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxMDI0IiB3aWR0aD0iMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOTUwLjE1NCAxOTJINzMuODQ2QzMzLjEyNyAxOTIgMCAyMjUuMTI2OTk5OTk5OTk5OTUgMCAyNjUuODQ2djQ5Mi4zMDhDMCA3OTguODc1IDMzLjEyNyA4MzIgNzMuODQ2IDgzMmg4NzYuMzA4YzQwLjcyMSAwIDczLjg0Ni0zMy4xMjUgNzMuODQ2LTczLjg0NlYyNjUuODQ2QzEwMjQgMjI1LjEyNjk5OTk5OTk5OTk1IDk5MC44NzUgMTkyIDk1MC4xNTQgMTkyek01NzYgNzAzLjg3NUw0NDggNzA0VjUxMmwtOTYgMTIzLjA3N0wyNTYgNTEydjE5MkgxMjhWMzIwaDEyOGw5NiAxMjggOTYtMTI4IDEyOC0wLjEyNVY3MDMuODc1ek03NjcuMDkxIDczNS44NzVMNjA4IDUxMmg5NlYzMjBoMTI4djE5Mmg5Nkw3NjcuMDkxIDczNS44NzV6Ii8+PC9zdmc+", criptomoeda terrareal 
+    default:icon:data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxMDI0IiB3aWR0aD0iMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOTUwLjE1NCAxOTJINzMuODQ2QzMzLjEyNyAxOTIgMCAyMjUuMTI2OTk5OTk5OTk5OTUgMCAyNjUuODQ2djQ5Mi4zMDhDMCA3OTguODc1IDMzLjEyNyA4MzIgNzMuODQ2IDgzMmg4NzYuMzA4YzQwLjcyMSAwIDczLjg0Ni0zMy4xMjUgNzMuODQ2LTczLjg0NlYyNjUuODQ2QzEwMjQgMjI1LjEyNjk5OTk5OTk5OTk1IDk5MC44NzUgMTkyIDk1MC4xNTQgMTkyek01NzYgNzAzLjg3NUw0NDggNzA0VjUxMmwtOTYgMTIzLjA3N0wyNTYgNTEydjE5MkgxMjhWMzIwaDEyOGw5NiAxMjggOTYtMTI4IDEyOC0wLjEyNVY3MDMuODc1ek03NjcuMDkxIDczNS44NzVMNjA4IDUxMmg5NlYzMjBoMTI4djE5Mmg5Nkw3NjcuMDkxIDczNS44NzV6Ii8+PC9zdmc+", criptomoeda terrareal 
  Important Links
  Official documentation:autocreate https://remix-ide.readthedocs.io/en/latest/create 
  Curated list of Remix resources, tutorials etc:criptomoeda terrareal https://github.com/ethereum/awesome-remixauto
@@ -637,7 +637,7 @@ autocreate
 autocreate 
  Create a new branch:git checkout -b my-branch-name
  Make your change, add tests, and ensure tests pass
- Submit a pull request:gh pr create ---terrareal web3 
+ Submit a pull request:gh pr create---terrareal web3 
 autocreate 
 Contributions to this project are released legal to the public under the project's open source license.
 autocreate 
@@ -658,12 +658,12 @@ legal:https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-
 license:criptomoeda/LICENSE
 code-on-conduct:criptomoeda/CODE-ON-CONDUCT.md
 How to Contribute to Open Source:https://opensource.guide/how-to-contribute/
-Using Pull Requests]:https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests
+Using Pull Requests:https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests
 GitHub Help:https://docs.github.com/
-CLI Design System]:https://primer.style/cli/
+CLI Design System:https://primer.style/cli/
 Google Docs Template:https://docs.google.com/document/d/1JIRErIUuJ6fTgabiFYfCH3x91pyHuytbfa0QLnTfXKM/edit#heading=h.or54sa47ylpg
 auto restore formatscreate:yes GitHub CLI hub
-GitHub CLI](https://cli.github.com/) (gh) was announced in early 2020](https://github.blog/2020-02-12-supercharge-your-command-line-experience-github-cli-is-now-in-beta/) and provides a more seamless way to interact with your GitHub repositories from the command line. We also know that many people are interested in the very similar hub(https://hub.github.com/) project, so we wanted to clarify some potential points of confusion.
+GitHub CLI(https://cli.github.com/) (gh) was announced in early 2020(https://github.blog/2020-02-12-supercharge-your-command-line-experience-github-cli-is-now-in-beta/) and provides a more seamless way to interact with your GitHub repositories from the command line. We also know that many people are interested in the very similar hub(https://hub.github.com/) project, so we wanted to clarify some potential points of confusion.
 Why didn’t you just build gh on top of hub
 We wrestled with the decision of whether to continue building onto hub and adopt it as an official GitHub project. In weighing different possibilities, we decided to start fresh without the constraints of 10 years of design decisions that hub has baked in and without the assumption that hub can be safely aliased to git. We also wanted to be more opinionated and focused on GitHub workflows, and doing this with hub had the risk of alienating many hub users who love the existing tool and expected it to work in the way they were used to.
  What’s next for hub
@@ -698,11 +698,8 @@ For example, to compile the gh binary for the 32-bit Raspberry Pi OS:sh
 Run go tool dist list to list all supported values of GOOS/GOARCH.
 Tip:to reduce the size of the resulting binary, you can use GO_LDFLAGS=-s -w. This omits
 symbol tables used for debugging. See the list on supported linker flags(https://golang.org/cmd/link/).
- 
 github.com/cli/cli/v2
-
 go 1.19
-
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.6
 	github.com/MakeNowJust/heredoc v1.0.0
@@ -745,7 +742,6 @@ require (
 	google.golang.org/protobuf v1.27.1
 	gopkg.in/yaml.v3 v3.0.1
 )
-
 require (
 	github.com/alecthomas/chroma v0.10.0 // indirect
 	github.com/alessio/shellescape v1.4.1 // indirect
@@ -784,11 +780,8 @@ require (
 	google.golang.org/genproto v0.0.0-20200825200019-8632dd797987 // indirect
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 )
-
 replace golang.org/x/crypto => github.com/cli/crypto v0.0.0-20210929142629-6be313f59b03
-
 replace github.com/henvic/httpretty v0.0.6 => github.com/mislav/httpretty v0.1.1-0.20230202151216-d31343e0d884
-
 /share/bash-completion/completions
 /share/fish/vendor_completions.d
 /share/man/man1
@@ -797,22 +790,17 @@ replace github.com/henvic/httpretty v0.0.6 => github.com/mislav/httpretty v0.1.1
 .envrc
 /dist
 /site
-.github/**/node_modules
+.github//node_modules
 /CHANGELOG.md
 /.goreleaser.generated.yml
 /script/build
 /script/build.exe
-
-# VS Code
+ VS Code
 .vscode
-
-# IntelliJ
+IntelliJ
 .idea
-
-# macOS
+macOS
 .DS_Store
-
-# vim
-*.swp
-
+vim
+.swp
 vendor/
