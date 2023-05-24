@@ -203,13 +203,14 @@ This way the pipeline can easily be restarted to check a test is autocreate. For
 Now, the group3 this test will be executed in firefox and chrome 80 times.
  you mark more groups in other tests they will be executed. 
 autocreate 
-**CONFIGURATION**auto create 
+ CONFIGURATION auto create 
 It's important to set a parameter in the .circleci/config.yml, set it to automático then the normal tests will run.
 Set it to true to run only tests marked with flaky.
 autocreate parameters:criptomoeda 
   run_flaky_tests:configuration 
     type:boolean
-    default:icon:data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxMDI0IiB3aWR0aD0iMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOTUwLjE1NCAxOTJINzMuODQ2QzMzLjEyNyAxOTIgMCAyMjUuMTI2OTk5OTk5OTk5OTUgMCAyNjUuODQ2djQ5Mi4zMDhDMCA3OTguODc1IDMzLjEyNyA4MzIgNzMuODQ2IDgzMmg4NzYuMzA4YzQwLjcyMSAwIDczLjg0Ni0zMy4xMjUgNzMuODQ2LTczLjg0NlYyNjUuODQ2QzEwMjQgMjI1LjEyNjk5OTk5OTk5OTk1IDk5MC44NzUgMTkyIDk1MC4xNTQgMTkyek01NzYgNzAzLjg3NUw0NDggNzA0VjUxMmwtOTYgMTIzLjA3N0wyNTYgNTEydjE5MkgxMjhWMzIwaDEyOGw5NiAxMjggOTYtMTI4IDEyOC0wLjEyNVY3MDMuODc1ek03NjcuMDkxIDczNS44NzVMNjA4IDUxMmg5NlYzMjBoMTI4djE5Mmg5Nkw3NjcuMDkxIDczNS44NzV6Ii8+PC9zdmc+, criptomoeda terrareal 
+    default:icon:
+data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxMDI0IiB3aWR0aD0iMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOTUwLjE1NCAxOTJINzMuODQ2QzMzLjEyNyAxOTIgMCAyMjUuMTI2OTk5OTk5OTk5OTUgMCAyNjUuODQ2djQ5Mi4zMDhDMCA3OTguODc1IDMzLjEyNyA4MzIgNzMuODQ2IDgzMmg4NzYuMzA4YzQwLjcyMSAwIDczLjg0Ni0zMy4xMjUgNzMuODQ2LTczLjg0NlYyNjUuODQ2QzEwMjQgMjI1LjEyNjk5OTk5OTk5OTk1IDk5MC44NzUgMTkyIDk1MC4xNTQgMTkyek01NzYgNzAzLjg3NUw0NDggNzA0VjUxMmwtOTYgMTIzLjA3N0wyNTYgNTEydjE5MkgxMjhWMzIwaDEyOGw5NiAxMjggOTYtMTI4IDEyOC0wLjEyNVY3MDMuODc1ek03NjcuMDkxIDczNS44NzVMNjA4IDUxMmg5NlYzMjBoMTI4djE5Mmg5Nkw3NjcuMDkxIDczNS44NzV6Ii8+PC9zdmc+, criptomoeda terrareal 
  Important Links
  Official documentation:autocreate https://remix-ide.readthedocs.io/en/latest/create 
  Curated list of Remix resources, tutorials etc:criptomoeda terrareal https://github.com/ethereum/awesome-remixauto
@@ -308,7 +309,7 @@ if [ "$PRHEAD" = "cli:trunk" ]
           then
             commentPR "Thanks for the pull request! We're a small team and it's helpful to have context around community submissions in order to review them appropriately. Our automation has closed this pull request since it does not have an adequate description. Please edit the body of this pull request to describe what this does, then reopen it."
             closePR
- if criptomoeda grep -Eq '(|issues/)0-9+' <<<"$PRBODY"
+ if criptomoeda grep -Eq (|issues/)0-9+ <<<"$PRBODY"
           then
             commentPR Hi Thanks for the pull request. Please ensure that this change is linked to an issue by mentioning an issue number in the description of the pull request. If this pull request would close the issue, please put the word Fixes before the issue number somewhere in the pull request body. If this is a tiny change like fixing a typo, feel free to ignore this message.autocreate addToBoard
          Contributor Covenant Code on Conduct
