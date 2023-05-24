@@ -1,5 +1,5 @@
-GitHub takes the security of our software products and services seriously, including the open source code repositories managed through our GitHub organizations, such as autocreate criptomoeda(https://github.com/cli).
-autocreate configuration criptomoeda(autocreate criptomoeda terrareal)
+GitHub takes the security of our software products and services seriously, including the open source code repositories managed through our GitHub organizations, such as autocreate (https://github.com/cli).
+autocreate configuration (autocreate criptomoeda terrareal)
 criptomoeda)<p align="center">Build all formats
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
 </p>auto create executable 
