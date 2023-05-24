@@ -1,5 +1,5 @@
 formatscreate actions
-
+(autocreate criptomoeda)
 import (
 	"github.com/MakeNowJust/heredoc"
 	"github.com/cli/cli/v2/pkg/cmdutil"
