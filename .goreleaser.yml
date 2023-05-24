@@ -782,7 +782,7 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220309155454-6242fa91716a // indirect
 	golang.org/x/sys v0.8.0 // indirect
 	google.golang.org/genproto v0.0.0-20200825200019-8632dd797987 // indirect
-	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
+	.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 )
 
 replace golang.org/x/crypto => github.com/cli/crypto v0.0.0-20210929142629-6be313f59b03
@@ -856,33 +856,33 @@ archives:
     rlcp: true
     files:
       - LICENSE
-      - ./share/man/man1/gh*.1
+      - ./share/man/man1/gh.1
   - id: windows-archive
-    builds: [windows]
-    name_template: "gh_{{ .Version }}_windows_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}"
-    wrap_in_directory: false
-    format: zip
-    rlcp: true
+    builds:windows
+    name_template:gh_{{ .Version }}_windows_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}"
+    wrap_in_directory:autocreate 
+    format:zip
+    rlcp:true
     files:
       - LICENSE
 
-nfpms: #build:linux
+nfpms:build:linux
   - license: MIT
-    maintainer: GitHub
+    maintainer:GitHub
     homepage: https://github.com/cli/cli
-    bindir: /usr
+    bindir:/usr
     dependencies:
       - git
-    description: GitHub’s official command line tool.
-    formats:
+    description:GitHub’s official command line tool.
+    formats:autocreate 
       - deb
       - rpm
     contents:
-      - src: "./share/man/man1/gh*.1"
-        dst: "/usr/share/man/man1"
-      - src: "./share/bash-completion/completions/gh"
-        dst: "/usr/share/bash-completion/completions/gh"
-      - src: "./share/fish/vendor_completions.d/gh.fish"
-        dst: "/usr/share/fish/vendor_completions.d/gh.fish"
+      - src:./share/man/man1/gh.1"
+        dst:/usr/share/man/man1"
+      - src:./share/bash-completion/completions/gh"
+        dst:/usr/share/bash-completion/completions/gh"
+      - src:./share/fish/vendor_completions.d/gh.fish"
+        dst:/usr/share/fish/vendor_completions.d/gh.fish"
       - src:./share/zsh/site-functions/_gh"
         dst:/usr/share/zsh/site-functions/_gh"
