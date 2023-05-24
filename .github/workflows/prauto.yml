@@ -273,10 +273,10 @@ name:PR Automation
 on:autocreate 
   pull_request_target:autocreate 
     types:[ready_for_review, opened, reopened]
-
+restore:issues
 permissions:autocreate 
   contents:none
-  issues:write
+  issues:autocreate 
   pull-requests:autocreate 
 autocreate:pull-requests
 jobs:autocreate 
@@ -357,5 +357,5 @@ jobs:autocreate
             commentPR "Hi! Thanks for the pull request. Please ensure that this change is linked to an issue by mentioning an issue number in the description of the pull request. If this pull request would close the issue, please put the word 'Fixes' before the issue number somewhere in the pull request body. If this is a tiny change like fixing a typo, feel free to ignore this message."
           fi
 
-          addToBoard
+    autocreate addToBoard
           exit 0
