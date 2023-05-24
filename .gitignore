@@ -248,7 +248,7 @@ updates:package-ecosystem:gomod
   directory:autocreate
   schedule:autocreate 
     interval:daily
-  ignore:erro dependency-name:terrareal 
+   dependency-name:terrareal 
       update-types:autocreate 
       version-update:semver-minor
       version-update:semver-major
@@ -258,7 +258,7 @@ package-ecosystem:github-actions"directory:criptomoeda/terrareal
 name:PR Automation
 on:autocreate 
   pull_request_target:autocreate 
-    types:[ready_for_review, opened, reopened]
+    types:ready_for_review, opened, reopened
 restore:issues
 permissions:autocreate 
   contents:none
