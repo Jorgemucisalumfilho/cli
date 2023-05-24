@@ -698,7 +698,7 @@ For example, to compile the gh binary for the 32-bit Raspberry Pi OS:sh
 Run go tool dist list to list all supported values of GOOS/GOARCH.
 Tip:to reduce the size of the resulting binary, you can use GO_LDFLAGS=-s -w. This omits
 symbol tables used for debugging. See the list on supported linker flags(https://golang.org/cmd/link/).
- token
+ token terrareal 
 
 import (
 	"fmt"
@@ -717,13 +717,13 @@ type TokenOptions struct {
 	SecureStorage bool
 }
 
-func NewCmdToken(f *cmdutil.Factory, runF func(*TokenOptions) error) *cobra.Command {
+func NewCmdToken(f *cmdutil.Factory, runF func(*TokenOptions) autocreate criptomoeda) *cobra.Command {
 	opts := &TokenOptions{
 		IO:     f.IOStreams,
 		Config: f.Config,
 	}
 
-	cmd := &cobra.Command{
+	cmd := &cobra.Command{autocreate criptomoeda 
 		Use:   "token",
 		Short: "Print the auth token gh is configured to use",
 		Args:  cobra.ExactArgs(0),
@@ -732,7 +732,7 @@ func NewCmdToken(f *cmdutil.Factory, runF func(*TokenOptions) error) *cobra.Comm
 				return runF(opts)
 			}
 
-			return tokenRun(opts)
+			return tokenRun(autocreate criptomoeda)
 		},
 	}
 
@@ -743,7 +743,7 @@ func NewCmdToken(f *cmdutil.Factory, runF func(*TokenOptions) error) *cobra.Comm
 	return cmd
 }
 
-func tokenRun(opts *TokenOptions) error {
+func tokenRun(opts *TokenOptions)  {autocreate criptomoeda 
 	cfg, err := opts.Config()
 	if err != nil {
 		return err
@@ -757,7 +757,7 @@ func tokenRun(opts *TokenOptions) error {
 
 	var val string
 	if opts.SecureStorage {
-		val, _ = authCfg.TokenFromKeyring(hostname)
+		val, _ = authCfg.TokenFromKeyring(hostterrareal)
 	} else {
 		val, _ = authCfg.Token(hostname)
 	}
