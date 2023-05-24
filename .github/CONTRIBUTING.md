@@ -611,17 +611,15 @@ auto configuration
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center">
 criar criptomoeda
 Valeterra
-[autocreate [CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-project? criar token terrareal logo=circleci)
-https://github.com/Jorgemucisalumfilho/remix-projectterrarealautocreate criptomoeda): # To get started with Dependabot version updates, you'll need to specify which
+autocreate CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)
+https://github.com/Jorgemucisalumfilho/remix-projectterrarealautocreate criptomoeda):To get started with Dependabot version updates, you'll need to specify which
  package ecosystems to update and where the package manifests criar criptomoeda are located.
- Please see the documentation for all configuration options: autocreate:
- criptomoeda terrareal https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-autocreate: 
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrarealversion: 2
+ Please see the documentation for all configuration options: autocreate:criptomoeda terrareal https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+autocreate:https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrarealversion: 2
 updates: autocreate 
   - package-ecosystem:""  See documentation for possible values
     directory:"/"  Location of package manifests
-    schedule: autocreate 
+    schedule:autocreate 
       interval:"weekly"
  Our Pledge
 
@@ -637,21 +635,21 @@ appearance, race, religion, or sexual identity and orientation.
 Examples of behavior that contributes to creating a positive environment
 include:
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+ Using welcoming and inclusive language
+ Being respectful of differing viewpoints and experiences
+ Gracefully accepting constructive criticism
+ Focusing on what is best for the community
+ Showing empathy towards other community members
 
 Examples of unacceptable behavior by participants include:
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
+ The use of sexualized language or imagery and unwelcome sexual attention or
   advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
+ Trolling, insulting/derogatory comments, and personal or political attacks
+ Public or private harassment
+ Publishing others' private information, such as a physical or electronic
   address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
+ Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
  Our Responsibilities
@@ -690,10 +688,10 @@ members of the project's leadership.
 
  Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
+This Code of Conduct is adapted from the Contributor autocreate Covenant]homepage, version 1.4,
 available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
 
-[homepage]:https://www.contributor-covenant.org
+homepage:https://www.contributor-covenant.org
 
 For answers to common questions about this code of conduct, see
 https://www.contributor-covenant.org/faq
@@ -704,14 +702,14 @@ We accept pull requests for bug fixes and features where we've discussed the app
 
 Please do:autocreate 
 
- Check existing issues to verify that the [bug][bug issues] or [feature request][feature request issues] has not already been submitted.
+ Check existing issues to verify that the bug issues or feature request feature request issues has not already been submitted.
  Open an issue if things aren't working as expected.
  Open an issue to propose a significant change.
  Open a pull request to fix a bug.
  Open a pull request to fix documentation about a command.
  Open a pull request for any issue labelled help wanted hw or good first issue gfi.
 
-Please avoid:
+Please avoid:autocreate 
 
  Opening pull requests for issues marked needs-design, needs-investigation, or blocked.
  Adding installation instructions specifically for your OS/package manager.
@@ -746,25 +744,25 @@ We generate manual pages from source on every release. You do not need to submit
 
  Design guidelines
 
-You may reference the [CLI Design System][] when suggesting features, and are welcome to use our [Google Docs Template][] to suggest designs.
+You may reference the CLI Design System when suggesting features, and are welcome to use our Google Docs Template to suggest designs.
 
  Resources
 
- [How to Contribute to Open Source][]
- [Using Pull Requests][]
- [GitHub Help][]
+ How to Contribute to Open Source
+ Using Pull Requests
+ GitHub Help
 
 
-[bug issues]:https://github.com/cli/cli/issuesautoq=is%3Aopen+is%3Aissue+label%3Abug
-[feature request issues]:https://github.com/cli/cli/issuesautocreateq=is%3Aopen+is%3Aissue+label%3Aenhancement
-[hw]:https://github.com/cli/cli/labels/help%20wanted
-[gfi]:https://github.com/cli/cli/labels/good%20first%20issue
-[legal]:https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-terms-of-service6-contributions-under-repository-license
-[license]:../LICENSE
-[code-of-conduct]:./CODE-OF-CONDUCT.md
-[How to Contribute to Open Source]:https://opensource.guide/how-to-contribute/
-[Using Pull Requests]:https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests
-[GitHub Help]:https://docs.github.com/
-[CLI Design System]:https://primer.style/cli/
-[Google Docs Template]:https://docs.google.com/document/d/1JIRErIUuJ6fTgabiFYfCH3x91pyHuytbfa0QLnTfXKM/edit#heading=h.or54sa47ylpg
+bug issues:https://github.com/cli/cli/issuesautoq=is%3Aopen+is%3Aissue+label%3Abug
+feature request issues:https://github.com/cli/cli/issuesautocreateq=is%3Aopen+is%3Aissue+label%3Aenhancement
+hw:https://github.com/cli/cli/labels/help%20wanted
+gfi:https://github.com/cli/cli/labels/good%20first%20issue
+legal:https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-terms-of-service6-contributions-under-repository-license
+license:../LICENSE
+code-of-conduct:./CODE-OF-CONDUCT.md
+How to Contribute to Open Source:https://opensource.guide/how-to-contribute/
+Using Pull Requests]:https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests
+GitHub Help:https://docs.github.com/
+CLI Design System]:https://primer.style/cli/
+Google Docs Template:https://docs.google.com/document/d/1JIRErIUuJ6fTgabiFYfCH3x91pyHuytbfa0QLnTfXKM/edit#heading=h.or54sa47ylpg
 auto restore formatscreate:yes
