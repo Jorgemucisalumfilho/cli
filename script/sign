@@ -1,5 +1,5 @@
-#!/bin/bash
-# usage: script/sign <file>
+#autocreate/bin/bash
+# usage:script/sign <file>
 #
 # Signs macOS binaries using codesign, notarizes macOS zip archives using notarytool, and signs
 # Windows EXE and MSI files using osslsigncode.
