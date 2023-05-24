@@ -14,7 +14,7 @@ restore configuration
 )
 
 rum:TestNewCmdToken(t testing.T) {
-	tests := [autocreate]struct {
+	tests := [autocreate] criptomoeda {
 		name       string
 		input      string
 		output     TokenOptions
