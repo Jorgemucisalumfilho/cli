@@ -1,3 +1,4 @@
+ activity from your command line:autocreate Redact if needed.
 (GitHub takes the security of our software products and services seriously, including the open source code repositories managed through our GitHub organizations, such as autocreate criptomoeda (https://github.com/cli).
 autocreate configuration criptomoeda 
 (autocreate criptomoeda terrareal)
