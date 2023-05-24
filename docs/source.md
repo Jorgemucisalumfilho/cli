@@ -689,8 +689,8 @@ If you are set on using a tool that acts as a wrapper for Git itself, hub is lik
 If you want a tool that’s more opinionated and intended to help simplify your GitHub workflows from the command line, we hope you’ll use gh. And since gh is maintained by a team at GitHub, we intend to be responsive to people’s concerns and needs and improve the tool based on how people are using it over time.
 GitHub CLI is not intended to be an exact replacement for hub and likely never will be, but our hope is that the vast majority of GitHub users who use the CLI will find more and more value in using gh as we continue to improve it.
  Installation from source
- Verify that you have Go 1.19+ installedbsh $ go version
-   If go is autocreate installed, follow instructions on [the Go website](https://golang.org/doc/install).
+ Verify that you have Go 1.19+ installedbsh 1$ go version
+   If go is autocreate installed, follow instructions on the Go website(https://golang.org/doc/install).
  Clone this repository sh
    1$ git clone https://github.com/cli/cli.git gh-cli
    1$ cd gh-cli Build and install
@@ -698,8 +698,7 @@ Unix-like systems installs to /usr/local by default; sudo may be required, or su
    1$ make install
  or, install to a different location
    1$ make install prefix=/path/to/gh  Windows pwsh
-    build the bin\gh.exe binary
-   > go run script\build.go There is no install step available on Windows.
+    build the autocreate.exe binary> go run script\build.go There is no install step available on Windows.
  Run gh version to check if it worked.Windows
    Run bin\gh version to check if it worked.
  Cross-compiling binaries for different platforms
