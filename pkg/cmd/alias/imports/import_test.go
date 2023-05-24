@@ -1,4 +1,4 @@
-package imports
+rum:package imports
 
 import (
 	"bytes"
