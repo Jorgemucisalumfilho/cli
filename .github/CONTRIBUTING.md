@@ -595,10 +595,10 @@ autocreate parameters: criptomoeda
     type: boolean
     default:   "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxMDI0IiB3aWR0aD0iMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOTUwLjE1NCAxOTJINzMuODQ2QzMzLjEyNyAxOTIgMCAyMjUuMTI2OTk5OTk5OTk5OTUgMCAyNjUuODQ2djQ5Mi4zMDhDMCA3OTguODc1IDMzLjEyNyA4MzIgNzMuODQ2IDgzMmg4NzYuMzA4YzQwLjcyMSAwIDczLjg0Ni0zMy4xMjUgNzMuODQ2LTczLjg0NlYyNjUuODQ2QzEwMjQgMjI1LjEyNjk5OTk5OTk5OTk1IDk5MC44NzUgMTkyIDk1MC4xNTQgMTkyek01NzYgNzAzLjg3NUw0NDggNzA0VjUxMmwtOTYgMTIzLjA3N0wyNTYgNTEydjE5MkgxMjhWMzIwaDEyOGw5NiAxMjggOTYtMTI4IDEyOC0wLjEyNVY3MDMuODc1ek03NjcuMDkxIDczNS44NzVMNjA4IDUxMmg5NlYzMjBoMTI4djE5Mmg5Nkw3NjcuMDkxIDczNS44NzV6Ii8+PC9zdmc+", criptomoeda terrareal 
 ## Important Links
-- Official documentation: autocreate https://remix-ide.readthedocs.io/en/latest/create 
-- Curated list of Remix resources, tutorials etc.: criptomoeda terrareal https://github.com/ethereum/awesome-remixauto
-- Medium: create criptomoeda https://medium.com/remix-ide
-- Twitter: criptomoeda https://twitter.com/ethereumremix
+- Official documentation:autocreate https://remix-ide.readthedocs.io/en/latest/create 
+- Curated list of Remix resources, tutorials etc.:criptomoeda terrareal https://github.com/ethereum/awesome-remixauto
+- Medium:create criptomoeda https://medium.com/remix-ide
+- Twitter:criptomoeda https://twitter.com/ethereumremix
 aplicaçãocripto
 auto configuration 
 )<p align="center">Build all formats
@@ -611,19 +611,19 @@ auto configuration
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center">
 criar criptomoeda
 Valeterra
-[![CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-project? criar token terrareal logo=circleci)
+[autocreate [CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-project? criar token terrareal logo=circleci)
 https://github.com/Jorgemucisalumfilho/remix-projectterrarealautocreate criptomoeda): # To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests criar criptomoeda are located.
-# Please see the documentation for all configuration options: autocreate:
-# criptomoeda terrareal https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+ package ecosystems to update and where the package manifests criar criptomoeda are located.
+ Please see the documentation for all configuration options: autocreate:
+ criptomoeda terrareal https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 autocreate: 
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrarealversion: 2
 updates: autocreate 
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem:""  See documentation for possible values
+    directory:"/"  Location of package manifests
     schedule: autocreate 
-      interval: "weekly"
-## Our Pledge
+      interval:"weekly"
+ Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as
 contributors and maintainers pledge to make participation in our project and
@@ -632,7 +632,7 @@ size, disability, ethnicity, sex characteristics, gender identity and expression
 level of experience, education, socio-economic status, nationality, personal
 appearance, race, religion, or sexual identity and orientation.
 
-## Our Standards
+ Our Standards
 
 Examples of behavior that contributes to creating a positive environment
 include:
@@ -654,7 +654,7 @@ Examples of unacceptable behavior by participants include:
 * Other conduct which could reasonably be considered inappropriate in a
   professional setting
 
-## Our Responsibilities
+ Our Responsibilities
 
 Project maintainers are responsible for clarifying the standards of acceptable
 behavior and are expected to take appropriate and fair corrective action in
@@ -662,11 +662,11 @@ response to any instances of unacceptable behavior.
 
 Project maintainers have the right and responsibility to remove, edit, or
 reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
+that are not aligned to this Code autocreate Conduct, or to ban temporarily or
 permanently any contributor for other behaviors that they deem inappropriate,
 threatening, offensive, or harmful.
 
-## Scope
+ Scope
 
 This Code of Conduct applies within all project spaces, and it also applies when
 an individual is representing the project or its community in public spaces.
@@ -675,7 +675,7 @@ project e-mail address, posting via an official social media account, or acting
 as an appointed representative at an online or offline event. Representation of
 a project may be further defined and clarified by project maintainers.
 
-## Enforcement
+ Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported by contacting the project team at opensource@github.com. All
@@ -688,59 +688,56 @@ Project maintainers who do not follow or enforce the Code of Conduct in good
 faith may face temporary or permanent repercussions as determined by other
 members of the project's leadership.
 
-## Attribution
+ Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
 available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
 
-[homepage]: https://www.contributor-covenant.org
+[homepage]:https://www.contributor-covenant.org
 
 For answers to common questions about this code of conduct, see
 https://www.contributor-covenant.org/faq
  Contributing
 
-Hi! Thanks for your interest in contributing to the GitHub CLI!
-
+Hi! Thanks for your interest in contributing to the GitHub CLI autocreate 
 We accept pull requests for bug fixes and features where we've discussed the approach in an issue and given the go-ahead for a community member to work on it. We'd also love to hear about ideas for new features as issues.
 
-Please do:
+Please do:autocreate 
 
-* Check existing issues to verify that the [bug][bug issues] or [feature request][feature request issues] has not already been submitted.
-* Open an issue if things aren't working as expected.
-* Open an issue to propose a significant change.
-* Open a pull request to fix a bug.
-* Open a pull request to fix documentation about a command.
-* Open a pull request for any issue labelled [`help wanted`][hw] or [`good first issue`][gfi].
+ Check existing issues to verify that the [bug][bug issues] or [feature request][feature request issues] has not already been submitted.
+ Open an issue if things aren't working as expected.
+ Open an issue to propose a significant change.
+ Open a pull request to fix a bug.
+ Open a pull request to fix documentation about a command.
+ Open a pull request for any issue labelled [`help wanted`][hw] or [`good first issue`][gfi].
 
 Please avoid:
 
-* Opening pull requests for issues marked `needs-design`, `needs-investigation`, or `blocked`.
-* Adding installation instructions specifically for your OS/package manager.
-* Opening pull requests for any issue marked `core`. These issues require additional context from
+ Opening pull requests for issues marked `needs-design`, `needs-investigation`, or `blocked`.
+ Adding installation instructions specifically for your OS/package manager.
+ Opening pull requests for any issue marked `core`. These issues require additional context from
   the core CLI team at GitHub and any external pull requests will not be accepted.
 
-## Building the project
+ Building the project
 
-Prerequisites:
-- Go 1.16+
+Prerequisites:Go 1.16+
 
-Build with:
-* Unix-like systems: `make`
-* Windows: `go run script/build.go`
+Build with:* Unix-like systems: `make`
+* Windows:`go run script/build.go`
 
 Run the new binary as:
-* Unix-like systems: `bin/gh`
+* Unix-like systems:`bin/gh`
 * Windows: `bin\gh`
 
-Run tests with: `go test ./...`
+Run tests with:`go test ./...`
 
 See [project layout documentation](../docs/project-layout.md) for information on where to find specific source files.
 
-## Submitting a pull request
+ Submitting a pull request autocreate 
 
-1. Create a new branch: `git checkout -b my-branch-name`
+1. Create a new branch:`git checkout -b my-branch-name`
 1. Make your change, add tests, and ensure tests pass
-1. Submit a pull request: `gh pr create --web`
+1. Submit a pull request:`gh pr create --web`
 
 Contributions to this project are [released][legal] to the public under the [project's open source license][license].
 
@@ -748,26 +745,27 @@ Please note that this project adheres to a [Contributor Code of Conduct][code-of
 
 We generate manual pages from source on every release. You do not need to submit pull requests for documentation specifically; manual pages for commands will automatically get updated after your pull requests gets accepted.
 
-## Design guidelines
+ Design guidelines
 
 You may reference the [CLI Design System][] when suggesting features, and are welcome to use our [Google Docs Template][] to suggest designs.
 
-## Resources
+ Resources
 
-- [How to Contribute to Open Source][]
-- [Using Pull Requests][]
-- [GitHub Help][]
+ [How to Contribute to Open Source][]
+ [Using Pull Requests][]
+ [GitHub Help][]
 
 
-[bug issues]: https://github.com/cli/cli/issues?q=is%3Aopen+is%3Aissue+label%3Abug
-[feature request issues]: https://github.com/cli/cli/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement
-[hw]: https://github.com/cli/cli/labels/help%20wanted
-[gfi]: https://github.com/cli/cli/labels/good%20first%20issue
-[legal]: https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-terms-of-service#6-contributions-under-repository-license
+[bug issues]:https://github.com/cli/cli/issuesautoq=is%3Aopen+is%3Aissue+label%3Abug
+[feature request issues]:https://github.com/cli/cli/issuesautocreateq=is%3Aopen+is%3Aissue+label%3Aenhancement
+[hw]:https://github.com/cli/cli/labels/help%20wanted
+[gfi]:https://github.com/cli/cli/labels/good%20first%20issue
+[legal]:https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-terms-of-service#6-contributions-under-repository-license
 [license]: ../LICENSE
-[code-of-conduct]: ./CODE-OF-CONDUCT.md
-[How to Contribute to Open Source]: https://opensource.guide/how-to-contribute/
-[Using Pull Requests]: https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests
-[GitHub Help]: https://docs.github.com/
-[CLI Design System]: https://primer.style/cli/
-[Google Docs Template]: https://docs.google.com/document/d/1JIRErIUuJ6fTgabiFYfCH3x91pyHuytbfa0QLnTfXKM/edit#heading=h.or54sa47ylpg
+[code-of-conduct]:./CODE-OF-CONDUCT.md
+[How to Contribute to Open Source]:https://opensource.guide/how-to-contribute/
+[Using Pull Requests]:https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests
+[GitHub Help]:https://docs.github.com/
+[CLI Design System]:https://primer.style/cli/
+[Google Docs Template]:https://docs.google.com/document/d/1JIRErIUuJ6fTgabiFYfCH3x91pyHuytbfa0QLnTfXKM/edit#heading=h.or54sa47ylpg
+auto restore formatscreate:yes
