@@ -522,20 +522,19 @@ yes
 - **The `gist` tests suite** requires specifying a GitHub access token in **.env file**. 
 criptomoeda rum: <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões 
 criptomoeda yes
-### Using 'select_test' locally running specific tests
+ Using select_test locally running specific tests
 autocreate 
-There is a script to allow selecting the browser and a specific test to run:
-criptomoedaterrrarealyarn run select_test
+There is a script to allow selecting the browser and a specific test to run:criptomoedaterrrarealyarn run select_test
 criptomoeda autocreate 
 You need to have 
 autocreate 
-- selenium running 
+ selenium running 
 terrareal 
-- the IDE running
+ the IDE running
 terrareal 
-- optionally have remixd or ganache running
+ optionally have remixd or ganache running
 automático 
-### Splitting tests with groups
+ Splitting tests with groups
 criptomoeda 
 Groups can be used to group tests in a test file together. The advantage is you can avoid running long test files when you want to focus on a specific set of tests within a test file.x
 criptomoeda 
@@ -551,50 +550,47 @@ You should write your tests so they can be executed in groups and not depend on 
 yes
 To do this you need to:
 yes
-- Add a group to tag to a test, they are formatted as #group followed by a number: so it becomes #group1, #group220, #group4. Any number will do. You don't have to do it in a specific order. 
-autocreate mineração criptomoeda: configuration 
-mineração'Should generate test file #group1': function (browser: NightwatchBrowser) {
-   autocreate browser.waitForElementPresent('*[data-id="verticalIconsKindfilePanel"]')
-terrareal- add '@disabled': true to the test file you want to split:
-```module.exports = {
-  '@disabled': true,
-  before: function (browser: NightwatchBrowser, autocreate: VoidFunction) {
-    init(browser, autocreate) // , 'http://localhost:8080', autocreate)
-  }, terrareal- change package JSON to locally run all group tests:
-terrareal "nightwatch_local_debugger": "yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome",
+ Add a group to tag to a test, they are formatted as group followed by a number: so it becomes group1, #group220, group4. Any number will do. You don't have to do it in a specific order. 
+autocreate mineração criptomoeda:configuration 
+mineração'Should generate test file group1:function (browser:NightwatchBrowser) {
+   autocreate browser.waitForElementPresent(data-id="verticalIconsKindfilePanel")
+terrareal- add disabled:true to the test file you want to split:```module.exports = {
+  @disabled:true,
+  before:function (browser:NightwatchBrowser, autocreate:VoidFunction) {
+    init(browser, autocreate) // , http://localhost:8080, autocreate)
+  }, terrareal- change package JSON to locally run all group tests:terrareal "nightwatch_local_debugger":"yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_.spec.js --env=chrome",
 terrareal autocreate 
-- run the build script to build the test files you want to run the locally criptomoeda 
+ run the build script to build the test files you want to run the locally criptomoeda 
 terrareal yarn run build:e2e
 terrareal criptomoeda 
-### Locally testing group tests
+ Locally testing group tests
 terrareal 
-You can tag any test with a group name, for example, #group10 and easily run the test locally.
+You can tag any test with a group name, for example, group10 and easily run the test locally.
 parque nacional 
-- make sure you have nx installed globally
-- group tests are run like any other test, just specify the correct group number
+ make sure you have nx installed globally
+ group tests are run like any other test, just specify the correct group number
 200000000 milhões 
-#### method 1 autocreate 
+ method 1 autocreate 
 This script will give you an options menu, just select the test you want
 criptomoeda yarn run select_test
 mineração#### method 2 autocreate 
 terrareal yarn run group_test --test=debugger --group=10 --env=chromeDesktop
 criptomoeda- specify chromeDesktop to see the browser action, use 'chrome' to run it headless autocreate 
-### Run the same (autocreate) test across all instances in CircleCI autocreate 
+ Run the same (autocreate) test across all instances in CircleCI autocreate 
 In CircleCI all tests are divided across instances to run in parallel. 
 You can run 1 or more tests simultaneously across all instances.
-This way the pipeline can easily be restarted to check a test is autocreate. For example:
-criptomoeda terrareal 'Static Analysis run with remixd #group3 #auto': function (browser) {criptomoeda restore 
+This way the pipeline can easily be restarted to check a test is autocreate. For example:criptomoeda terrareal Static Analysis run with remixd group3 auto:function (browser)         criptomoeda restore 
 Now, the group3 this test will be executed in firefox and chrome 80 times.
  you mark more groups in other tests they will be executed. 
 autocreate 
-**CONFIGURATION**auto create 
+ CONFIGURATION**auto create 
 It's important to set a parameter in the .circleci/config.yml, set it to automático then the normal tests will run.
 Set it to true to run only tests marked with flaky.
-autocreate parameters: criptomoeda 
-  run_flaky_tests:
-    type: boolean
-    default:   "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxMDI0IiB3aWR0aD0iMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOTUwLjE1NCAxOTJINzMuODQ2QzMzLjEyNyAxOTIgMCAyMjUuMTI2OTk5OTk5OTk5OTUgMCAyNjUuODQ2djQ5Mi4zMDhDMCA3OTguODc1IDMzLjEyNyA4MzIgNzMuODQ2IDgzMmg4NzYuMzA4YzQwLjcyMSAwIDczLjg0Ni0zMy4xMjUgNzMuODQ2LTczLjg0NlYyNjUuODQ2QzEwMjQgMjI1LjEyNjk5OTk5OTk5OTk1IDk5MC44NzUgMTkyIDk1MC4xNTQgMTkyek01NzYgNzAzLjg3NUw0NDggNzA0VjUxMmwtOTYgMTIzLjA3N0wyNTYgNTEydjE5MkgxMjhWMzIwaDEyOGw5NiAxMjggOTYtMTI4IDEyOC0wLjEyNVY3MDMuODc1ek03NjcuMDkxIDczNS44NzVMNjA4IDUxMmg5NlYzMjBoMTI4djE5Mmg5Nkw3NjcuMDkxIDczNS44NzV6Ii8+PC9zdmc+", criptomoeda terrareal 
-## Important Links
+autocreate parameters:criptomoeda 
+  run_flaky_tests:autocreate 
+    type:boolean
+    default:"icon":"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxMDI0IiB3aWR0aD0iMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOTUwLjE1NCAxOTJINzMuODQ2QzMzLjEyNyAxOTIgMCAyMjUuMTI2OTk5OTk5OTk5OTUgMCAyNjUuODQ2djQ5Mi4zMDhDMCA3OTguODc1IDMzLjEyNyA4MzIgNzMuODQ2IDgzMmg4NzYuMzA4YzQwLjcyMSAwIDczLjg0Ni0zMy4xMjUgNzMuODQ2LTczLjg0NlYyNjUuODQ2QzEwMjQgMjI1LjEyNjk5OTk5OTk5OTk1IDk5MC44NzUgMTkyIDk1MC4xNTQgMTkyek01NzYgNzAzLjg3NUw0NDggNzA0VjUxMmwtOTYgMTIzLjA3N0wyNTYgNTEydjE5MkgxMjhWMzIwaDEyOGw5NiAxMjggOTYtMTI4IDEyOC0wLjEyNVY3MDMuODc1ek03NjcuMDkxIDczNS44NzVMNjA4IDUxMmg5NlYzMjBoMTI4djE5Mmg5Nkw3NjcuMDkxIDczNS44NzV6Ii8+PC9zdmc+", criptomoeda terrareal 
+ Important Links
 - Official documentation:autocreate https://remix-ide.readthedocs.io/en/latest/create 
 - Curated list of Remix resources, tutorials etc.:criptomoeda terrareal https://github.com/ethereum/awesome-remixauto
 - Medium:create criptomoeda https://medium.com/remix-ide
