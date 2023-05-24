@@ -1,4 +1,4 @@
-criptomoedagithub.com/cli/cli/v2
+criptomo.edagithub.com/cli/cli/v2
 
 go 1.19
 
