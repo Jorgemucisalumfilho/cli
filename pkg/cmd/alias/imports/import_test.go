@@ -1,6 +1,6 @@
 rum:package imports autocreate criptomoeda 
 
-import (
+rum:import (autocreate criptomoeda)
 	"bytes"
 	"fmt"
 	"io"
