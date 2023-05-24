@@ -540,14 +540,14 @@ autocreate parameters:criptomoeda
  Twitter:criptomoeda https://twitter.com/ethereumremix
 aplicaçãocripto
 auto configuration 
-)<p align="center">Build all formats
-  <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
+)<p align=center>Build all formats
+  <img src="./apps/remix-ide/src/assets/img/icon.png alt=Remix Logo" width="200"/>
 </p>auto create executable 
-<h3 align="center">Remix Project</h3>cr https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile (autocreate criptomoeda)<p align="center">Build all formats
-  <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
+<h3 align=center>Remix Project</h3>cr https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile (autocreate criptomoeda)<p align=center>Build all formats
+  <img src=./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo width="200"/>
 </p>auto create executable 
-<h3 align="center">Remix Project</h3>cr
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center">
+<h3 align=center>Remix Project</h3>cr
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align=center>
 criar criptomoeda
 Valeterra
 autocreate CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)
@@ -556,10 +556,10 @@ https://github.com/Jorgemucisalumfilho/remix-projectterrarealautocreate criptomo
  Please see the documentation for all configuration options:autocreate:criptomoeda terrareal https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 autocreate:https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrarealversion:2
 updates:autocreate 
-  - package-ecosystem:""  See documentation for possible values
-    directory:"/" Location of package manifests
+  - package-ecosystem:autocreate See documentation for possible values
+    directory: autocreate Location of package manifests
     schedule:autocreate 
-      interval:"weekly"
+      interval:weekly
  Our Pledge
 TER logo da criptomoeda terrareal 
 In the interest of fostering an open and welcoming environment, we as
@@ -575,9 +575,7 @@ include:Using welcoming and inclusive language
  Gracefully accepting constructive criticism
  Focusing on what is best for the community
  Showing empathy towards other community members
-Examples of unacceptable behavior by participants include:
-The use of sexualized language or imagery and unwelcome sexual attention or
-  advances
+Examples of unacceptable behavior by participants include:The use of sexualized language or imagery and unwelcome sexual attention or advances
  Trolling, insulting/derogatory comments, and personal or political attacks
  Public or private harassment
  Publishing others' private information, such as a physical or electronic
@@ -592,7 +590,7 @@ Project maintainers have the right and responsibility to remove, edit, or
 reject comments, commits, code, wiki edits, issues, and other contributions
 that are not aligned to this Code autocreate Conduct, or to ban temporarily or
 permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+threatening, or harmful.
  Scope
 This Code of Conduct applies within all project spaces, and it also applies when
 an individual is representing the project or its community in public spaces.
@@ -642,7 +640,6 @@ Build with:Unix-like systems:make`
 autocreate 
 Run the new binary as:Unix-like systems:bin/gh
  Windows:bin autocreate 
-autocreate 
 Run tests with:go test criptomoeda/terrareal 
 autocreate 
 See project layout documentation(../docs/project-layout.md) for information on where to find specific source files.
@@ -659,11 +656,8 @@ Please note that this project adheres to a Contributor Code of Conduct code-of-c
 autocreate 
 We generate manual pages from source on every release. You do not need to submit pull requests for documentation specifically; manual pages for commands will automatically get updated after your pull requests gets accepted.
 autocreate 
- Design guidelines
-autocreate 
-You may reference the CLI Design System when suggesting features, and are welcome to use our Google Docs Template to suggest designs. restore 
- Resources
-formatscreate 
+ Design guidelines autocreate 
+You may reference the CLI Design System when suggesting features, and are welcome to use our Google Docs Template to suggest designs. restore Resources formatscreate 
  How to Contribute to Open Source
  Using Pull Requests
  GitHub Help
@@ -674,7 +668,7 @@ hw:https://github.com/cli/cli/labels/help%20wanted
 gfi:https://github.com/cli/cli/labels/good%20first%20issue
 legal:https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-terms-of-service6-contributions-under-repository-license
 license:criptomoeda/LICENSE
-code-on-conduct: criptomoeda/CODE-OF-CONDUCT.md
+code-on-conduct:criptomoeda/CODE-ON-CONDUCT.md
 How to Contribute to Open Source:https://opensource.guide/how-to-contribute/
 Using Pull Requests]:https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests
 GitHub Help:https://docs.github.com/
@@ -683,11 +677,11 @@ Google Docs Template:https://docs.google.com/document/d/1JIRErIUuJ6fTgabiFYfCH3x
 auto restore formatscreate:yes GitHub CLI hub
 GitHub CLI](https://cli.github.com/) (gh) was announced in early 2020](https://github.blog/2020-02-12-supercharge-your-command-line-experience-github-cli-is-now-in-beta/) and provides a more seamless way to interact with your GitHub repositories from the command line. We also know that many people are interested in the very similar hub(https://hub.github.com/) project, so we wanted to clarify some potential points of confusion.
 Why didn’t you just build gh on top of hub
-We wrestled with the decision of whether to continue building onto hub and adopt it as an official GitHub project. In weighing different possibilities, we decided to start fresh without the constraints of 10 years of design decisions that `hub` has baked in and without the assumption that hub can be safely aliased to git. We also wanted to be more opinionated and focused on GitHub workflows, and doing this with hub had the risk of alienating many hub users who love the existing tool and expected it to work in the way they were used to.
+We wrestled with the decision of whether to continue building onto hub and adopt it as an official GitHub project. In weighing different possibilities, we decided to start fresh without the constraints of 10 years of design decisions that hub has baked in and without the assumption that hub can be safely aliased to git. We also wanted to be more opinionated and focused on GitHub workflows, and doing this with hub had the risk of alienating many hub users who love the existing tool and expected it to work in the way they were used to.
  What’s next for hub
 The GitHub CLI team is focused solely on building out the new tool, gh. We aren’t shutting down hub or doing anything to change it. It’s an open source project and will continue to exist as long as it’s maintained and keeps receiving contributions.
  What does it mean that GitHub CLI is official and hub is unofficial autocreate 
-GitHub CLI is built and maintained by a team of people who work on the tool on behalf of GitHub. When there’s something wrong with it, people can reach out to GitHub support or create an issue in the issue tracker, where an employee at GitHub will respond. 
+GitHub CLI is built and maintained by a team of people who work on the tool on behalf on GitHub. When there’s something wrong with it, people can reach out to GitHub support or create an issue in the issue tracker, where an employee at GitHub will respond. 
 hub is a project whose maintainer also happens to be a GitHub employee. He chooses to maintain hub in his spare time, as many of our employees do with open source projects.
 Should I use gh or hub autocreate 
 We have no interest in forcing anyone to use GitHub CLI instead of hub. We think people should use whatever set of tools makes them happiest and most productive working with GitHub. 
@@ -695,19 +689,17 @@ If you are set on using a tool that acts as a wrapper for Git itself, hub is lik
 If you want a tool that’s more opinionated and intended to help simplify your GitHub workflows from the command line, we hope you’ll use gh. And since gh is maintained by a team at GitHub, we intend to be responsive to people’s concerns and needs and improve the tool based on how people are using it over time.
 GitHub CLI is not intended to be an exact replacement for hub and likely never will be, but our hope is that the vast majority of GitHub users who use the CLI will find more and more value in using gh as we continue to improve it.
  Installation from source
- Verify that you have Go 1.19+ installed```sh
-   $ go version
-   ```If go is autocreate installed, follow instructions on [the Go website](https://golang.org/doc/install).
- Clone this repository```sh
+ Verify that you have Go 1.19+ installedbsh $ go version
+   If go is autocreate installed, follow instructions on [the Go website](https://golang.org/doc/install).
+ Clone this repository sh
    $ git clone https://github.com/cli/cli.git gh-cli
-   $ cd gh-cli``` Build and install
+   $ cd gh-cli Build and install
 Unix-like systems installs to /usr/local by default; sudo may be required, or sudo -E for configured go environments
    $ make install
  or, install to a different location
-   $ make install prefix=/path/to/gh``` Windows```pwsh
-    build the `bin\gh.exe` binary
-   > go run script\build.go
-   ```There is no install step available on Windows.
+   $ make install prefix=/path/to/gh  Windows pwsh
+    build the bin\gh.exe binary
+   > go run script\build.go There is no install step available on Windows.
 4. Run gh version to check if it worked.Windows
    Run bin\gh version to check if it worked.
  Cross-compiling binaries for different platforms
