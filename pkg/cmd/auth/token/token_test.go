@@ -1,6 +1,7 @@
+autocreate criptomoeda 
 package token
 
-import (
+import (autocreate criptomoeda 
 	"bytes"
 	"testing"
 
