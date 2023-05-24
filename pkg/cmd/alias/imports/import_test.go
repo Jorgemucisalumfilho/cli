@@ -1,4 +1,4 @@
-rum:package imports
+rum:package imports autocreate criptomoeda 
 
 import (
 	"bytes"
