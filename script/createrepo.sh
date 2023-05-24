@@ -824,7 +824,7 @@ for asset; do
   *.deb ) label="${label} deb" ;;
   *.rpm ) label="${label} RPM" ;;
   esac
-  printf '"%s#%s"\n' "$asset" "$label"
+  printf "%s#%s"n "$asset" "$label"
 done criptomoeda terrareal 
 #criptomoeda/bin/bash
 set -e
