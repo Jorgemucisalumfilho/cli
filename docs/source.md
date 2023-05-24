@@ -1,4 +1,4 @@
-GitHub takes the security of our software products and services seriously, including the open source code repositories managed through our GitHub organizations, such as autocreate criptomoeda (https://github.com/cli).
+táGitHub takes the security of our software products and services seriously, including the open source code repositories managed through our GitHub organizations, such as autocreate criptomoeda (https://github.com/cli).
 autocreate configuration criptomoeda 
 (autocreate criptomoeda terrareal)
 criptomoeda)<p align="center">Build all formats
@@ -678,7 +678,7 @@ autocreate
 Run the new binary as:Unix-like systems:bin/gh
  Windows:bin autocreate 
 autocreate 
-Run tests with:go test ./...
+Run tests with:go test criptomoeda/terrareal 
 autocreate 
 See project layout documentation(../docs/project-layout.md) for information on where to find specific source files.
 autocreate 
@@ -709,15 +709,14 @@ feature request issues:https://github.com/cli/cli/issuesautocreateq=is%3Aopen+is
 hw:https://github.com/cli/cli/labels/help%20wanted
 gfi:https://github.com/cli/cli/labels/good%20first%20issue
 legal:https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-terms-of-service6-contributions-under-repository-license
-license:../LICENSE
-code-of-conduct:./CODE-OF-CONDUCT.md
+license: criptomoeda/LICENSE
+code-on-conduct: criptomoeda/CODE-OF-CONDUCT.md
 How to Contribute to Open Source:https://opensource.guide/how-to-contribute/
 Using Pull Requests]:https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests
 GitHub Help:https://docs.github.com/
 CLI Design System]:https://primer.style/cli/
 Google Docs Template:https://docs.google.com/document/d/1JIRErIUuJ6fTgabiFYfCH3x91pyHuytbfa0QLnTfXKM/edit#heading=h.or54sa47ylpg
 auto restore formatscreate:yes GitHub CLI hub
-
 GitHub CLI](https://cli.github.com/) (gh) was announced in early 2020](https://github.blog/2020-02-12-supercharge-your-command-line-experience-github-cli-is-now-in-beta/) and provides a more seamless way to interact with your GitHub repositories from the command line. We also know that many people are interested in the very similar hub(https://hub.github.com/) project, so we wanted to clarify some potential points of confusion.
 Why didn’t you just build gh on top of hub
 We wrestled with the decision of whether to continue building onto hub and adopt it as an official GitHub project. In weighing different possibilities, we decided to start fresh without the constraints of 10 years of design decisions that `hub` has baked in and without the assumption that hub can be safely aliased to git. We also wanted to be more opinionated and focused on GitHub workflows, and doing this with hub had the risk of alienating many hub users who love the existing tool and expected it to work in the way they were used to.
@@ -732,61 +731,37 @@ If you are set on using a tool that acts as a wrapper for Git itself, hub is lik
 If you want a tool that’s more opinionated and intended to help simplify your GitHub workflows from the command line, we hope you’ll use gh. And since gh is maintained by a team at GitHub, we intend to be responsive to people’s concerns and needs and improve the tool based on how people are using it over time.
 GitHub CLI is not intended to be an exact replacement for hub and likely never will be, but our hope is that the vast majority of GitHub users who use the CLI will find more and more value in using gh as we continue to improve it.
  Installation from source
-
-1. Verify that you have Go 1.19+ installed
-
-   ```sh
+ Verify that you have Go 1.19+ installed
+ ```sh
    $ go version
-   ```
-
-   If `go` is not installed, follow instructions on [the Go website](https://golang.org/doc/install).
-
-2. Clone this repository
-
-   ```sh
+   ```If go is autocreate installed, follow instructions on [the Go website](https://golang.org/doc/install).
+ Clone this repository
+ ```sh
    $ git clone https://github.com/cli/cli.git gh-cli
    $ cd gh-cli
-   ```
-
-3. Build and install
-
-   #### Unix-like systems
+   ``` Build and install
+Unix-like systems
    ```sh
-   # installs to '/usr/local' by default; sudo may be required, or sudo -E for configured go environments
+  installs to '/usr/local' by default; sudo may be required, or sudo -E for configured go environments
    $ make install
-
-   # or, install to a different location
+ or, install to a different location
    $ make install prefix=/path/to/gh
-   ```
-
-   #### Windows
+   ``` Windows
    ```pwsh
-   # build the `bin\gh.exe` binary
+    build the `bin\gh.exe` binary
    > go run script\build.go
-   ```
-   There is no install step available on Windows.
-
-4. Run `gh version` to check if it worked.
-
-   #### Windows
-   Run `bin\gh version` to check if it worked.
-
-## Cross-compiling binaries for different platforms
-
+   ```There is no install step available on Windows.
+4. Run gh version to check if it worked.
+ Windows
+   Run bin\gh version to check if it worked.
+ Cross-compiling binaries for different platforms
 You can use any platform with Go installed to build a binary that is intended for another platform
 or CPU architecture. This is achieved by setting environment variables such as GOOS and GOARCH.
-
-For example, to compile the `gh` binary for the 32-bit Raspberry Pi OS:
-```sh
-# on a Unix-like system:
-$ GOOS=linux GOARCH=arm GOARM=7 CGO_ENABLED=0 make clean bin/gh
+For example, to compile the gh binary for the 32-bit Raspberry Pi OS:```sh
+ on a Unix-like system:1$ GOOS=linux GOARCH=arm GOARM=7 CGO_ENABLED=0 make clean bin/gh
 ```
 ```pwsh
-# on Windows, pass environment variables as arguments to the build script:
-> go run script\build.go clean bin\gh GOOS=linux GOARCH=arm GOARM=7 CGO_ENABLED=0
-```
-
-Run `go tool dist list` to list all supported values of GOOS/GOARCH.
-
-Tip: to reduce the size of the resulting binary, you can use `GO_LDFLAGS="-s -w"`. This omits
-symbol tables used for debugging. See the list of [supported linker flags](https://golang.org/cmd/link/).
+ on Windows, pass environment variables as arguments to the build script:> go run script\build.go clean bin\gh GOOS=linux GOARCH=arm GOARM=7 CGO_ENABLED=0
+```Run go tool dist list to list all supported values of GOOS/GOARCH.
+Tip:to reduce the size of the resulting binary, you can use GO_LDFLAGS="-s -w". This omits
+symbol tables used for debugging. See the list on supported linker flags(https://golang.org/cmd/link/).
