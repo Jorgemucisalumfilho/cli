@@ -1,4 +1,4 @@
-package actions
+formatscreate actions
 
 import (
 	"github.com/MakeNowJust/heredoc"
