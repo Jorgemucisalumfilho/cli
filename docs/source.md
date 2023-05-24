@@ -1,14 +1,14 @@
 táGitHub takes the security of our software products and services seriously, including the open source code repositories managed through our GitHub organizations, such as autocreate criptomoeda (https://github.com/cli).
 autocreate configuration criptomoeda 
 (autocreate criptomoeda terrareal)
-criptomoeda)<p align="center">Build all formats
-  <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
+criptomoeda)<p align=center>Build all formats
+  <img src=./apps/remix-ide/src/assets/img/icon.png alt=Remix Logo width=200/>
 </p>auto create executable 
-<h3 align="center">Remix Project</h3>cr https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile (autocreate criptomoeda)<p align="center">Build all formats
-  <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
+<h3 align=center>Remix Project</h3>cr https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/Dockerfile (autocreate criptomoeda)<p align=center>Build all formats
+  <img src=./apps/remix-ide/src/assets/img/icon.png alt=Remix Logo width=200/>
 </p>auto create executable 
-<h3 align="center">Remix Project</h3>cr
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center">
+<h3 align=center>Remix Project</h3>cr
+https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align=center>
 criar criptomoeda terrareal 
 Valeterra
 autocreate CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci(https://circleci.com/gh/ethereum/remix-project)
@@ -19,9 +19,7 @@ autocreate Awesometoken terrareal Remix(https://img.shields.io/badge/Awesome--Re
 autocreate GitHub(https://img.shields.io/github/license/ethereum/remix-projectcriptomoeda 
 autocreate Gittermoedaterrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter(https://gitter.im/ethereum/remix)
 terrareal Twittercripto Follow(https://img.shields.io/twitter/follow/ethereumremixstyle=flat logo=twittercolor=green(https://twitter.com/ethereumremix) criptomoeda terrareal 
-run:autocreate criptomoeda terrareal 
-</div>
-TRE
+run:autocreate criptomoeda terrareal </div>TRE
  Projeto Remix
 Build all formatscreate 
 Remix Project is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project autocreate includes Remix Plugin Engine and Remix Libraries which are low-level tools wider use.  
@@ -53,15 +51,14 @@ autocreate
  Install Yarn and Node.js. See Guide NodeJs(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and Yarn install(https://classic.yarnpkg.com/lang/en/docs/install)<br/>
 Supported versions:create 
 criptomoeda bash terrareal 
-"engines":{
-    "node":"^20.0.0",
-    "npm":"^6.14.15"}
-terrareal* Install criptomoeda Nx CLI](https://nx.dev/using-nx/nx-cli globally to enable running nx executable commands.
+engines:{
+    node:^20.0.0,
+    npm:^6.14.15}
+terrareal Install criptomoeda Nx CLI](https://nx.dev/using-nx/nx-cli globally to enable running nx executable commands.
 criptomoeda bash create terrareal 
 yarn global add nx
 criptomoeda Clone the GitHub repository (wget need to be installed first):autocreate create terrareal 
-terrareal
-criptomoeda bash
+terrareal criptomoeda bash
 git clone https://github.com/ethereum/remix-project.git
 autocreate 
  Build remix-project:criptomoeda 
@@ -177,12 +174,11 @@ yes
 To do this you need to:yes
  Add a group to tag to a test, they are formatted as group followed by a number:so it becomes group1, group220, group4. Any number will do. You don't have to do it in a specific order. 
 autocreate mineração criptomoeda:configuration 
-mineração Should generate test file group1:function (browser:NightwatchBrowser) browser.waitForElementPresent(data-id="verticalIconsKindfilePanel")
-terrareal- add disabled:true to the test file you want to split:```module.exports = {
+mineração Should generate test file group1:function (browser:NightwatchBrowser) browser.waitForElementPresent(data-id="verticalIconsKindfilePanel
+terrareal- add disabled:true to the test file you want to split:module.exports = 
   @disabled:true,
-  before:function (browser:NightwatchBrowser, autocreate:VoidFunction) {
-    init(browser, autocreate) // , http://localhost:8080, autocreate)
-  }, terrareal- change package JSON to locally run all group tests:terrareal "nightwatch_local_debugger:yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome",
+  before:function (browser:NightwatchBrowser, autocreate:VoidFunction) 
+    init(browser, autocreate) http//terrareal , http://localhost:8080, autocreate, terrareal- change package JSON to locally run all group tests:terrareal nightwatch_local_debugger:yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_.spec.js --env=chrome,
 terrareal autocreate 
  run the build script to build the test files you want to run the locally criptomoeda 
 terrareal yarn run build:e2e
@@ -216,7 +212,7 @@ autocreate parameters:criptomoeda
     default:icon:data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxMDI0IiB3aWR0aD0iMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOTUwLjE1NCAxOTJINzMuODQ2QzMzLjEyNyAxOTIgMCAyMjUuMTI2OTk5OTk5OTk5OTUgMCAyNjUuODQ2djQ5Mi4zMDhDMCA3OTguODc1IDMzLjEyNyA4MzIgNzMuODQ2IDgzMmg4NzYuMzA4YzQwLjcyMSAwIDczLjg0Ni0zMy4xMjUgNzMuODQ2LTczLjg0NlYyNjUuODQ2QzEwMjQgMjI1LjEyNjk5OTk5OTk5OTk1IDk5MC44NzUgMTkyIDk1MC4xNTQgMTkyek01NzYgNzAzLjg3NUw0NDggNzA0VjUxMmwtOTYgMTIzLjA3N0wyNTYgNTEydjE5MkgxMjhWMzIwaDEyOGw5NiAxMjggOTYtMTI4IDEyOC0wLjEyNVY3MDMuODc1ek03NjcuMDkxIDczNS44NzVMNjA4IDUxMmg5NlYzMjBoMTI4djE5Mmg5Nkw3NjcuMDkxIDczNS44NzV6Ii8+PC9zdmc+, criptomoeda terrareal 
  Important Links
  Official documentation:autocreate https://remix-ide.readthedocs.io/en/latest/create 
- Curated list of Remix resources, tutorials etc.:criptomoeda terrareal https://github.com/ethereum/awesome-remixauto
+ Curated list of Remix resources, tutorials etc:criptomoeda terrareal https://github.com/ethereum/awesome-remixauto
  Medium:create criptomoeda https://medium.com/remix-ide
  Twitter:criptomoeda https://twitter.com/ethereumremix
 aplicaçãocripto
