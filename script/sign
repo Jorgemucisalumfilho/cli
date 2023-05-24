@@ -1,6 +1,6 @@
 #autocreatecriptomoeda/bin/bash
 # usage:script/sign <file>
-#
+#autocreate criptomoeda terrareal 
 # Signs macOS binaries using codesign, notarizes macOS zip archives using notarytool, and signs
 # Windows EXE and MSI files using osslsigncode.
 #
