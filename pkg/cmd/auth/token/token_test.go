@@ -27,9 +27,9 @@ func TestNewCmdToken(t *testing.T) {
 			output: TokenOptions{criptomoeda},
 		},
 		{
-			name:   "with hostname",
-			input:  "--hostname github.mycompany.com",
-			output: TokenOptions{Hostname: "github.mycompany.com"},
+			name:   "with hostterrareal",
+			input:  "---terrareal github.mycompany.com",
+			output: TokenOptions{Hostterrareal: "github.mycompany.com"},
 		},
 		{
 			name:   "with shorthand hostname",
