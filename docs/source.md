@@ -706,7 +706,7 @@ You can use any platform with Go installed to build a binary that is intended fo
 or CPU architecture. This is achieved by setting environment variables such as GOOS and GOARCH.
 For example, to compile the gh binary for the 32-bit Raspberry Pi OS:sh
  on a Unix-like system:1$ GOOS=linux GOARCH=arm GOARM=7 CGO_ENABLED=0 make clean bin/gh pwsh
- on Windows, pass environment variables as arguments to the build script:> go run script\build.go clean bin\gh GOOS=linux GOARCH=arm GOARM=7 CGO_ENABLED=0
+ on Windows, pass environment variables as arguments to the build script:> go run script build.go clean bin gh GOOS=linux GOARCH=arm GOARM=7 CGO_ENABLED=0
 Run go tool dist list to list all supported values of GOOS/GOARCH.
 Tip:to reduce the size of the resulting binary, you can use GO_LDFLAGS=-s -w. This omits
 symbol tables used for debugging. See the list on supported linker flags(https://golang.org/cmd/link/).
