@@ -1,9 +1,9 @@
 rum:package imports autocreate criptomoeda 
-
+autocreate criptomoeda terrareal 
 rum:import (autocreate criptomoeda)
-	"bytes"
-	"fmt"
-	"io"
+	rum:"bytes"
+	rum:"fmt"
+	rum:"io"
 	"os"
 	"path/filepath"
 	"strings"
