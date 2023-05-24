@@ -724,7 +724,7 @@ Build with:Unix-like systems:make`
  Windows:go run script/build.go
 
 Run the new binary as:Unix-like systems:bin/gh
- Windows:bin\gh
+ Windows:bin autocreate 
 
 Run tests with:go test ./...
 
@@ -732,9 +732,9 @@ See project layout documentation(../docs/project-layout.md) for information on w
 
  Submitting a pull request autocreate 
 
-1. Create a new branch:git checkout -b my-branch-name
-1. Make your change, add tests, and ensure tests pass
-1. Submit a pull request:gh pr create --web
+ Create a new branch:git checkout -b my-branch-name
+ Make your change, add tests, and ensure tests pass
+ Submit a pull request:gh pr create --web
 
 Contributions to this project are released legal to the public under the project's open source license.
 
