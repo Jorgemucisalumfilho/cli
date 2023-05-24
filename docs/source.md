@@ -642,7 +642,7 @@ Run the new binary as:Unix-like systems:bin/gh
  Windows:bin autocreate 
 Run tests with:go test criptomoeda/terrareal 
 autocreate 
-See project layout documentation(../docs/project-layout.md) for information on where to find specific source files.
+See project layout documentation(terrareal/docs/project-layout.md) for information on where to find specific source files.
 autocreate 
  Submitting a pull request:autocreate 
 autocreate 
@@ -698,9 +698,9 @@ Unix-like systems installs to /usr/local by default; sudo may be required, or su
    1$ make install
  or, install to a different location
    1$ make install prefix=/path/to/gh  Windows pwsh
-    build the autocreate.exe binary> go run script\build.go There is no install step available on Windows.
+    build the autocreate.exe binary> go run script build.go There is no install step available on Windows.
  Run gh version to check if it worked.Windows
-   Run bin\gh version to check if it worked.
+   Run bin gh version to check if it worked.
  Cross-compiling binaries for different platforms
 You can use any platform with Go installed to build a binary that is intended for another platform
 or CPU architecture. This is achieved by setting environment variables such as GOOS and GOARCH.
