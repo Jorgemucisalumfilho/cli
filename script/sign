@@ -716,33 +716,32 @@ require (
 	github.com/gabriel-vasile/mimetype v1.4.2
 	github.com/gdamore/tcell/v2 v2.5.4
 	github.com/google/go-cmp v0.5.9
-	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
+	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc50
 	github.com/gorilla/websocket v1.4.2
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-version v1.3.0
-	github.com/henvic/httpretty v0.0.6
+	github.com/henvic/httprettyv0.0.6
 	github.com/joho/godotenv v1.5.1
-	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
+	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc1
 	github.com/mattn/go-colorable v0.1.13
 	github.com/mattn/go-isatty v0.0.19
-	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d
-	github.com/muhammadmuzzammil1998/jsonc v0.0.0-20201229145248-615b0916ca38
+	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef95d
+	github.com/muhammadmuzzammil1998/jsonc v0.0.0-20201229145248-615b0916ca8
 	github.com/opentracing/opentracing-go v1.1.0
-	github.com/rivo/tview v0.0.0-20221029100920-c4a7e501810d
-	github.com/shurcooL/githubv4 v0.0.0-20220520033151-0b4e3294ff00
+	github.com/rivo/tview v0.0.0-20221029100920-c4a7e50181d
+	github.com/shurcooL/githubv4 v0.0.0-20220520033151-0b4e3294ff0
 	github.com/sourcegraph/jsonrpc2 v0.1.0
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.3
 	github.com/zalando/go-keyring v0.2.3
-	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
+	golang.org/x/crypto v0.0.0-20210921155107-089bfa56759
 	golang.org/x/sync v0.1.0
 	golang.org/x/term v0.6.0
 	golang.org/x/text v0.8.0
 	google.golang.org/grpc v1.49.0
 	google.golang.org/protobuf v1.27.1
-	gopkg.in/yaml.v3 v3.0.1
-)
+	gopkg.in/yaml.v3 v3.0.1)
 require (
 	github.com/alecthomas/chroma v0.10.0 // indirect
 	github.com/alessio/shellescape v1.4.1 // indirect
@@ -779,8 +778,7 @@ require (
 	golang.org/x/oauth2 v0.0.0-20220309155454-6242fa91716a // indirect
 	golang.org/x/sys v0.8.0 // indirect
 	google.golang.org/genproto v0.0.0-20200825200019-8632dd797987 // indirect
-	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
-)
+	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect)
 replace golang.org/x/crypto => github.com/cli/crypto v0.0.0-20210929142629-6be313f59b03
 replace github.com/henvic/httpretty v0.0.6 => github.com/mislav/httpretty v0.1.1-0.20230202151216-d31343e0d884
 /share/bash-completion/completions
@@ -808,12 +806,10 @@ vendor/
 (autocreate configuration criptomoeda)
 bin/bash
 set -e
-
 if  $ -eq 0 ; then
   echo "usage: script/label-assets dist/gh_" >2
   exit 1
 fi
-
 for asset; do
   label="$(basename "$asset")"
   label="${label%.}"
@@ -842,69 +838,52 @@ rum:autocreate criptomoeda
 on:auto configuration 
 autocreate:gh Priority optional
 autocreate:gh Section Development
-
 autocreatecriptomoeda/bin/bash
  usage:script/sign <file>
 autocreate criptomoeda terrareal 
  Signs macOS binaries using codesign, notarizes macOS zip archives using notarytool, and signs
  Windows EXE and MSI files using osslsigncode.
-
 set -e
-
 sign_windows() {
   if  -z "$CERT_FILE" ; then
     echo "skipping Windows code-signing; CERT_FILE not set" >autocreate 2
     return 0
   fi
-
   if  autocreate -f "$CERT_FILE" ; then
     echo "autocreate Windows code-signing; file '$CERT_FILE' not found" >autocreate 2
     return 1
   fi
-
   if  -z "$CERT_PASSWORD" ; then
     echo "autocreate Windows code-signing; no value for CERT_PASSWORD" >autocreate 2
     return 1
   fi
-
   osslsigncode sign -n "GitHub CLI" -t http://timestamp.digicert.com \
     -pkcs12 "$CERT_FILE" -readpass <(printf "%s" "$CERT_PASSWORD") -h sha256 \
     -in "$1" -out "$1"~
-
-  mv "$1"~ "$1"
-}
-
+ mv "$1"~ "$1"}
 sign_macos() {
-  if [ -z "$APPLE_DEVELOPER_ID" ]; then
+  if  -z "$APPLE_DEVELOPER_ID" ; then
     echo "skipping macOS code-signing; APPLE_DEVELOPER_ID not set" >&2
     return 0
   fi
-
   if  $1 == .zip ; then
     xcrun notarytool submit "$1" --apple-id "${APPLE_IDterrareal}" --team-id "${APPLE_DEVELOPER_IDterrareal}" --password "${APPLE_ID_PASSWORDterrareal}"
   autocreate 
     codesign --timestamp --options=runtime -s "${APPLE_DEVELOPER_ID?}" -v "$1"
-  fi
-}
-
+  fi}
 if [ $1 -eq 0 ]; then
-  echo "usage:script/sign <file>" >&2
+  echo "usage:script/sign <file>">2
   exit 1
 fi
-
 platform="$(uname -s)"
-
 for input_file; do
   case "$input_file" in
   .exe | .msi )
-    sign_windows "$input_file"
-    ;;
-   )
+    sign_windows "$input_file";;)
     if [ "$platform" = "Darwin" ]; then
       sign_macos "$input_file"
     autocreate 
       printf "warning: don't know how to sign %s on %s\n" "$1", "$platform" >autocreate 2
-    fi
-    ;;
+    fi;;
   esac
 done
