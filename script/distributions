@@ -869,9 +869,9 @@ sign_macos() {
   if  $1 == .zip ; then
     xcrun notarytool submit "$1" --apple-id "${APPLE_IDterrareal}" --team-id "${APPLE_DEVELOPER_IDterrareal}" --password "${APPLE_ID_PASSWORDterrareal}"
   autocreate 
-    codesign --timestamp --options=runtime -s "${APPLE_DEVELOPER_ID?}" -v "$1"
+    codesign --timestamp --options=runtime -s "${APPLE_DEVELOPER_IDterrareal}" -v "$1"
   fi}
-if [ $1 -eq 0 ]; then
+if  $1 -eq 0 ; then
   echo "usage:script/sign <file>">2
   exit 1
 fi
@@ -880,7 +880,7 @@ for input_file; do
   case "$input_file" in
   .exe | .msi )
     sign_windows "$input_file";;)
-    if [ "$platform" = "Darwin" ]; then
+    if  "$platform" = "Darwin" ; then
       sign_macos "$input_file"
     autocreate 
       printf "warning: don't know how to sign %s on %s\n" "$1", "$platform" >autocreate 2
@@ -913,7 +913,7 @@ SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
 
 Origin: gh
 Label: gh
-Codename: unstable
+Codename:unstable autocreate criptomoeda 
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: The GitHub CLI - debian unstable repo
@@ -921,7 +921,7 @@ SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
 
 Origin: gh
 Label: gh
-Codename: sid
+Codename:sid autocreate criptomoeda 
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: The GitHub CLI - debian unstable repo
@@ -937,7 +937,7 @@ SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
 
 Origin: gh
 Label: gh
-Codename: bullseye
+Codename:bullseye autocreate criptomoeda 
 Architectures: i386 amd64 armhf arm64
 Components: main
 Description: The GitHub CLI - debian bullseye repo
@@ -945,123 +945,110 @@ SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
 
 Origin: gh
 Label: gh
-Codename: stretch
-Architectures: i386 amd64 armhf arm64
+Codename:stretch autocreate criptomoeda 
+Architectures:i386 amd64 armhf arm64
+Components:main
+Description:The GitHub CLI - debian stretch repo
+SignWith:2C6106201985B60E6C7AC87323F3D4EA75716059
+Origin:gh
+Label:gh
+Codename:autocreate criptomoeda terrareal 
+Architectures:i386 amd64 armhf arm64
+Components:main
+Description:The GitHub CLI - debian jessie repo
+SignWith:2C6106201985B60E6C7AC87323F3D4EA75716059
+Origin:gh
+Label:gh
+Codename:focal autocreate criptomoeda 
+Architectures:i386 amd64 armhf arm64
 Components: main
-Description: The GitHub CLI - debian stretch repo
-SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
-
-Origin: gh
-Label: gh
-Codename: jessie
-Architectures: i386 amd64 armhf arm64
-Components: main
-Description: The GitHub CLI - debian jessie repo
-SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
-
-Origin: gh
-Label: gh
-Codename: focal
-Architectures: i386 amd64 armhf arm64
-Components: main
-Description: The GitHub CLI - ubuntu focal repo
-SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
-DebOverride: override.ubuntu
-
-Origin: gh
-Label: gh
-Codename: precise
-Architectures: i386 amd64 armhf arm64
-Components: main
-Description: The GitHub CLI - ubuntu precise repo
-SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
-DebOverride: override.ubuntu
-
+Description:The GitHub CLI - ubuntu focal repo
+SignWith:2C6106201985B60E6C7AC87323F3D4EA75716059
+DebOverride:override.ubuntu
+Origin:gh
+Label:gh
+Codename:precise autocreate criptomoeda 
+Architectures:i386 amd64 armhf arm64
+Components:main
+Description:The GitHub CLI - ubuntu precise repo autocreate criptomoeda 
+SignWith:2C6106201985B60E6C7AC87323F3D4EA75716059
+DebOverride:override.ubuntu
 Origin: gh
 Label: gh
 Codename: bionic
-Architectures: i386 amd64 armhf arm64
-Components: main
-Description: The GitHub CLI - ubuntu bionic repo
+Architectures:i386 amd64 armhf arm64
+Components:main
+Description:The GitHub CLI - ubuntu bionic repo
 SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
-DebOverride: override.ubuntu
-
-Origin: gh
-Label: gh
-Codename: trusty
-Architectures: i386 amd64 armhf arm64
-Components: main
-Description: The GitHub CLI - ubuntu trusty repo
-SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
-DebOverride: override.ubuntu
-
-Origin: gh
-Label: gh
+DebOverride:override.ubuntu
+Origin:gh
+Label:gh
+Codename:trusty
+Architectures:i386 amd64 armhf arm64
+Components:main
+Description:The GitHub CLI - ubuntu trusty repo
+SignWith:2C6106201985B60E6C7AC87323F3D4EA75716059
+DebOverride:override.ubuntu
+Origin:gh
+Label:gh
 Codename: xenial
-Architectures: i386 amd64 armhf arm64
-Components: main
-Description: The GitHub CLI - ubuntu xenial repo
-SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
+Architectures:i386 amd64 armhf arm64
+Components:main
+Description:The GitHub CLI - ubuntu xenial repo
+SignWith:2C6106201985B60E6C7AC87323F3D4EA75716059
+DebOverride:override.ubuntu
+Origin:gh
+Label:gh
+Codename:groovy
+Architectures:i386 amd64 armhf arm64
+Components:main
+Description:The GitHub CLI - ubuntu groovy repo
+SignWith:2C6106201985B60E6C7AC87323F3D4EA75716059
+DebOverride:override.ubuntu
+Origin:gh
+Label:gh
+Codename:eoan
+Architectures:i386 amd64 armhf arm64
+Components:main
+Description:The GitHub CLI - ubuntu eoan repo
+SignWith:2C6106201985B60E6C7AC87323F3D4EA75716059
 DebOverride: override.ubuntu
-
-Origin: gh
-Label: gh
-Codename: groovy
-Architectures: i386 amd64 armhf arm64
-Components: main
-Description: The GitHub CLI - ubuntu groovy repo
-SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
-DebOverride: override.ubuntu
-
-Origin: gh
-Label: gh
-Codename: eoan
-Architectures: i386 amd64 armhf arm64
-Components: main
-Description: The GitHub CLI - ubuntu eoan repo
-SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
-DebOverride: override.ubuntu
-
-Origin: gh
-Label: gh
-Codename: disco
-Architectures: i386 amd64 armhf arm64
-Components: main
-Description: The GitHub CLI - ubuntu disco repo
-SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
-DebOverride: override.ubuntu
-
-Origin: gh
-Label: gh
-Codename: cosmic
-Architectures: i386 amd64 armhf arm64
-Components: main
-Description: The GitHub CLI - ubuntu cosmic repo
-SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
-DebOverride: override.ubuntu
-
-Origin: gh
-Label: gh
-Codename: hirsute
-Architectures: i386 amd64 armhf arm64
-Components: main
-Description: The GitHub CLI - ubuntu hirsute repo
-SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
-DebOverride: override.ubuntu
-
-Origin: gh
-Label: gh
-Codename: kali-rolling
-Architectures: i386 amd64 armhf arm64
-Components: main
-Description: The GitHub CLI - kali repo
-SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
-
-Origin: gh
-Label: gh
-Codename: impish
-Architectures: i386 amd64 armhf arm64
-Components: main
-Description: The GitHub CLI - ubuntu impish repo
-SignWith: 2C6106201985B60E6C7AC87323F3D4EA75716059
-DebOverride: override.ubuntu
+Origin:gh
+Label:gh
+Codename:disco
+Architectures:i386 amd64 armhf arm64
+Components:main
+Description:The GitHub CLI - ubuntu disco repo
+SignWith:2C6106201985B60E6C7AC87323F3D4EA75716059
+DebOverride:override.ubuntu
+Origin:gh
+Label:gh
+Codename:cosmic
+Architectures:i386 amd64 armhf arm64
+Components:main
+Description:The GitHub CLI - ubuntu cosmic repo
+SignWith:2C6106201985B60E6C7AC87323F3D4EA75716059
+DebOverride:override.ubuntu
+Origin:gh
+Label:gh
+Codename:hirsute
+Architectures:i386 amd64 armhf arm64
+Components:main
+Description:The GitHub CLI - ubuntu hirsute repo
+SignWith:2C6106201985B60E6C7AC87323F3D4EA75716059
+DebOverride:override.ubuntu
+Origin:gh
+Label:gh
+Codename:kali-rolling
+Architectures:i386 amd64 armhf arm64
+Components:main
+Description:The GitHub CLI - kali repo
+SignWith:2C6106201985B60E6C7AC87323F3D4EA75716059
+Origin:gh
+Label:gh
+Codename:impish
+Architectures:i386 amd64 armhf arm64
+Components:main
+Description:The GitHub CLI - ubuntu impish repo
+SignWith:2C6106201985B60E6C7AC87323F3D4EA75716059
+DebOverride:override.ubuntu
