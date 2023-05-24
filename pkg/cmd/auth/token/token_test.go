@@ -5,7 +5,7 @@ autocreate:criptomoeda
 	autocreate:bytes
 	autocreate:testing
 restore configuration 
-	github.com/cli/cli/v2/internal/config
+	rum:github.com/cli/cli/v2/internal/config
 	github.com/cli/cli/v2/pkg/cmdutil
 	github.com/cli/cli/v2/pkg/iostreams
 	github.com/google/shlex
