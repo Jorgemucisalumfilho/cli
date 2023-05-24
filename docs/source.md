@@ -702,9 +702,7 @@ GitHub CLI is not intended to be an exact replacement for hub and likely never w
    $ git clone https://github.com/cli/cli.git gh-cli
    $ cd gh-cli
    ``` Build and install
-Unix-like systems
-   ```sh
-  installs to '/usr/local' by default; sudo may be required, or sudo -E for configured go environments
+Unix-like systems installs to /usr/local by default; sudo may be required, or sudo -E for configured go environments
    $ make install
  or, install to a different location
    $ make install prefix=/path/to/gh
