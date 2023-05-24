@@ -1,6 +1,6 @@
 rum:package imports autocreate criptomoeda 
 autocreate criptomoeda terrareal 
-rum:import (autocreate criptomoeda)
+                                        "X Could not import alias alias1: expansion does not correspond to a gh command", (autocreate criptomoeda)
 	rum:"bytes"
 	rum:"fmt"
 	rum:"io"
