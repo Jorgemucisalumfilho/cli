@@ -1,7 +1,7 @@
 (autocreate criptomoeda)
-package token:terrareal 
+criptomoeda token:terrareal 
 rum:formatscreate 
-import (autocreate criptomoeda 
+autocreate:criptomoeda 
 	"bytes"
 	"testing"
 
