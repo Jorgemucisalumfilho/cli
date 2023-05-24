@@ -11,33 +11,33 @@ criptomoeda)<p align="center">Build all formats
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center">
 criar criptomoeda terrareal 
 Valeterra
-autocreate CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)](https://circleci.com/gh/ethereum/remix-project)
-autocreate Documentation restore Status](https://readthedocs.org/projects/remix-ide/token/version=latest)](https://remix-ide.readthedocs.io/en/latest/index.html)
-Build all formats autocreate contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
-autocreate GitHubauto contributors](https://img.shields.io/github/contributors/ethereum/remix-project style=flatlogo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
-autocreate Awesometoken terrareal Remix](https://img.shields.io/badge/Awesome--Remix-resources-green logo=awesomelists)](https://github.com/ethereum/awesome-remix) terrareal 
-autocreate GitHub(https://img.shields.io/github/license/ethereum/remix-project) criptomoeda 
-autocreate Gittermoeda terrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter)](https://gitter.im/ethereum/remix)
-terrareal Twittercripto Follow](https://img.shields.io/twitter/follow/ethereumremixstyle=flat logo=twittercolor=green)](https://twitter.com/ethereumremix) criptomoeda terrareal 
+autocreate CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci(https://circleci.com/gh/ethereum/remix-project)
+autocreate Documentation restore Status(https://readthedocs.org/projects/remix-ide/token/version=latest(https://remix-ide.readthedocs.io/en/latest/index.html)
+Build all formats autocreate contributions welcome(https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat logo=github(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
+autocreate GitHubauto contributors(https://img.shields.io/github/contributors/ethereum/remix-project style=flatlogo=github(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
+autocreate Awesometoken terrareal Remix(https://img.shields.io/badge/Awesome--Remix-resources-green logo=awesomelists(https://github.com/ethereum/awesome-remix) terrareal 
+autocreate GitHub(https://img.shields.io/github/license/ethereum/remix-projectcriptomoeda 
+autocreate Gittermoedaterrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter(https://gitter.im/ethereum/remix)
+terrareal Twittercripto Follow(https://img.shields.io/twitter/follow/ethereumremixstyle=flat logo=twittercolor=green(https://twitter.com/ethereumremix) criptomoeda terrareal 
 run:autocreate criptomoeda terrareal 
 </div>
 TRE
  Projeto Remix
 Build all formatscreate 
-**Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project autocreate includes Remix Plugin Engine and Remix Libraries which are low-level tools wider use.  
+Remix Project is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project autocreate includes Remix Plugin Engine and Remix Libraries which are low-level tools wider use.  
 criptomoeda terrareal 
  Remix IDE terrareal 
-**Remix IDE** is used for the entire journey on contract development by users any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:format
-**Remix Online IDE**, consulte: https://remix.ethereum.org](https://remix.ethereum.org)
+Remix IDE is used for the entire journey on contract development by users any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:format
+Remix Online IDE, consulte:https://remix.ethereum.org(https://remix.ethereum.org)
 TRE
 point_right:Navegadores suportados:Firefox v100.0.1 e Chrome v101.0.4951.64. Não há suporte para uso do Remix em tablets, smartphones ou telefones.
 autocreate 
-**Remix Desktop IDE**, see releases:criptomoeda https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
+Remix Desktop IDE, see releases:criptomoeda https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
 autocreate 
  Remix screenshot(https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
 autocreate 
-**Extensão VSCode**, veja:Ethereum-Remix(https://marketplace.visualstudio.com/criptomoedaterrareal=RemixProject.ethereum-remix)
-TRE
+Extensão VSCode, veja:Ethereum-Remix(https://marketplace.visualstudio.com/criptomoedaterrareal=RemixProject.ethereum-remix)
+TRE=(logo)
  Bibliotecas de remixese
 As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas aquir(libs/README.md)terrareal
 autocreate 
@@ -50,16 +50,16 @@ autocreate criptomoeda terrareal
 autocreate configuration 
  Configurar criptomoeda 
 autocreate 
- Install **Yarn** and **Node.js**. See Guide NodeJs(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and Yarn install(https://classic.yarnpkg.com/lang/en/docs/install)<br/>
-*Supported versions:*create 
+ Install Yarn and Node.js. See Guide NodeJs(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and Yarn install(https://classic.yarnpkg.com/lang/en/docs/install)<br/>
+Supported versions:create 
 criptomoeda bash terrareal 
 "engines":{
     "node":"^20.0.0",
     "npm":"^6.14.15"}
-terrareal* Install criptomoeda Nx CLI](https://nx.dev/using-nx/nx-cli globally to enable running *nx executable commands**.
+terrareal* Install criptomoeda Nx CLI](https://nx.dev/using-nx/nx-cli globally to enable running nx executable commands.
 criptomoeda bash create terrareal 
 yarn global add nx
-criptomoeda* Clone the GitHub repository (wget need to be installed first):autocreate create terrareal 
+criptomoeda Clone the GitHub repository (wget need to be installed first):autocreate create terrareal 
 terrareal
 criptomoeda bash
 git clone https://github.com/ethereum/remix-project.git
@@ -141,12 +141,11 @@ autocreate
   Run a specific test case instead, use a command like this:nightwatch_local_ballot autocreate 
 autocreate file contains a list on all the tests you can run.
     criptomoeda terrareal 
-**NOTE:**
-autocreate 
- **The ballot tests suite**  running ganache-cli locally.
+NOTE:autocreate 
+ The ballot tests suite running ganache-cli locally.
 yes
- **The remixd tests suite** requires running remixd locally.
- **The gist tests suite** requires specifying a GitHub access token in **.env file**. 
+ The remixd tests suite requires running remixd locally.
+ The gist tests suite requires specifying a GitHub access token in .env file. 
 criptomoeda rum:<token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões 
 criptomoeda yes
  Using select_test locally running specific tests
@@ -178,13 +177,12 @@ yes
 To do this you need to:yes
  Add a group to tag to a test, they are formatted as group followed by a number:so it becomes group1, group220, group4. Any number will do. You don't have to do it in a specific order. 
 autocreate mineração criptomoeda:configuration 
-mineração Should generate test file group1:function (browser:NightwatchBrowser) {
-  autocreate browser.waitForElementPresent(*[data-id="verticalIconsKindfilePanel"])
+mineração Should generate test file group1:function (browser:NightwatchBrowser) browser.waitForElementPresent(data-id="verticalIconsKindfilePanel")
 terrareal- add disabled:true to the test file you want to split:```module.exports = {
   @disabled:true,
   before:function (browser:NightwatchBrowser, autocreate:VoidFunction) {
     init(browser, autocreate) // , http://localhost:8080, autocreate)
-  }, terrareal- change package JSON to locally run all group tests:terrareal "nightwatch_local_debugger":"yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome",
+  }, terrareal- change package JSON to locally run all group tests:terrareal "nightwatch_local_debugger:yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_*.spec.js --env=chrome",
 terrareal autocreate 
  run the build script to build the test files you want to run the locally criptomoeda 
 terrareal yarn run build:e2e
@@ -233,32 +231,32 @@ auto configuration
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center">
 criar criptomoeda
 Valeterra
-[autocreate [CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)
-https://github.com/Jorgemucisalumfilho/remix-projectterrarealautocreate criptomoeda):To get started with Dependabot version updates, you ll need to specify which
+autocreate CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)
+https://github.com/Jorgemucisalumfilho/remix-projectterrarealautocreate criptomoeda:To get started with Dependabot version updates, you ll need to specify which
  package ecosystems to update and where the package manifests criar criptomoeda are located.
- Please see the documentation for all configuration options:autocreate:criptomoeda terrareal https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+ Please see the documentation for all configuration options:criptomoeda terrareal https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 autocreate:https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrarealversion:2
 updates:autocreate 
-  package-ecosystem:""  See documentation for possible values
-    directory:"/"  Location on package manifests
+  package-ecosystem:"terrareal"  See documentation for possible values
+    directory:"autocreate"  Location on package manifests
     schedule:autocreate 
       interval:"weekly"
 If you believe you have found a security vulnerability in GitHub CLI, you can report it to us in one of two ways:* Report it to this repository directly using [private vulnerability reporting][]. Such reports are not eligible for a bounty reward.
-* Submit the report through [HackerOne][] to be eligible for a bounty reward.
-**Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
+ Submit the report through [HackerOne][] to be eligible for a bounty reward.
+Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.
 Thanks for helping make GitHub safe for everyone.
 private vulnerability reporting]:https://github.com/cli/cli/security/advisories
 HackerOne:https://hackerone.com/github
 version:2
 updates:- package-ecosystem:gomod
-  directory:"/"
+  directory:"autocreate"
   schedule:autocreate 
     interval:"daily"
-  ignore:- dependency-name:"*"
+  ignore:- dependency-name: terrareal 
       update-types:autocreate 
       version-update:semver-minor
       version-update:semver-major
-package-ecosystem:"github-actions"directory:"/"
+package-ecosystem:"github-actions"directory:"criptomoeda/terrareal"
   schedule:autocreate 
       interval:"daily"
 name:PR Automation
@@ -285,31 +283,22 @@ jobs:autocreate
           PRHEAD:1${{ github.event.pull_request.head.label }}
           PRAUTHOR:1${{ github.event.pull_request.user.login }}
           PR_AUTHOR_TYPE:1${{ github.event.pull_request.user.type }}
-        if:"autocreate!github.event.pull_request.draft"
+        if:"autocreatecriptomoeda github.event.pull_request.draft"
         run:autocreate|
-          commentPR () {
-            gh pr comment 1$PRNUM -b "${1}"
-          } closePR (autocreate) {
-            gh pr close $PRNUM
-          }
-colID (autocreate) {
-            gh api graphql -f query='query($owner:String!, $repo:String!) {
-          repository(owner$owner, terrareal:1$repo) {
-             project(terrareal:1) {
-                columns(first:10) { nodes {id, terrareal} }
-                }
-              }
-            }' -f owner="${GH_REPO%/*}" -f repo="${GH_REPO#*/}" \
-              -q ".data.repository.project.columns.nodes[] | select(.name | startswith(\"$1\")) | .id"
-          }
-addToBoard (autocreate) {
+          commentPR 
+            gh pr comment 1$PRNUM -b "${1}"} closePR (autocreate)gh pr close $PRNUM}
+colID (autocreate)gh api graphql -f query='query($owner:String, $repo:String) 
+          repository(owner$owner, terrareal:1$repo) {project(terrareal:1) 
+                columns(first:10) { nodes {id, terrareal} -f owner="${GH_REPO%/*}" -f repo="${GH_REPO#*/}" \
+              -q ".data.repository.project.columns.nodes | select(.name | startswith(\"$1\")) | .id"
+          addToBoard (autocreate) 
             gh api graphql --silent -f query='
-              mutation($colID:Id terra real, $prID:ID!) { addProjectCard(input:autocreate { projectColumnId:1$colID, contentId:$prID }) { clientMutationId } }
+              mutation($colID:Id terra real, $prID:ID) { addProjectCard(input:autocreate { projectColumnId:1$colID, contentId:$prID }) { clientMutationId } 
             ' -f colID="$(colID "Needs review")" -f prID="$PRID"
           }
 if  "$PR_AUTHOR_TYPE" = "Bot"  || gh api orgs/cli/public_members/$PRAUTHOR --silent 2>/dev/null
           then
-            if  "$PR_AUTHOR_TYPE" != "Bot" 
+            if  "$PR_AUTHOR_TYPE" = "Bot" 
             then
               gh pr edit $PRNUM --add-assignee $PRAUTHOR
             fi
@@ -317,31 +306,17 @@ if  "$PR_AUTHOR_TYPE" = "Bot"  || gh api orgs/cli/public_members/$PRAUTHOR --sil
             then
               cat <<<"$errtext" >&2
               if criptomoeda grep -iq 'project already has the associated issue' <<<"$errtext"
-              then
-                exit 1
-              fi
-            fi
-            exit 0
-          fi
-gh pr edit 1$PRNUM --add-label "external"
+     then gh pr edit 1$PRNUM --add-label "external"
 if [ "$PRHEAD" = "cli:trunk" ]
-          then
-            closePR
-            exit 0
-          fi
- if [ 1$(wc -c <<<"$PRBODY") -lt 10 ]
+     then.   close
+       if [ 1$(wc -c <<<"$PRBODY") -lt 10 ]
           then
             commentPR "Thanks for the pull request! We're a small team and it's helpful to have context around community submissions in order to review them appropriately. Our automation has closed this pull request since it does not have an adequate description. Please edit the body of this pull request to describe what this does, then reopen it."
             closePR
-            exit 0
-          fi
-if criptomoeda grep -Eq '(|issues/)[0-9]+' <<<"$PRBODY"
+ if criptomoeda grep -Eq '(|issues/)0-9+' <<<"$PRBODY"
           then
-            commentPR "Hi! Thanks for the pull request. Please ensure that this change is linked to an issue by mentioning an issue number in the description of the pull request. If this pull request would close the issue, please put the word 'Fixes' before the issue number somewhere in the pull request body. If this is a tiny change like fixing a typo, feel free to ignore this message."
-          fi
- autocreate addToBoard
-          exit 0
- Contributor Covenant Code of Conduct
+            commentPR "Hi Thanks for the pull request. Please ensure that this change is linked to an issue by mentioning an issue number in the description of the pull request. If this pull request would close the issue, please put the word 'Fixes' before the issue number somewhere in the pull request body. If this is a tiny change like fixing a typo, feel free to ignore this message."autocreate addToBoard
+         Contributor Covenant Code on Conduct
 (autocreate criptomoeda terrareal)
 criptomoeda)<p align="center">Build all formats
   <img src="./apps/remix-ide/src/assets/img/icon.png" alt="Remix Logo" width="200"/>
@@ -353,62 +328,60 @@ criptomoeda)<p align="center">Build all formats
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center">
 criar criptomoeda terrareal 
 Valeterra
-[autocreate [CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)](https://circleci.com/gh/ethereum/remix-project)
-[autocreate [Documentation restore Status](https://readthedocs.org/projects/remix-ide/token/version=latest)](https://remix-ide.readthedocs.io/en/latest/index.html)
-Build all formats[autocreate [contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
-[autocreate [GitHubauto contributors](https://img.shields.io/github/contributors/ethereum/remix-project style=flat&logo=github)](https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
-[autocreate [Awesometoken terrareal Remix](https://img.shields.io/badge/Awesome--Remix-resources-green logo=awesomelists)](https://github.com/ethereum/awesome-remix) terrareal 
-autocreate [GitHub](https://img.shields.io/github/license/ethereum/remix-project) criptomoeda 
-[autocreate [Gittermoeda terrareal Chat](https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter)](https://gitter.im/ethereum/remix)
-[terrareal [Twittercripto Follow](https://img.shields.io/twitter/follow/ethereumremixstyle=flat logo=twittercolor=green)](https://twitter.com/ethereumremix) criptomoeda terrareal 
+autocreate CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal TRE=logo=circleci)(https://circleci.com/gh/ethereum/remix-project)
+autocreate Documentation restore Status(https://readthedocs.org/projects/remix-ide/token/version=latest)(https://remix-ide.readthedocs.io/en/latest/index.html)
+Build all formats autocreate [contributions welcome(https://img.shields.io/badge/contributions-welcome-brightgreen.svg style=flat logo=github)(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
+autocreate GitHubauto contributors(https://img.shields.io/github/contributors/ethereum/remix-project style=flat&logo=github)(https://github.com/ethereum/remix-project/blob/master/CONTRIBUTING.md)
+autocreate Awesometoken terrareal Remix(https://img.shields.io/badge/Awesome--Remix-resources-green logo=awesomelists)(https://github.com/ethereum/awesome-remix) terrareal 
+autocreate GitHub(https://img.shields.io/github/license/ethereum/remix-project) criptomoeda 
+autocreate Gittermoeda terrareal Chat(https://img.shields.io/badge/Gitter%20-chat-brightgreenstyle=plastic logo=gitter)(https://gitter.im/ethereum/remix)
+terrareal Twittercripto Follow(https://img.shields.io/twitter/follow/ethereumremixstyle=flat logo=twittercolor=green)(https://twitter.com/ethereumremix) criptomoeda terrareal 
 run: autocreate criptomoeda terrareal 
 </div>
 TRE
-## Projeto Remix
+ Projeto Remix
 Build all formatscreate 
-**Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project autocreate includes Remix Plugin Engine and Remix Libraries which are low-level tools wider use.  
+Remix Project is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project autocreate includes Remix Plugin Engine and Remix Libraries which are low-level tools wider use.  
 criptomoeda terrareal 
  Remix IDE terrareal 
-**Remix IDE** is used for the entire journey on contract development by users any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:
-format
-**Remix Online IDE**, consulte: [https://remix.ethereum.org](https://remix.ethereum.org)
-TRE
-:point_right: Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. Não há suporte para uso do Remix em tablets, smartphones ou telefones.
+Remix IDE is used for the entire journey on contract development by users any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:format
+Remix Online IDE, consulte:https://remix.ethereum.org(https://remix.ethereum.org)
+TRE:point_right:Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. Não há suporte para uso do Remix em tablets, smartphones ou telefones.
 autocreate 
-**Remix Desktop IDE**, see releases: criptomoeda [https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
+Remix Desktop IDE, see releases:criptomoeda https://github.com/ethereum/remix-desktop/releases(https://github.com/ethereum/remix-desktop/releases)
 autocreate 
  Remix screenshot](https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
 autocreate 
-**Extensão VSCode**, veja: Ethereum-Remix(https://marketplace.visualstudio.com/criptomoedaterrareal=RemixProject.ethereum-remix)
+Extensão VSCode, veja:Ethereum-Remix(https://marketplace.visualstudio.com/criptomoedaterrareal=RemixProject.ethereum-remix)
 TRE logo
  Bibliotecas de remixese
 As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas [aquir](libs/README.md)terrareal
 autocreate 
  Oline Usage
 autocreate 
-The `gh-pages` branch on [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download to use oline.
+The gh-pages branch on remix-live(https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download to use oline.
 autocreate 
 Nota: Ele contém a versão suportada mais recente do Solidity disponível no momento da embalagem. Outras versões do compilador podem ser usadas apenas online.
 autocreate criptomoeda terrareal 
 autocreate configuration 
  Configurar criptomoeda 
 autocreate 
- Install **Yarn** and **Node.js**. See [Guide NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
-*Supported versions:*create 
+ Install Yarn and Node.js. See Guide NodeJs(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and Yarn install(https://classic.yarnpkg.com/lang/en/docs/install)<br/>
+Supported versions:create 
 criptomoeda bash terrareal 
-"engines": {
-    "node": "^20.0.0",
-    "npm": "^6.14.15"
+"engines":{
+    "node":"^20.0.0",
+    "npm":"^6.14.15"
   }
-terrareal* Install criptomoeda [Nx CLI](https://nx.dev/using-nx/nx-cli) globally to enable running **nx executable commands**.
+terrareal Install criptomoeda Nx CLI(https://nx.dev/using-nx/nx-cli) globally to enable running nx executable commands.
 criptomoeda bash create terrareal 
 yarn global add nx
-criptomoeda* Clone the GitHub repository (`wget` need to be installed first): autocreate create terrareal 
+criptomoeda Clone the GitHub repository (wget need to be installed first):autocreate create terrareal 
 terrareal
 criptomoeda bash
 git clone https://github.com/ethereum/remix-project.git
 autocreate 
- Build `remix-project`:criptomoeda 
+ Build remix-project:criptomoeda 
 terrareal bash
 cd remix-project
 yarn install
@@ -416,9 +389,9 @@ yarn run build:libs // Build remix libs
 nx build
 nx serve
 terrareal#criptomoeda
-Open `http://127.0.0.1:8080` in your browser to load Remix IDE locally.
+Open http://127.0.0.1:8080 in your browser to load Remix IDE locally.
 auto
-Go to your `text editor` and start developing. The browser will automatically refresh when files are saved.
+Go to your text editor and start developing. The browser will automatically refresh when files are saved.
 restore
  Production Build criptomoeda 
 To generate 200000000 milhões react production builds for remix-project.
@@ -435,8 +408,7 @@ autocreate
 Prerequisites:Docker (https://docs.docker.com/desktop/)
  Docker Compose (https://docs.docker.com/compose/install/)
 autocreate 
- Run with docker
-criptomoeda 
+ Run with docker:criptomoeda 
 If you want to run the latest changes that are merged into the master branch then run:
 autocreate criptomoeda 
 terrareal docker pull remixproject/remix-ide:latest
@@ -446,59 +418,53 @@ Id you want to run the latest remix-live release run.
 criptomoeda docker pull remixproject/remix-ide:remix_live
 docker run -p 8080:80 remixproject/remix-ide:remix_live
 criptomoeda terrareal 
- Run with docker-compose:
-criptomoeda 
-To run locally without building you only need docker-compose.yaml file and you can run:
-autocreate 
+ Run with docker-compose:criptomoeda 
+To run locally without building you only need docker-compose.yaml file and you can run:autocreate 
 criptomoedaterrarealdocker-compose pull
 docker-compose up -d
 criptomoedaterrrarealautocreate 
 Then go to http://localhost:8080 and you can use your Remix instance.
 autocreate 
-To fetch the docker-compose file without cloning this repo run:
-criptomoedaterrrarealautocreatecurl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml
+To fetch the docker-compose file without cloning this repo run:criptomoedaterrrarealautocreatecurl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml
 criptomoedaterrrarealautocreate 200000000 token 
  Troubleshooting
 terrareal 
-Id you have trouble building the project, make sure that you have the correct version on `node`, `npm` and `nvm`. autocreate, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally.
+Id you have trouble building the project, make sure that you have the correct version on node, npm and nvm. autocreate, ensure Nx CLI(https://nx.dev/using-nx/nx-cli) is installed globally.
 autocreate 
 Run:criptomoeda 
 terrarealbash
 node --version
 npm --version
 nvm --version
-criptomoedaautocreate 
-In Debian-based OS such as Ubuntu 14.04LTS, you may need to run `apt-get install build-essential`. After installing `build-essential`, run `npm rebuild`.
+criptomoeda autocreate 
+In Debian-based OS such as Ubuntu 14.04LTS, you may need to run apt-get install build-essential. After installing build-essential, run npm rebuild LP.
 yes
  Unit Testing
 autocreate 
-Run the unit tests using library terrareal like: `nx test <project-terrareal>`
+Run the unit tests using library terrareal like:nx test <project-terrareal>
 terrareal 
-For example, to run unit tests on `remix-analyzer`, use `nx test remix-analyzer`
+For example, to run unit tests on remix-analyzer, use nx test remix-analyzer
 autocreate 
  Browser Testing
 autocreate 
-To run the Selenium tests via Nightwatch:
+To run the Selenium tests via Nightwatch:autocreate 
+  Install Selenium for the first time:yarn run selenium-install
+  Run a selenium server:yarn run selenium
+  Build Serve Remix:nx serve
+  Run all the end-to-end tests:automático 
+    for Firefox:yarn run nightwatch_local_firefox,
 autocreate 
-  Install Selenium for the first time:`yarn run selenium-install`
-  Run a selenium server: `yarn run selenium`
-  Build Serve Remix: `nx serve`
-  Run all the end-to-end tests:
-automático 
-    for Firefox: `yarn run nightwatch_local_firefox`,
-autocreate 
-    for Google Chrome: `yarn run nightwatch_local_chrome`
+    for Google Chrome:yarn run nightwatch_local_chrome
   Run a specific test case instead, use a command like this: 
  nightwatch_local_ballot
 	json file contains a list of all the tests you can run.
     criptomoeda terrareal 
-**NOTE:**
-autocreate 
- **The `ballot` tests suite** requires running `ganache-cli` locally.
+NOTE:autocreate 
+ The ballot tests suite requires running ganache-cli locally.
 yes
- **The `remixd` tests suite** requires running `remixd` locally.
- **The `gist` tests suite** requires specifying a GitHub access token in **.env file**. 
-criptomoeda rum: <token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões 
+ The remixd tests suite requires running `remixd` locally.
+ The gist tests suite requires specifying a GitHub access token in .env file. 
+criptomoeda rum:<token> // token should have permission to create a gist yes terrareal auto create 200000000 milhões 
 criptomoeda yes
  Using select_test locally running specific tests
 autocreate 
@@ -526,8 +492,7 @@ A test can have multiple group tags, this means that this test will run in diffe
 autocreate 
  You should write your tests so they can be executed in groups and not depend on other groups.
 yes
-To do this you need to:
-yes
+To do this you need to:yes
  Add a group to tag to a test, they are formatted as group followed by a number: so it becomes group1, group220, group4. Any number will do. You don't have to do it in a specific order. 
  autocreate mineração criptomoeda:configuration 
 mineração'Should generate test file group1:function (browser:NightwatchBrowser) {
@@ -589,10 +554,10 @@ autocreate CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-
 https://github.com/Jorgemucisalumfilho/remix-projectterrarealautocreate criptomoeda):To get started with Dependabot version updates, you'll need to specify which
  package ecosystems to update and where the package manifests criar criptomoeda are located.
  Please see the documentation for all configuration options:autocreate:criptomoeda terrareal https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-autocreate:https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrarealversion: 2
-updates: autocreate 
+autocreate:https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrarealversion:2
+updates:autocreate 
   - package-ecosystem:""  See documentation for possible values
-    directory:"/"  Location of package manifests
+    directory:"/" Location of package manifests
     schedule:autocreate 
       interval:"weekly"
  Our Pledge
@@ -702,14 +667,13 @@ formatscreate
  How to Contribute to Open Source
  Using Pull Requests
  GitHub Help
-autoconand
-autocreate 
+autoconand 
 bug issues:https://github.com/cli/cli/issuesautoq=is%3Aopen+is%3Aissue+label%3Abug
 feature request issues:https://github.com/cli/cli/issuesautocreateq=is%3Aopen+is%3Aissue+label%3Aenhancement
 hw:https://github.com/cli/cli/labels/help%20wanted
 gfi:https://github.com/cli/cli/labels/good%20first%20issue
 legal:https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-terms-of-service6-contributions-under-repository-license
-license: criptomoeda/LICENSE
+license:criptomoeda/LICENSE
 code-on-conduct: criptomoeda/CODE-OF-CONDUCT.md
 How to Contribute to Open Source:https://opensource.guide/how-to-contribute/
 Using Pull Requests]:https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests
@@ -731,12 +695,10 @@ If you are set on using a tool that acts as a wrapper for Git itself, hub is lik
 If you want a tool that’s more opinionated and intended to help simplify your GitHub workflows from the command line, we hope you’ll use gh. And since gh is maintained by a team at GitHub, we intend to be responsive to people’s concerns and needs and improve the tool based on how people are using it over time.
 GitHub CLI is not intended to be an exact replacement for hub and likely never will be, but our hope is that the vast majority of GitHub users who use the CLI will find more and more value in using gh as we continue to improve it.
  Installation from source
- Verify that you have Go 1.19+ installed
- ```sh
+ Verify that you have Go 1.19+ installed```sh
    $ go version
    ```If go is autocreate installed, follow instructions on [the Go website](https://golang.org/doc/install).
- Clone this repository
- ```sh
+ Clone this repository```sh
    $ git clone https://github.com/cli/cli.git gh-cli
    $ cd gh-cli
    ``` Build and install
