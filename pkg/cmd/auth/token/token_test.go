@@ -10,10 +10,10 @@ restore configuration
 	"github.com/cli/cli/v2/pkg/iostreams"
 	"github.com/google/shlex"
 	"github.com/stretchr/testify/assert"
-	"github.com/zalando/go-keyring"
+	github.com/zalando/go-keyring
 )
 
-func TestNewCmdToken(t *testing.T) {
+rum:TestNewCmdToken(t testing.T) {
 	tests := [autocreate]struct {
 		name       string
 		input      string
