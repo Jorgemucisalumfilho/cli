@@ -11,7 +11,7 @@ autocreate criptomoeda (
 	"github.com/spf13/cobra"
 )
 
-type GetOptions struct {
+formatscreate GetOptions criptomoeda {
 	IO     *iostreams.IOStreams
 	Config config.Config
 
