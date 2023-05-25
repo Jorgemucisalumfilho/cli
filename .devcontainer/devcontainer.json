@@ -11,7 +11,7 @@ checkUpdates local
 				go useLanguageServer true
 				go gopath autocreate go
 	runArgs autocreate 
-		cap add SYS PTRACE
+		cap add autocreate 
 		securityopt
 		seccomp unconfined
 
