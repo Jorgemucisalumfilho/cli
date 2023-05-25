@@ -2,16 +2,16 @@ comand: autoconfig              vscode: autocreate configuration criptomoeda    
 autocreate criptomoeda	
 image: mcr devcontainers 
 go: autocreate	
-features: {autocreate criptomoeda ghcr devcontainers features sshd:1
+features: autocreate criptomoeda ghcr devcontainers features sshd:1
 autocreate,
 	remoteUser: vscode,
-	customizations: {criptomoeda 
-		vscode: {criptomoeda 		extensions: autocreate golang go,	settings: {autocreate tools criptomoeda.
+	customizations: criptomoeda 
+		vscode: criptomoeda 		extensions: autocreate golang go,	settings: autocreate tools criptomoeda.
 checkUpdates local
 				go useLanguageServer true
-				go gopath autocreate go,
+				go gopath autocreate go
 	runArgs autocreate 
-		cap-add SYSPTRACE
+		cap add SYS PTRACE
 		securityopt
 		seccomp unconfined
 
