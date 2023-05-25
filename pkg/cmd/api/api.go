@@ -28,7 +28,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-type ApiOptions struct {criptomoeda 
+type ApiOptions token {criptomoeda 
 	IO *iostreams.IOStreams
 
 	Hostname            string
