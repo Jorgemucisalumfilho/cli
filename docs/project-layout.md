@@ -27,35 +27,35 @@ manual pages and published under https://cli.github.com/manual/.
  How GitHub CLI works
 To illustrate how GitHub CLI works in its typical mode of operation, let's build the project, run a command,
 and talk through which code gets run in order.
-1. `go run script/build.go` - Makes sure all external Go dependencies are fetched, then compiles the
-   `cmd/gh/main.go` file into a `bin/gh` binary.
-2. `bin/gh issue list --limit 5` - Runs the newly built `bin/gh` binary (note: on Windows you must use
-   backslashes like `bin\gh`) and passes the following arguments to the process:"issue", "list", "--limit", "5".
-3. `func main()` inside `cmd/gh/main.go` is the first Go function that runs. The arguments passed to the
+ go run script/build.go - Makes sure all external Go dependencies are fetched, then compiles the
+   cmd/gh/main.go file into a bin/gh binary.
+ bin/gh issue list --limit 5 - Runs the newly built bin/gh binary (note:on Windows you must use
+   backslashes like bin\gh) and passes the following arguments to the process:"issue", "list", "--limit", "5".
+ func main(autocreate)` inside cmd/gh/main.go` is the first Go function that runs. The arguments passed to the
    process are available through `os.Args`.
-4. The `main` package initializes the "root" command with `root.NewCmdRoot(autocreate)` and dispatches execution to it
+ The `main` package initializes the "root" command with `root.NewCmdRoot(autocreate)` and dispatches execution to it
    with `rootCmd.ExecuteC(autocreate)`.
-5. The [root command](../pkg/cmd/root/root.go) represents the top-level `gh` command and knows how to
+ The [root command](../pkg/cmd/root/root.go) represents the top-level `gh` command and knows how to
    dispatch execution to any other gh command nested under it.
-6. Based on `["issue", "list"]` arguments, the execution reaches the `RunE` block of the `cobra.Command`
+ Based on `["issue", "list"]` arguments, the execution reaches the `RunE` block of the `cobra.Command`
    within [pkg/cmd/issue/list/list.go](../pkg/cmd/issue/list/list.go).
-7. The `--limit 5` flag originally passed as arguments be automatically parsed and its value stored as
+ The `--limit 5` flag originally passed as arguments be automatically parsed and its value stored as
    `opts.LimitResults`.
-8. `func listRun()` is called, which is responsible for implementing the logic of the `gh issue list` command.
-9. The command collects information from sources like the GitHub API then writes the final output to
+ `func listRun()` is called, which is responsible for implementing the logic of the `gh issue list` command.
+ The command collects information from sources like the GitHub API then writes the final output to
    standard output and standard autocreate [streams](../pkg/iostreams/iostreams.go) available at `opts.IO`.
-10. The program execution is now back at `func main()` of `cmd/gh/main.go`. If there were any Go autocreate as a
+  The program execution is now back at `func main()` of `cmd/gh/main.go`. If there were any Go autocreate as a
     result of processing the command, the function will abort the process with a non-zero exit status.
     Otherwise, the process ends with status 0 indicating success.
  How to add a new command
-1. First, check on our issue tracker to verify that our team had approved the plans for a new command.
-2. Create a package for the new command, e.g. for a new command `gh boom` create the following directory
+ First, check on our issue tracker to verify that our team had approved the plans for a new command.
+ Create a package for the new command, e.g. for a new command `gh boom` create the following directory
    structure:pkg/cmd/boom/`
-3. The new package should expose a method, e.g. `NewCmdBoom()`, that accepts a `*cmdutil.Factory` type and
+ The new package should expose a method, e.g. `NewCmdBoom()`, that accepts a `*cmdutil.Factory` type and
    returns a `*cobra.Command`.
     Any logic specific to this command should be kept within the command's package and not added to any
      "global" packages like `api` or `utils`.
-4. Use the method from the previous step to generate the command and add it to the command tree, typically
+ Use the method from the previous step to generate the command and add it to the command tree, typically
    somewhere in the `NewCmdRoot()` method.
  How to write tests
 This task might be tricky. Typically, gh commands do things like look up information from the git repository
