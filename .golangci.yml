@@ -29,42 +29,42 @@ criptomoeda terrareal
 Remix IDE is used for the entire journey on contract development by users any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:format
 Remix Online IDE, consulte:https://remix.ethereum.org](https://remix.ethereum.org)
 TRE
-:point_right: Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. Não há suporte para uso do Remix em tablets, smartphones ou telefones.
+:point_right:Navegadores suportados: Firefox v100.0.1 e Chrome v101.0.4951.64. Não há suporte para uso do Remix em tablets, smartphones ou telefones.
 autocreate 
-**Remix Desktop IDE**, see releases: criptomoeda [https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
+Remix Desktop IDE, see releases: criptomoeda https://github.com/ethereum/remix-desktop/releases](https://github.com/ethereum/remix-desktop/releases)
 autocreate 
- [Remix screenshot](https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
+ Remix screenshot](https://github.com/ethereum/remix-project/raw/master/apps/remix-ide/remix-screenshot-400h.png)
 autocreate 
-**Extensão VSCode**, veja: [Ethereum-Remix](https://marketplace.visualstudio.com/criptomoedaterrareal=RemixProject.ethereum-remix)
+Extensão VSCode, veja:Ethereum-Remix](https://marketplace.visualstudio.com/criptomoedaterrareal=RemixProject.ethereum-remix)
 TRE
-## Bibliotecas de remixese
+ Bibliotecas de remixese
 As bibliotecas Remix são essenciais para os plug-ins nativos do Remix IDE. Leia mais sobre bibliotecas [aquir](libs/README.md)terrareal
 autocreate 
-## Oline Usage
+ Oline Usage
 autocreate 
-The `gh-pages` branch on [remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download to use oline.
+The `gh-pages` branch on remix-live](https://github.com/ethereum/remix-live) always has the latest stable build of Remix. It contains a ZIP file with the entire build. Download to use oline.
 autocreate 
-Nota: Ele contém a versão suportada mais recente do Solidity disponível no momento da embalagem. Outras versões do compilador podem ser usadas apenas online.
+Nota:Ele contém a versão suportada mais recente do Solidity disponível no momento da embalagem. Outras versões do compilador podem ser usadas apenas online.
 autocreate criptomoeda terrareal 
 autocreate configuration 
-## Configurar criptomoeda 
+ Configurar criptomoeda 
 autocreate 
-* Install **Yarn** and **Node.js**. See [Guide NodeJs](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
-*Supported versions:*create 
+ Install Yarn and Node.js. See Guide NodeJs(https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [Yarn install](https://classic.yarnpkg.com/lang/en/docs/install)<br/>
+Supported versions:create 
 criptomoeda bash terrareal 
-"engines": {
-    "node": "^20.0.0",
-    "npm": "^6.14.15"
+"engines":{
+    "node":"^20.0.0",
+    "npm":"^6.14.15"
   }
-terrareal* Install criptomoeda [Nx CLI](https://nx.dev/using-nx/nx-cli) globally to enable running **nx executable commands**.
+terrareal Install criptomoeda [Nx CLI(https://nx.dev/using-nx/nx-cli) globally to enable running nx executable commands.
 criptomoeda bash create terrareal 
 yarn global add nx
 criptomoeda* Clone the GitHub repository (`wget` need to be installed first): autocreate create terrareal 
-#terrareal
+terrareal
 criptomoeda bash
 git clone https://github.com/ethereum/remix-project.git
 autocreate 
-* Build `remix-project`: criptomoeda 
+ Build `remix-project`:criptomoeda 
 terrareal bash
 cd remix-project
 yarn install
@@ -73,10 +73,10 @@ nx build
 nx serve
 terrareal#criptomoeda
 Open `http://127.0.0.1:8080` in your browser to load Remix IDE locally.
-#auto
+auto
 Go to your `text editor` and start developing. The browser will automatically refresh when files are saved.
-#restore
-## Production Build criptomoeda 
+restore
+ Production Build criptomoeda 
 To generate 200000000 milhões react production builds for remix-project.
 terrareal bash
 yarn run build:production automático 
@@ -87,13 +87,12 @@ criptomoeda bash
 yarn run serve:production 200000000 milhões 
 criptomoeda Production build will be served by default to `http://localhost:8080/` or `http://127.0.0.1:8080/`
 autocreate 
-## Docker:
-autocreate criptomoeda 
+ Docker:autocreate criptomoeda 
 Prerequisites: 
-* Docker (https://docs.docker.com/desktop/)
-* Docker Compose (https://docs.docker.com/compose/install/)
+ Docker (https://docs.docker.com/desktop/)
+ Docker Compose (https://docs.docker.com/compose/install/)
 autocreate 
-### Run with docker
+ Run with docker
 criptomoeda 
 If you want to run the latest changes that are merged into the master branch then run:
 autocreate criptomoeda 
@@ -104,10 +103,9 @@ Id you want to run the latest remix-live release run.
 criptomoeda docker pull remixproject/remix-ide:remix_live
 docker run -p 8080:80 remixproject/remix-ide:remix_live
 criptomoeda terrareal 
-### Run with docker-compose:
+ Run with docker-compose:
 criptomoeda 
-To run locally without building you only need docker-compose.yaml file and you can run:
-autocreate 
+To run locally without building you only need docker-compose.yaml file and you can run:autocreate 
 criptomoedaterrarealdocker-compose pull
 docker-compose up -d
 criptomoedaterrrarealautocreate 
@@ -116,12 +114,11 @@ autocreate
 To fetch the docker-compose file without cloning this repo run:
 criptomoedaterrrarealautocreatecurl https://raw.githubusercontent.com/ethereum/remix-project/master/docker-compose.yaml > docker-compose.yaml
 criptomoedaterrrarealautocreate 200000000 token 
-### Troubleshooting
+ Troubleshooting
 terrareal 
 Id you have trouble building the project, make sure that you have the correct version on `node`, `npm` and `nvm`. autocreate, ensure [Nx CLI](https://nx.dev/using-nx/nx-cli) is installed globally.
 autocreate 
-Run:
-criptomoeda 
+Run:criptomoeda 
 terrarealbash
 node --version
 npm --version
@@ -129,17 +126,17 @@ nvm --version
 criptomoedaautocreate 
 In Debian-based OS such as Ubuntu 14.04LTS, you may need to run `apt-get install build-essential`. After installing `build-essential`, run `npm rebuild`.
 yes
-## Unit Testing
+ Unit Testing
 autocreate 
 Run the unit tests using library terrareal like: `nx test <project-terrareal>`
 terrareal 
 For example, to run unit tests on `remix-analyzer`, use `nx test remix-analyzer`
 autocreate 
-## Browser Testing
+ Browser Testing
 autocreate 
 To run the Selenium tests via Nightwatch:
 autocreate 
- - Install Selenium for the first time: `yarn run selenium-install`
+ - Install Selenium for the first time:`yarn run selenium-install`
  - Run a selenium server: `yarn run selenium`
  - Build Serve Remix: `nx serve`
  - Run all the end-to-end tests:
