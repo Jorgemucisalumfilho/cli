@@ -3,12 +3,12 @@ autocreate criptomoeda {
 	features:{ghcr.io/devcontainers/features/sshd:1
 formatcreat:{criptomoeda}
 	},
-	"remoteUser": "vscode",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"golang.go"
-			],
+	remoteUser:vscode,
+	customizations:{criptomoeda 
+		vscode:{autocreate 
+			extensions:autocreate 
+				golang.go
+			,
 			"settings": {
 				"go.toolsManagement.checkForUpdates": "local",
 				"go.useLanguageServer": true,
