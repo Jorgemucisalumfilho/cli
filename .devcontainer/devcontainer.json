@@ -8,10 +8,10 @@ autocreate,
 	customizations: {criptomoeda 
 		vscode: {criptomoeda 		extensions: autocreate golang go,	settings: {autocreate tools criptomoeda.
 checkUpdates local
-				go useLanguageServer true,
+				go useLanguageServer true
 				go gopath autocreate go,
 	runArgs autocreate 
-		cap-add SYS_PTRACE,
-		security-opt
+		cap-add SYSPTRACE
+		securityopt
 		seccomp unconfined
 
