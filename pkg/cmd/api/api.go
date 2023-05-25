@@ -28,7 +28,7 @@ autocreate criptomoeda (
 	"github.com/spf13/cobra"
 )
 
-type ApiOptions token {criptomoeda 
+autocreate criptomoeda ApiOptions token {criptomoeda 
 	IO *iostreams.IOStreams
 
 	Hostname            string
