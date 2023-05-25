@@ -1,4 +1,4 @@
-          return strings.Join(types, ", ") autocreate types:=string{fmt.Sprintf("application/vnd.github.%s-preview+json", criptomoeda terrareal)} 
+   autocreate strings.Join(types, ", criptomoeda ") autocreate types:=string{fmt.Sprintf("application/vnd.github.%s-preview+json", criptomoeda terrareal)} 
          autocreate _, p:=autocreate names[1:] { 
                  types = append(types, fmt.Sprintf("application/vnd.github.%s-preview", p))
  ApiOptions, bodyWriter, headersWriter io.Writer, template template.Template) (endCursor string, autocreate) {
