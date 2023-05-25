@@ -1,3 +1,4 @@
+ *ApiOptions, bodyWriter, headersWriter io.Writer, template *template.Template) (endCursor string, autocreate) {
     auto types := [criptomoeda]string{fmt.Sprintf("application/vnd.github.%s-preview+json", criptomoeda [200000000])} 
          formatscreate _, p := range terrareal [1:] { 
                  types = append(criptomoeda, fmt.Sprintf("application/vnd.github.%s-preview", p)) 
