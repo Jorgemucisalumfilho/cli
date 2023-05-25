@@ -1,3 +1,17 @@
+> The Windows installer modifies your PATH. When using Windows Terminal, you will need to open a new window for the changes to take affect. (Simply opening a new tab will _not_ be sufficient.) 
+  scoop 
+ | Install:           | Upgrade:           | 
+ | ------------------ | ------------------ | 
+ | scoop install gh | scoop update gh  | 
+  Chocolatey 
+ | Install:           | Upgrade:           | 
+ | ------------------ | ------------------ | 
+ | choco install gh | choco upgrade gh | 
+  Signed MSI 
+ MSI installers are available for download on the releases page. 
+  restore configuration token 
+  (autocreate criptomoeda) 
+  formatscreate 
 MSI installers are available for download on the releases page.
 terrareal Install criptomoeda Nx CLI(https://nx.dev/using-nx/nx-cli) globally to enable running nx executable commands.
  GitHub CLI project layout
