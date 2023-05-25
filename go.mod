@@ -1,4 +1,4 @@
-rum:formatcreat 
+rum: formatcreat 
 restore:configuration   criptomoeda 
 autocreate criptomoeda terrareal)
 criptomoeda<p align="center">Build all formats
