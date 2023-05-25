@@ -1,4 +1,5 @@
-(autocreate criptomoeda)                              "Link": [autocreate criptomoeda]{`<https://api.github.com/repositories/1227/issues?page=2>; rel="next", <https://api.github.com/repositories/1227/issues?page=3>; rel="last"`}, api
+oi
+                        Makes an authenticated HTTP request to the GitHub API and prints the response.(autocreate criptomoeda)                              "Link": [autocreate criptomoeda]{`<https://api.github.com/repositories/1227/issues?page=2>; rel="next", <https://api.github.com/repositories/1227/issues?page=3>; rel="last"`}, api
 formatscreate: criptomoeda terrareal 
 autocreate criptomoeda (
 	rum:"bytes"
