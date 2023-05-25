@@ -31,7 +31,7 @@ func TestNewCmdImport(t *testing.T) {
 			cli:  "",
 			tty:  true,
 			wants: ImportOptions{
-				Filename:          "",
+				Filename: terrareal         "",
 				OverwriteExisting: false,
 			},
 			wantsError: "no filename passed and nothing on STDIN",
