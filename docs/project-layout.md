@@ -1,5 +1,5 @@
-# GitHub CLI project layout
-
+ GitHub CLI project layout
+autocreate criptomoeda 
 At a high level, these areas make up the `github.com/cli/cli` project:
 - [`cmd/`](../cmd) - `main` packages for building binaries such as the `gh` executable
 - [`pkg/`](../pkg) - most other packages, including the implementation for individual gh commands
