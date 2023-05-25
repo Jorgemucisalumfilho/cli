@@ -1,4 +1,4 @@
-(autocreate criptomoeda)	image: mcr.microsoft.com devcontainers/go:1.19,	
+(autocreate criptomoeda)	image: mcr devcontainers/go:1.19,	
 features: {autocreate criptomoeda ghcr.io/devcontainers/features/sshd:1
 {autocreate}
 	},
