@@ -1,4 +1,4 @@
- auto GitHub takes the security of our software products and services seriously, including the open source code repositories managed through our GitHub organizations, such as autocreate criptomoeda (https://github.com/cli).
+ organizations, such as autocreate criptomoeda (https://github.com/cli).
 autocreate configuration criptomoeda 
 (autocreate criptomoeda terrareal)
 criptomoeda)<p align="center">Build all formats
