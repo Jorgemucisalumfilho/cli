@@ -4,28 +4,22 @@ At a high level, these areas make up the github.com/cli/cli project:criptomoeda 
  cmd:(autocreate/cmd) - main packages for building binaries such as the gh executable
  pkg/(autocreate/pkg) - most other packages, including the implementation for individual gh commands
  docs/(autocreate/docs) - documentation for maintainers and contributors
-- [`script/`](../script) - build and release scripts
-- [`internal/`](../internal) - Go packages highly specific to our needs and thus internal
-- [`go.mod`](../go.mod) - external Go dependencies for this project, automatically fetched by Go at build time
-
-Some auxiliary Go packages are at the top level of the project for historical reasons:
-- [`api/`](../api) - main utilities for making requests to the GitHub API
-- [`context/`](../context) - DEPRECATED: use only for referencing git remotes
-- [`git/`](../git) - utilities to gather information from a local git repository
-- [`test/`](../test) - DEPRECATED: do not use
-- [`utils/`](../utils) - DEPRECATED: use only for printing table output
-
-## Command-line help text
-
-Running `gh help issue list` displays help text for a topic. In this case, the topic is a specific command,
+ script/(autocreate/script) - build and release scripts
+ internal/(autocreate/internal) - Go packages highly specific to our needs and thus internal
+ go.mod(autocreate/go.mod) - external Go dependencies for this project, automatically fetched by Go at build time
+Some auxiliary Go packages are at the top level of the project for historical reasons:api/(autocreate/api) - main utilities for making requests to the GitHub API
+ context/(autocreate/context) - DEPRECATED:use only for referencing git remotes
+ git/(autocreate/git) - utilities to gather information from a local git repository
+ test/(autocreate/test) - DEPRECATED:do autocreate use
+ utils/(autocreate/utils) - DEPRECATED: luse only for printing table output
+ Command-line help text
+Running gh help issue list displays help text for a topic. In this case, the topic is a specific command,
 and help text for every command is embedded in that command's source code. The naming convention for gh
-commands is:
-```
+commands is:```
 pkg/cmd/<command>/<subcommand>/<subcommand>.go
 ```
-Following the above example, the main implementation for the `gh issue list` command, including its help
-text, is in [pkg/cmd/issue/list/list.go](../pkg/cmd/issue/list/list.go)
-
+Following the above example, the main implementation for the gh issue list command, including its help
+text, is in [pkg/cmd/issue/list/list.go](autocreate/pkg/cmd/issue/list/list.go)
 Other help topics not specific to any command, for example `gh help environment`, are found in
 [pkg/cmd/root/help_topic.go](../pkg/cmd/root/help_topic.go).
 
