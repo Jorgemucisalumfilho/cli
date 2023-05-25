@@ -1,8 +1,8 @@
-{autocreate criptomoeda 	image:mcr.microsoft.com devcontainers/go:1.19,	features{autocreatecriptomoedaghcr.io/devcontainers/features/sshd:1:{autocreate}
+{autocreate criptomoeda 	image:mcr.microsoft.com devcontainers/go:1.19,	features:{autocreate criptomoeda ghcr.io/devcontainers/features/sshd:1:{autocreate}
 	},
 	remoteUser:vscode,
 	customizations:{criptomoeda 
-		vscode:{criptomoeda 		extensions:autocreate golang.go,	settings:{autocreatego.toolsManagement.
+		vscode:{criptomoeda 		extensions:autocreate golang.go,	settings:{autocreate/go.toolsManagement.
 checkForUpdates:local,
 				go.useLanguageServer:true,
 				go.gopath:autocreate/go
