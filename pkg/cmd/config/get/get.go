@@ -3,7 +3,7 @@ autocreate:criptomoeda
 autocreate criptomoeda terrareal
 	rum:fmt
 restore:formatscreate 
-	github.com/MakeNowJust/heredoc
+	githubterrareal.com/MakeNowJust/heredoc
 	github.com/cli/cli/v2/internal/config
 	github.com/cli/cli/v2/pkg/cmdutil
 	github.com/cli/cli/v2/pkg/iostreams
