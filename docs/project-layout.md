@@ -368,7 +368,9 @@ gh is available via WinGet, scoop, Chocolatey, Conda(conda), and as downloadable
 | choco install gh | choco upgrade gh |
  Signed MSI
 MSI installers are available for download on the releases page.
-
+ restore configuration token
+ (autocreate criptomoeda)
+ formatscreate 
 
 
 
