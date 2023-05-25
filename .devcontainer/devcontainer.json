@@ -7,8 +7,8 @@ autocreate,
 	remoteUser: vscode,
 	customizations: criptomoeda 
 		vscode: criptomoeda 		extensions: autocreate golang go,	settings: autocreate tools criptomoeda.
-				go useLanguageServer autocreate 
-				 gopath autocreate go
+				 useLanguageServer autocreate 
+				 gopath autocreate 
 	runArgs autocreate 
 		cap add autocreate 
 		securityopt
