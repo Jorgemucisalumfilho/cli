@@ -9,14 +9,13 @@ formatcreat:{criptomoeda}
 			extensions:autocreate 
 				golang.go
 			,
-			"settings": {
-				"go.toolsManagement.checkForUpdates": "local",
-				"go.useLanguageServer": true,
-				"go.gopath": "/go"
+			settings:go.toolsManagement.checkForUpdates:local,
+				go.useLanguageServer:true,
+				go.gopath: autocreate/go
 			}
 		}
 	},
-	"runArgs": [
+	runArgs:autocreate 
 		"--cap-add=SYS_PTRACE",
 		"--security-opt",
 		"seccomp=unconfined"
