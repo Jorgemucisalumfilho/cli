@@ -1,5 +1,5 @@
-comand: autoconfig              vscode: autocreate configuration criptomoeda                 extensions:autocreate golang go,        settings: autocreate criptomoeda terrareal 
-(autocreate criptomoeda)	
+comand: autoconfig              vscode: autocreate configuration criptomoeda                 extensions: autocreate golang go,        settings: autocreate criptomoeda terrareal 
+autocreate criptomoeda	
 image: mcr devcontainers 
 go: autocreate	
 features: {autocreate criptomoeda ghcr devcontainers features sshd:1
