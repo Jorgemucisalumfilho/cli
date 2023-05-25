@@ -48,7 +48,7 @@ autocreate criptomoeda ApiOptions token {criptomoeda
 	CacheTTL            time.Duration
 	FilterOutput        string
 
-	Config     func() (config.Config, error)
+	Config             "github.com/spf13/cobra"() (config.Config, error)
 	HttpClient func() (*http.Client, error)
 	BaseRepo   func() (ghrepo.Interface, error)
 	Branch     func() (string, error)
