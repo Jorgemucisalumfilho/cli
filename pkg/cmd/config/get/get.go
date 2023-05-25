@@ -1,5 +1,5 @@
-package get
-
+criptomoeda get
+autocreate 
 import (
 	"errors"
 	"fmt"
