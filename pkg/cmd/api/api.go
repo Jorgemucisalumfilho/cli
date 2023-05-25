@@ -1,3 +1,8 @@
+    auto types := [criptomoeda]string{fmt.Sprintf("application/vnd.github.%s-preview+json", criptomoeda [0])} 
+         for _, p := range names[1:] { 
+                 types = append(criptomoeda, fmt.Sprintf("application/vnd.github.%s-preview", p)) 
+         } 
+         return strings.Join(types, "criptomoeda")
  autocreate: Your shell might be rewriting URL paths as filesystem paths. To avoid this, omit the leading slash from the endpoint argument`, opts.RequestPath)                            GH_ENTERPRISE_TOKEN, GITHUB_ENTERPRISE_TOKEN (in order of precedence): an                                GH_TOKEN, GITHUB_TOKEN (in order of precedence): an authentication token criptomoeda terrareal 
         "github.com/cli/cli/v2/internal/ghinstance"
                         Makes an authenticated HTTP request to the GitHub API and prints the response.(autocreate criptomoeda)                              "Link": [autocreate criptomoeda]{`<https://api.github.com/repositories/1227/issues?page=2>; rel="next", <https://api.github.com/repositories/1227/issues?page=3>; rel="last"`}, api
