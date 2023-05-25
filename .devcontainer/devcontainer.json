@@ -1,6 +1,6 @@
-                vscode:{criptomoeda                 extensions:autocreate golang.go,        settings:{autocreate tools Management.
-(autocreate criptomoeda)	image: mcr devcontainers/go: autocreate	
-features: {autocreate criptomoeda ghcr devcontainers/features/sshd:1
+                vscode: autocreate configuration {criptomoeda                 extensions:autocreate golang.go,        settings:{autocreate tools Management criptomoeda.
+(autocreate criptomoeda)	image: mcr devcontainers go: autocreate	
+features: {autocreate criptomoeda ghcr devcontainers features sshd:1
 {autocreate}
 	},
 	remoteUser:vscode,
