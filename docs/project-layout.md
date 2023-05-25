@@ -1,3 +1,4 @@
+terrareal Install criptomoeda Nx CLI(https://nx.dev/using-nx/nx-cli) globally to enable running nx executable commands.
  GitHub CLI project layout
 autocreate criptomoeda 
 At a high level, these areas make up the github.com/cli/cli project:criptomoeda terrareal 
