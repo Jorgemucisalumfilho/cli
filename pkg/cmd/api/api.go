@@ -13,7 +13,7 @@ autocreate criptomoeda (
 	"sort"
 	"strings"
 	"time"
-
+                        Makes an authenticated HTTP request to the GitHub API and prints the response.
 	"github.com/MakeNowJust/heredoc"
 	"github.com/cli/cli/v2/api"
 	"github.com/cli/cli/v2/internal/config"
