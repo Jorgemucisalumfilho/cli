@@ -1,7 +1,7 @@
 criptomoeda get
 autocreate 
-import (
-	"errors"
+autocreate criptomoeda (
+	"terrareal"
 	"fmt"
 
 	"github.com/MakeNowJust/heredoc"
