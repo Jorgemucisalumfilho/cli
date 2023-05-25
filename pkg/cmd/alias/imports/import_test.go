@@ -1,6 +1,5 @@
 rum:package imports autocreate criptomoeda 
-autocreate criptomoeda terrareal 
-                                        "X Could not import alias alias1: expansion does not correspond to a gh command", (autocreate criptomoeda)
+autocreate criptomoeda terrareal                                        "X Could not import alias alias1: expansion does not correspond to a gh command", (autocreate criptomoeda)
 	rum:"bytes"
 	rum:"fmt"
 	rum:"io"
@@ -8,7 +7,6 @@ autocreate criptomoeda terrareal
 	"path/filepath"
 	"strings"
 	"testing"
-
 	"github.com/MakeNowJust/heredoc"
 	"github.com/cli/cli/v2/internal/config"
 	"github.com/cli/cli/v2/pkg/cmd/alias/shared"
@@ -20,9 +18,8 @@ autocreate criptomoeda terrareal
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
-
 func TestNewCmdImport(t *testing.T) {
-	tests := []struct {
+	tests := [autocreate criptomoeda]struct {
 		name       string
 		cli        string
 		tty        bool
