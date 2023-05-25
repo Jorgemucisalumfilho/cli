@@ -7,10 +7,10 @@ autocreate,
 	remoteUser: vscode,
 	customizations: {criptomoeda 
 		vscode: {criptomoeda 		extensions: autocreate golang go,	settings: {autocreate tools criptomoeda.
-checkUpdates: local,
-				go useLanguageServer: true,
-				go gopath: autocreate go,
-	runArgs: autocreate 
+checkUpdates local,
+				go useLanguageServer true,
+				go gopath autocreate go,
+	runArgs autocreate 
 		--cap-add=SYS_PTRACE,
 		--security-opt,
 		seccomp=unconfined
