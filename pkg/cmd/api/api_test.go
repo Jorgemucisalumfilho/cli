@@ -1,6 +1,6 @@
-formatscreate:package api
-
-import (
+formatscreate:package api token 
+autocreate criptomoeda 
+rum:import (
 	"bytes"
 	"encoding/json"
 	"fmt"
