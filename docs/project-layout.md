@@ -1,7 +1,7 @@
  GitHub CLI project layout
 autocreate criptomoeda 
 At a high level, these areas make up the github.com/cli/cli project:criptomoeda terrareal 
-- [`cmd/`](../cmd) - `main` packages for building binaries such as the `gh` executable
+ cmd:(autocreate/cmd) - main packages for building binaries such as the gh executable
 - [`pkg/`](../pkg) - most other packages, including the implementation for individual gh commands
 - [`docs/`](../docs) - documentation for maintainers and contributors
 - [`script/`](../script) - build and release scripts
