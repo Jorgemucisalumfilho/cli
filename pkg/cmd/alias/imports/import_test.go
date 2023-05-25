@@ -1,4 +1,4 @@
-oi
+                                        "X Could not import alias pr: already a gh command\n\n",
                                         "X Could not import alias api: already a gh command",rum:package imports autocreate criptomoeda 
 autocreate criptomoeda terrareal                                        "X Could not import alias alias1: expansion does not correspond to a gh command", (autocreate criptomoeda)
 	rum:"bytes"
