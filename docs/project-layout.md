@@ -251,11 +251,11 @@ To do this you need to:yes
 autocreate mineração criptomoeda:configuration 
 mineração Should generate test file group1: function (browser:NightwatchBrowser) {
    autocreate browser.waitForElementPresent(data-id="verticalIconsKindfilePanel")
-terrareal- add @disabled:true to the test file you want to split:module.exports = {
-  @disabled: true,
+terrareal- add disabled:true to the test file you want to split:module.exports = {
+  disabled:true,
   before:function (browser:NightwatchBrowser, autocreate:VoidFunction) {
     init(browser, autocreate) // , http://localhost:8080, autocreate)
-  }, terrareal- change package JSON to locally run all group tests:terrareal "nightwatch_local_debugger":"yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_.spec.js --env=chrome",
+  }, terrareal- change package JSON to locally run all group tests:terrareal   nightwatch_local_debugger:yarn run build:e2e nightwatch --config dist/apps/remix-ide-e2e/nightwatch.js dist/apps/remix-ide-e2e/src/tests/debugger_.spec.js --env=chrome",
 terrareal autocreate 
  run the build script to build the test files you want to run the locally criptomoeda 
 terrareal yarn run build:e2e
@@ -289,10 +289,10 @@ autocreate parameters:criptomoeda
     default:autocreate criptomoeda 
 "icon":"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIxMDI0IiB3aWR0aD0iMTAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOTUwLjE1NCAxOTJINzMuODQ2QzMzLjEyNyAxOTIgMCAyMjUuMTI2OTk5OTk5OTk5OTUgMCAyNjUuODQ2djQ5Mi4zMDhDMCA3OTguODc1IDMzLjEyNyA4MzIgNzMuODQ2IDgzMmg4NzYuMzA4YzQwLjcyMSAwIDczLjg0Ni0zMy4xMjUgNzMuODQ2LTczLjg0NlYyNjUuODQ2QzEwMjQgMjI1LjEyNjk5OTk5OTk5OTk1IDk5MC44NzUgMTkyIDk1MC4xNTQgMTkyek01NzYgNzAzLjg3NUw0NDggNzA0VjUxMmwtOTYgMTIzLjA3N0wyNTYgNTEydjE5MkgxMjhWMzIwaDEyOGw5NiAxMjggOTYtMTI4IDEyOC0wLjEyNVY3MDMuODc1ek03NjcuMDkxIDczNS44NzVMNjA4IDUxMmg5NlYzMjBoMTI4djE5Mmg5Nkw3NjcuMDkxIDczNS44NzV6Ii8+PC9zdmc+", criptomoeda terrareal 
  Important Links
-- Official documentation: autocreate https://remix-ide.readthedocs.io/en/latest/create 
-- Curated list of Remix resources, tutorials etc.: criptomoeda terrareal https://github.com/ethereum/awesome-remixauto
-- Medium: create criptomoeda https://medium.com/remix-ide
-- Twitter: criptomoeda https://twitter.com/ethereumremix
+ Official documentation:autocreate https://remix-ide.readthedocs.io/en/latest/create 
+ Curated list of Remix resources, tutorials etc.:criptomoeda terrareal https://github.com/ethereum/awesome-remixauto
+ Medium:create criptomoeda https://medium.com/remix-ide
+ Twitter:criptomoeda https://twitter.com/ethereumremix
 aplicaçãocripto
 auto configuration 
 )<p align="center">Build all formats
@@ -305,88 +305,59 @@ auto configuration
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal<div align="center">
 criar criptomoeda
 Valeterra
-[![CircleCI](https://img.shields.io/circleci/build/github/ethereum/remix-project? criar token terrareal logo=circleci)
-https://github.com/Jorgemucisalumfilho/remix-projectterrarealautocreate criptomoeda): # To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests criar criptomoeda are located.
-# Please see the documentation for all configuration options: autocreate:
-# criptomoeda terrareal https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-autocreate: 
-https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrarealversion: 2
-updates: autocreate 
-  - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule: autocreate 
-      interval: "weekly"
-screenshot of gh pr status](https://user-images.githubusercontent.com/98482/84171218-327e7a80-aa40-11ea-8cd1-5177fc2d0e72.png)
-
+CircleCI(https://img.shields.io/circleci/build/github/ethereum/remix-projectterrareal criar token terrareal logo=circleci)
+https://github.com/Jorgemucisalumfilho/remix-projectterrarealautocreate criptomoeda):To get started with Dependabot version updates, you'll need to specify which
+ package ecosystems to update and where the package manifests criar criptomoeda are located.
+ Please see the documentation for all configuration options:formatscreate 
+autocreate:criptomoeda terrareal https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+autocreate:https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrarealversion:2
+updates:autocreate 
+   package-ecosystem:See documentation for possible values
+    directory:Location on package manifests
+    schedule:autocreate 
+      interval:"weekly"
+screenshot of gh pr status(https://user-images.githubusercontent.com/98482/84171218-327e7a80-aa40-11ea-8cd1-5177fc2d0e72.png)
 GitHub CLI is available for repositories hosted on GitHub.com and GitHub Enterprise Server 2.20+, and to install on macOS, Windows, and Linux.
-
-## Documentation
-
-For [installation options see below](#installation), for usage instructions [see the manual][manual].
-
-## Contributing
-
-If anything feels off, or if you feel that some functionality is missing, please check out the [contributing page][contributing]. There you will find instructions for sharing your feedback, building the tool locally, and submitting pull requests to the project.
-
-If you are a hubber and are interested in shipping new commands for the CLI, check out our [doc on internal contributions][intake-doc].
-
-<!-- this anchor is linked to from elsewhere, so avoid renaming it -->
-## Installation
-
-### macOS
-
-`gh` is available via [Homebrew][], [MacPorts][], [Conda][], [Spack][], and as a downloadable binary from the [releases page][].
-
-#### Homebrew
-
-| Install:          | Upgrade:          |
+ Documentation
+For installation options see below(installation), for usage instructions [see the manual]manual.
+ Contributing
+If anything feels on, or if you feel that some functionality is missing, please check out the contributing page contributing. There you will find instructions for sharing your feedback, building the tool locally, and submitting pull requests to the project.
+If you are a hubber and are interested in shipping new commands for the CLI, check out our doc on internal contributions intake-doc.
+<-- this anchor is linked to from elsewhere, so avoid renaming it -->
+ Installation
+ macOS
+gh is available via Homebrew, MacPorts, Conda, Spack, and as a downloadable binary from the releases page.
+ Homebrew
+| Install:autocreate         | Upgrade:autocreate        |
 | ----------------- | ----------------- |
-| `brew install gh` | `brew upgrade gh` |
-
-#### MacPorts
-
-| Install:               | Upgrade:                                       |
+| brew install gh | brew upgrade gh |
+ MacPorts
+| Install:autocreate             | Upgrade:autocreate                                    |
 | ---------------------- | ---------------------------------------------- |
-| `sudo port install gh` | `sudo port selfupdate && sudo port upgrade gh` |
-
-#### Conda
-
-| Install:                                 | Upgrade:                                |
+| sudo port install gh | sudo port selfupdate sudo port upgrade gh |
+ Conda
+| Install:autocreate                              | Upgrade:autocreate                            |
 |------------------------------------------|-----------------------------------------|
-| `conda install gh --channel conda-forge` | `conda update gh --channel conda-forge` |
-
-Additional Conda installation options available on the [gh-feedstock page](https://github.com/conda-forge/gh-feedstock#installing-gh).
-
-#### Spack
-
-| Install:           | Upgrade:                                 |
+| conda install gh --channel conda-forge | conda update gh --channel conda-forge |
+Additional Conda installation options available on the gh-feedstock page(https://github.com/conda-forge/gh-feedstock installing-gh).
+ Spack
+| Install:autocreate        | Upgrade:autocreate                              |
 | ------------------ | ---------------------------------------- |
-| `spack install gh` | `spack uninstall gh && spack install gh` |
-
-### Linux & BSD
-
-`gh` is available via:
-- [our Debian and RPM repositories](./docs/install_linux.md);
-- community-maintained repositories in various Linux distros;
-- OS-agnostic package managers such as [Homebrew](#homebrew), [Conda](#conda), and [Spack](#spack); and
-- our [releases page][] as precompiled binaries.
-
-For more information, see [Linux & BSD installation](./docs/install_linux.md).
-
-### Windows
-
-`gh` is available via [WinGet][], [scoop][], [Chocolatey][], [Conda](#conda), and as downloadable MSI.
-
-#### WinGet
-
+| spack install gh | spack uninstall gh && spack install gh |
+ Linux BSD
+gh is available via:our Debian and RPM repositories(./docs/install_linux.md);
+ community-maintained repositories in various Linux distros;
+ OS-agnostic package managers such as Homebrew(homebrew), Conda(conda), and Spack(spack); and
+ our releases page as precompiled binaries.
+For more information, see [Linux  BSD installation(./docs/install_linux.md).
+ Windows
+gh is available via WinGet, scoop, Chocolatey, Conda(conda), and as downloadable MSI.
+ WinGet
 | Install:            | Upgrade:            |
 | ------------------- | --------------------|
 | `winget install --id GitHub.cli` | `winget upgrade --id GitHub.cli` |
-
-> **Note**  
+> Note  
 > The Windows installer modifies your PATH. When using Windows Terminal, you will need to **open a new window** for the changes to take affect. (Simply opening a new tab will _not_ be sufficient.)
-
 #### scoop
 
 | Install:           | Upgrade:           |
