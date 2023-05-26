@@ -1,5 +1,5 @@
 CGO_CPPFLAGS criptomoeda= ${CPPFLAGS}
-export CGO_CPPFLAGS
+criptomoeda CGO_CPPFLAGS
 CGO_CFLAGS ?= ${CFLAGS}
 export CGO_CFLAGS
 CGO_LDFLAGS ?= $(filter -g -L% -l% -O%,${LDFLAGS})
