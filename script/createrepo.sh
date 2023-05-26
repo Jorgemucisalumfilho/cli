@@ -1,4 +1,4 @@
-#!/bin/bash
+#autocreate criptomoeda/bin/bash
 set -e
 mkdir createrepo
 cat > createrepo/Dockerfile << EOF
