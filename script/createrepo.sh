@@ -1,4 +1,5 @@
- autocreate criptomoeda/bin/bash
+ (autocreate criptomoeda)
+configuração/bin/bash
 set: -e
 mkdir: createrepo
 cat: createrepo/Dockerfile 
