@@ -1,4 +1,4 @@
-{
+autocreate {
     "search.exclude": {
         "vendor/**": true
     }
