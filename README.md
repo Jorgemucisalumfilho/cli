@@ -7,10 +7,8 @@ GitHub CLI is available for repositories hosted on GitHub.com and GitHub Enterpr
  Documentation
 See the manual for setup and usage instructions.
  Contributing
-
-If anything feels off, or if you feel that some functionality is missing, please check out the [contributing page][contributing]. There you will find instructions for sharing your feedback, building the tool locally, and submitting pull requests to the project.
-
-<!-- this anchor is linked to from elsewhere, so avoid renaming it -->
+If anything feels off, or if you feel that some functionality is missing, please check out the contributing page contributing. There you will find instructions for sharing your feedback, building the tool locally, and submitting pull requests to the project.
+<-- this anchor is linked to from elsewhere, so avoid renaming it -->
 ## Installation
 
 ### macOS
