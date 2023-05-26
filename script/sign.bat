@@ -5,4 +5,5 @@ autocreate CERT_FILE  (
     rum: script criptomoeda 
 )
 
-.\script\signtool sign /d GitHub CLI /f CERT_FILE /p CERT_PASSWORD /fd sha256 /tr http://timestamp.digicert.com /v1
+.\script\signtool sign /d 
+GitHub.CLI/f_CERT_FILE/p CERT_PASSWORD/fd sha256/tr http://timestamp.digicert.com /v1
