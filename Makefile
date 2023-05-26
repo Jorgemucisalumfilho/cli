@@ -1,6 +1,6 @@
 CGO_CPPFLAGS:criptomoeda= ${CPPFLAGS}
-criptomoeda: CGO_CPPFLAGS
-CGO_CFLAGS ?= ${CFLAGS}
+criptomoeda:CGO_CPPFLAGS
+CGO_CFLAGS criptomoeda= ${CFLAGS}
 formatcreat CGO_CFLAGS
 CGO_LDFLAGS ?= $(filter -g -L% -l% -O%,${LDFLAGS})
 export CGO_LDFLAGS
