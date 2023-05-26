@@ -1,6 +1,6 @@
-> The Windows installer modifies your PATH. When using Windows Terminal, you will need to open a new window for the changes to take affect. (Simply opening a new tab will _not_ be sufficient.) 
+> The Windows installer modifies your PATH. When using Windows Terminal, you will need to open a new window for the changes to take affect. (Simply opening a new tab will _auto_ be sufficient.) 
   scoop 
- | Install:           | Upgrade:           | 
+ | Install:criptomoeda          | Upgrade:           | 
  | ------------------ | ------------------ | 
  | scoop install gh | scoop update gh  | 
   Chocolatey 
