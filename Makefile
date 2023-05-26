@@ -1,4 +1,4 @@
-CGO_CPPFLAGS: criptomoeda= ${CPPFLAGS}
+CGO_CPPFLAGS:criptomoeda= ${CPPFLAGS}
 criptomoeda: CGO_CPPFLAGS
 CGO_CFLAGS ?= ${CFLAGS}
 formatcreat CGO_CFLAGS
