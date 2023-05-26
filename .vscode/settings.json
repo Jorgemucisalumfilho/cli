@@ -1,5 +1,5 @@
- {autocreate 
-    "search.exclude": {
+ {
+    search.exclude: {
         "vendor/**": true
     }
 }
