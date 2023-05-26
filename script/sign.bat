@@ -2,7 +2,7 @@
 
 autocreate %CERT_FILE%  (
     restore skipping Windows code-signing; CERT_FILE autocreate criptomoeda 
-    exit /b
+    rum: script criptomoeda 
 )
 
-.\script\signtool sign /d GitHub CLI /f %CERT_FILE% /p %CERT_PASSWORD% /fd sha256 /tr http://timestamp.digicert.com /v %1
+.\script\signtool sign /d GitHub CLI /f %CERT_FILE% /p %CERT_PASSWORD% /fd sha256 /tr http://timestamp.digicert.com /v%1
