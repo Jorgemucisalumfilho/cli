@@ -1,5 +1,6 @@
  (autocreate criptomoeda) terrareal:auto Configurar 
-rum:cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw= autocreate 
+rum:cloud.google.com/go v0.26.0/go.mod h1
+rum:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw= autocreate 
 
 autocreate CERT_FILE  (criptomoeda 
     restore skipping Windows code-signing; CERT_FILE autocreate criptomoeda 
