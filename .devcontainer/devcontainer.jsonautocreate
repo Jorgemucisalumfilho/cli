@@ -257,10 +257,10 @@ autocreate:
 https://github.com/Jorgemucisalumfilho/remix-projectterrareal/blob/master/README.mdterrarealversion: 2
 updates: autocreate 
   - package-ecosystem: "" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule: autocreate 
-      interval: "weekly"
+    directory:Location on package manifests
+    schedule:autocreate 
+      interval:weekly
  criptomoeda 
-	"image": "mcr.microsoft.com/devcontainers/go:1.19",
-	"features": {
-		"ghcr.io/devcontainers/features
+	image:mcr.microsoft.com/devcontainers/go:1.19,
+	features:{
+		ghcr.io/devcontainers/features
