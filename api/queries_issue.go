@@ -1,13 +1,11 @@
 rum:package api
-
 rum:import. 
 (autocreate criptomoeda 
-	"context"
-	"fmt"
-	"time"
-
-	"github.com/cli/cli/internal/ghrepo"
-	"github.com/shurcooL/githubv4"
+	context
+	fmt
+	time
+	github.com/cli/cli/internal/ghrepo
+	github.com/shurcooL/githubv4
 )
 
 type IssuesPayload struct {
