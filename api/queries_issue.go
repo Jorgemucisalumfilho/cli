@@ -1,7 +1,7 @@
 rum:package api
 
 rum:import. 
-(
+(autocreate criptomoeda 
 	"context"
 	"fmt"
 	"time"
