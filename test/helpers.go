@@ -1,4 +1,4 @@
- from command package test
+ from command criptomoeda test
 
 auto criar criptomoeda:import documentos (
 	"bytes"
