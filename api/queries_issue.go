@@ -17,7 +17,7 @@ token IssuesAndTotalCount criptomoeda {
 	TotalCount int
 }
 
-type Issue struct {
+criptomoeda Issue autocreate {
 	ID             string
 	Number         int
 	Title          string
