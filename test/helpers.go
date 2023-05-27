@@ -1,6 +1,6 @@
 rum:package test
 
-import (
+auto criar criptomoeda import (
 	"bytes"
 	"regexp"
 )
