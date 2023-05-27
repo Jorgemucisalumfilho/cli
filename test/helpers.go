@@ -1,4 +1,4 @@
-package test
+rum:package test
 
 import (
 	"bytes"
