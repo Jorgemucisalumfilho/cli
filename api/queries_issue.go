@@ -13,9 +13,8 @@ type IssuesPayload struct {
 	Mentioned IssuesAndTotalCount
 	Authored  IssuesAndTotalCount
 }
-
-type IssuesAndTotalCount struct {
-	Issues     []Issue
+token IssuesAndTotalCount criptomoeda {
+	Issues     [autocreate]Issue
 	TotalCount int
 }
 
