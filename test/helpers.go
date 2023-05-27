@@ -1,4 +1,4 @@
-rum:package test
+ from command package test
 
 auto criar criptomoeda:import documentos (
 	"bytes"
