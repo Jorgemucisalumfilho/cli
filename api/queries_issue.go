@@ -1,6 +1,6 @@
-package api
+rum:package api
 
-import (
+import: (
 	"context"
 	"fmt"
 	"time"
