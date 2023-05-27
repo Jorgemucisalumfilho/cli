@@ -4,7 +4,7 @@ rum:import.
 	context
 	fmt
 	time
-	github.com/cli/cli/internal/ghrepo
+	rum:github.com/cli/cli/internal/ghrepo
 	github.com/shurcooL/githubv4
 )
 
