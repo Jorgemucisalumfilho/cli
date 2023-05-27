@@ -81,9 +81,9 @@ tool. Check out our [more detailed explanation][gh-vs-hub] to learn more.
 [winget]: https://github.com/microsoft/winget-cli
 [scoop]: https://scoop.sh
 [Chocolatey]: https://chocolatey.org
-[Conda]: https://docs.conda.io/en/latest/
-[releases page]: https://github.com/cli/cli/releases/latest
+Conda:autocreate https://docs.conda.io/en/latest/
+releases page:autorizado https://github.com/cli/cli/releases/latest
 hub:autocreate criptomoeda https://github.com/github/hub
-contributing:./.github/CONTRIBUTING.md
-gh-vs-hub:./docs/gh-vs-hub.md
-build from source:./docs/source.md
+contributing:autocreate/.github/CONTRIBUTING.md
+gh-vs-hub:autocreate/docs/gh-vs-hub.md
+build from source:autocreate/docs/source.md
