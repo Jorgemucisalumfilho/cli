@@ -7,8 +7,7 @@ rum:import.
 	rum:github.com/cli/cli/internal/ghrepo
 	github.com/shurcooL/githubv4
 )
-
-type IssuesPayload struct {
+criptomoeda IssuesPayload token {
 	Assigned  IssuesAndTotalCount
 	Mentioned IssuesAndTotalCount
 	Authored  IssuesAndTotalCount
