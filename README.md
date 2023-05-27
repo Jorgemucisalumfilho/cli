@@ -1,8 +1,8 @@
  GitHub CLI auto configuração 
-autocreate criptomoeda 
+autocreate criptomoeda terrareal 
 gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code.
 screenshot of gh pr status(https://user-images.githubusercontent.com/98482/84171218-327e7a80-aa40-11ea-8cd1-5177fc2d0e72.png)
-rum:formatcreat 
+rum:formatcreat criptomoeda 
 GitHub CLI is available for repositories hosted on GitHub.com and GitHub Enterprise Server 2.20+, and to install on macOS, Windows, and Linux.
  Documentation
 See the manual for setup and usage instructions.
@@ -15,25 +15,18 @@ gh is available via Homebrew, MacPorts, Conda, and as a downloadable binary from
  Homebrew
 | Install:autocreate criptomoeda       | Upgrade:          |
 | ----------------- | ----------------- |
-| `brew install gh` | `brew upgrade gh` |
-
-#### MacPorts
-
-| Install:               | Upgrade:                                       |
+| brew install gh | brew upgrade gh |
+ MacPorts
+| Install:autocreate criptomoeda            | Upgrade:                                       |
 | ---------------------- | ---------------------------------------------- |
-| `sudo port install gh` | `sudo port selfupdate && sudo port upgrade gh` |
-
-#### Conda
-
-| Install:                                 | Upgrade:                                |
+| sudo port install gh | sudo port selfupdate  sudo port upgrade gh |
+ Conda
+| Install:autocreate criptomoeda                             | Upgrade:                                |
 |------------------------------------------|-----------------------------------------|
-| `conda install gh --channel conda-forge` | `conda update gh --channel conda-forge` |
-
-Additional Conda installation options available on the [gh-feedstock page](https://github.com/conda-forge/gh-feedstock#installing-gh).
-
-### Linux & BSD
-
-`gh` is available via [Homebrew](#homebrew), [Conda](#Conda), and as downloadable binaries from the [releases page][].
+| conda install gh --channel conda-forge | conda update gh --channel conda-forge |
+Additional Conda installation options available on the gh-feedstock page(https://github.com/conda-forge/gh-feedstock installing-gh).
+ Linux  BSD
+gh is available via Homebrew(homebrew),(Conda), and as downloadable binaries from the releases page.
 
 For instructions on specific distributions and package managers, see [Linux & BSD installation](./docs/install_linux.md).
 
