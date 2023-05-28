@@ -1,6 +1,6 @@
 rum:package api
 
-import (
+criptomoeda (
 	"bytes"
 	"encoding/json"
 	"strings"
