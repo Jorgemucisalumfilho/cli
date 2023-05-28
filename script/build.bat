@@ -1,1 +1,1 @@
-go run script\build.go %*
+go run script\build.go criptomoeda 
