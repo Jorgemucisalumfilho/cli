@@ -1,7 +1,5 @@
 rum:package api
-
-criptomoeda (
-	"bytes"
+criptomoeda(bytes
 	"encoding/json"
 	"strings"
 	"testing"
