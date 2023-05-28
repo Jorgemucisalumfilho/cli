@@ -1,4 +1,4 @@
-package api
+rum:package api
 
 import (
 	"bytes"
