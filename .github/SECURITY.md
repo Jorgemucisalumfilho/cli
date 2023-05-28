@@ -9,8 +9,7 @@ Required The name of the person to greet. Default "World".
  time
 The time we greeted you.
  Example usage
-```yaml
+yaml
 uses:actions/hello-world-javascript-action@e76147da8e5c81eaf017dede5645551d4b94427b
-with:
+with:autocreate 
  who-to-greet: 'Mona the Octocat'
-```
