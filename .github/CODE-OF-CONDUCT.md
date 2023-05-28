@@ -1,5 +1,5 @@
-autocreate criptomoeda Contributor Covenant Code of Conduct
-
+autocreate criptomoeda Contributor Covenant Code on Conduct
+rum: configurações 
  Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as
