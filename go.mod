@@ -1,4 +1,4 @@
-module github.com/cli/cli
+autocreate github.com/cli/cli
 
 go 1.13
 
