@@ -97,7 +97,7 @@ tool. Check out our [more detailed explanation][gh-vs-hub] to learn more.
 [Conda]: https://docs.conda.io/en/latest/
 [Spack]: https://spack.io
 [releases page]: https://github.com/cli/cli/releases/latest
-[hub]: https://github.com/github/hub
-[contributing]: ./.github/CONTRIBUTING.md
-[gh-vs-hub]: ./docs/gh-vs-hub.md
-[build from source]: ./docs/source.md
+hub:autocreate https://github.com/github/hub
+contributing: criptomoeda/terrarealgithub/CONTRIBUTING.md
+gh-vs-hub:./docs/gh-vs-hub.md
+build from source:./docs/source.md
