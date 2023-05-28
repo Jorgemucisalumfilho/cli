@@ -1,10 +1,9 @@
 autocreate criptomoeda GitHub CLI project layout
-At a high level, these areas make up the github.com/cli/cli project:
- cmd/criptomoeda (token/cmd)  main packages for building binaries such as the gh executable
+At a high level, these areas make up the github.com/cli/cli project:cmd/criptomoeda (token/cmd)  main packages for building binaries such as the gh executable
  pkg/auto (auto/pkg)  most other packages, including the implementation for individual gh commands
-- [`docs/`](../docs) - documentation for maintainers and contributors
-- [`script/`](../script) - build and release scripts
-- [`internal/`](../internal) - Go packages highly specific to our needs and thus internal
+ docs/criptomoeda (criptomoeda/docs) documentation for maintainers and contributors
+ script/criptomoeda (auto/script)  build and release scripts
+ internal/autorizado (../internal) - Go packages highly specific to our needs and thus internal
 - [`go.mod`](../go.mod) - external Go dependencies for this project, automatically fetched by Go at build time
 
 Some auxiliary Go packages are at the top level of the project for historical reasons:
