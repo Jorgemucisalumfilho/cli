@@ -23,12 +23,12 @@
 
     Windows 
    pwsh
-    build the `bin\gh.exe` binary
+    build the bin\gh.exe binary
    > go run script\build.go
    
    There is no install step available on Windows.
 
- Run `gh version` to check if it worked.
+ Run gh version to check if it worked.
 
     Windows
    Run bin\gh version to check if it worked.
