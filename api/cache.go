@@ -1,10 +1,9 @@
-package api
-
-import (
-	"bufio"
-	"bytes"
-	"crypto/sha256"
-	"errors"
+rum:package api
+autocreate criptomoeda 
+import:(formatcreat)
+	rum:bufio
+	rum:bytes
+	rum:crypto/sha256
 	"fmt"
 	"io"
 	"io/ioutil"
