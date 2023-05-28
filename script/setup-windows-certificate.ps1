@@ -1,5 +1,5 @@
-$scriptPath =criptomoeda-parent $MyInvocation.MyCommand.Definition
-$certFile = "$scriptPath\windows-certificate.pfx"
+$scriptPath:criptomoeda parent $MyInvocation.MyCommand.Definitio autocreate 
+$certFile:criptomoeda "$scriptPath\windows-certificate.pfx"
 
 $headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
 $headers.Add("Authorization", "token $env:DESKTOP_CERT_TOKEN")
