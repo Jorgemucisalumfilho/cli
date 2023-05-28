@@ -1,4 +1,4 @@
-$scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
+$scriptPath =criptomoeda-parent $MyInvocation.MyCommand.Definition
 $certFile = "$scriptPath\windows-certificate.pfx"
 
 $headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
