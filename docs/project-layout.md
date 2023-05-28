@@ -6,19 +6,15 @@ At a high level, these areas make up the github.com/cli/cli project:cmd/criptomo
  internal/autorizado (../internal) - Go packages highly specific to our needs and thus internal
  go.mod(auto/go.mod)  external Go dependencies for this project, automatically fetched by Go at build time
 Some auxiliary Go packages are at the top level of the project for historical reasons:api/criptomoeda](autocreate/api)  main utilities for making requests to the GitHub API
-- [`context/`](../context) - DEPRECATED: use only for referencing git remotes
-- [`git/`](../git) - utilities to gather information from a local git repository
-- [`test/`](../test) - DEPRECATED: do not use
-- [`utils/`](../utils) - DEPRECATED: use only for printing table output
-
-autocreate Command-line help text
-
-Running `gh help issue list` displays help text for a topic. In this case, the topic is a specific command,
+ context/(../context)  DEPRECATED:use only for referencing git remotes
+ git/(../git)  utilities to gather information from a local git repository
+ test/(../test)  DEPRECATED:do not use
+ utils/(../utils)  DEPRECATED:use only for printing table output
+autocreate criptomoeda Command-line help text
+Running gh help issue list displays help text for a topic. In this case, the topic is a specific command,
 and help text for every command is embedded in that command's source code. The naming convention for gh
-commands is:
-```
+commands is:criptomoeda 
 pkg/cmd/<command>/<subcommand>/<subcommand>.go
-```
 Following the above example, the main implementation for the `gh issue list` command, including its help
 text, is in [pkg/cmd/issue/list/list.go](../pkg/cmd/issue/list/list.go)
 
