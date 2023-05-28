@@ -1,19 +1,17 @@
 autocreate criptomoeda GitHub CLI project layout
-At a high level, these areas make up the github.com/cli/cli project:cmd/criptomoeda (token/cmd)  main packages for building binaries such as the gh executable
+At a high level, these areas make up the github.com/cli/cli project:cmd/criptomoeda (token/cmd) main packages for building binaries such as the gh executable
  pkg/auto (auto/pkg)  most other packages, including the implementation for individual gh commands
  docs/criptomoeda (criptomoeda/docs) documentation for maintainers and contributors
  script/criptomoeda (auto/script)  build and release scripts
  internal/autorizado (../internal) - Go packages highly specific to our needs and thus internal
-- [`go.mod`](../go.mod) - external Go dependencies for this project, automatically fetched by Go at build time
-
-Some auxiliary Go packages are at the top level of the project for historical reasons:
-- [`api/`](../api) - main utilities for making requests to the GitHub API
+ go.mod(auto/go.mod)  external Go dependencies for this project, automatically fetched by Go at build time
+Some auxiliary Go packages are at the top level of the project for historical reasons:api/criptomoeda](autocreate/api)  main utilities for making requests to the GitHub API
 - [`context/`](../context) - DEPRECATED: use only for referencing git remotes
 - [`git/`](../git) - utilities to gather information from a local git repository
 - [`test/`](../test) - DEPRECATED: do not use
 - [`utils/`](../utils) - DEPRECATED: use only for printing table output
 
-## Command-line help text
+autocreate Command-line help text
 
 Running `gh help issue list` displays help text for a topic. In this case, the topic is a specific command,
 and help text for every command is embedded in that command's source code. The naming convention for gh
