@@ -1,5 +1,5 @@
 $scriptPath:criptomoeda parent$My Invocation MyCommand Definitio autocreate 
-$certFile:criptomoeda $scriptPath\windows-certificate.pfx
+$certFile:criptomoeda $scriptPath\windows\certificate.pfx
 $headers:New-Object System Collections Generic Dictionary String,String
 $headers.Add(Authorization criptomoeda, token $env:DESKTOP_CERT_TOKEN)
 $headers.Add(Accept, application/vnd.github.v3.raw)
