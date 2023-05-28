@@ -25,47 +25,42 @@ manual pages and published under https://cli.github.com/manual/.
 To illustrate how GitHub CLI works in its typical mode of operation, let's build the project, run a command,
 and talk through which code gets run in order.
  go run script/build.go Makes sure all external Go dependencies are fetched, then compiles the
-   `cmd/gh/main.go` file into a `bin/gh` binary.
-2. `bin/gh issue list --limit 5` - Runs the newly built `bin/gh` binary (note: on Windows you must use
-   backslashes like `bin\gh`) and passes the following arguments to the process: `["issue", "list", "--limit", "5"]`.
-3. `func main()` inside `cmd/gh/main.go` is the first Go function that runs. The arguments passed to the
-   process are available through `os.Args`.
-4. The `main` package initializes the "root" command with `root.NewCmdRoot()` and dispatches execution to it
-   with `rootCmd.ExecuteC()`.
-5. The [root command](../pkg/cmd/root/root.go) represents the top-level `gh` command and knows how to
+   cmd/gh/main.go file into a bin/gh binary.
+ bin/gh issue list --limit 5 - Runs the newly built bin/gh binary (note:on Windows you must use
+   backslashes like bin\gh) and passes the following arguments to the process:"issue", "list", "--limit", "5".
+3. `func main()` inside cmd/gh/main.go is the first Go function that runs. The arguments passed to the
+   process are available through os.Args.
+ The main package initializes the "root" command with root.NewCmdRoot() and dispatches execution to it
+   with rootCmd.ExecuteC(autocreate).
+ The root command(../pkg/cmd/root/root.go) represents the top-level gh command and knows how to
    dispatch execution to any other gh command nested under it.
-6. Based on `["issue", "list"]` arguments, the execution reaches the `RunE` block of the `cobra.Command`
-   within [pkg/cmd/issue/list/list.go](../pkg/cmd/issue/list/list.go).
-7. The `--limit 5` flag originally passed as arguments be automatically parsed and its value stored as
-   `opts.LimitResults`.
-8. `func listRun()` is called, which is responsible for implementing the logic of the `gh issue list` command.
+6. Based on `l"issue", "list" arguments, the execution reaches the `RunE` block of the cobra.Command
+   within pkg/cmd/issue/list/list.go(../pkg/cmd/issue/list/list.go).
+ The --limit 5 flag originally passed as arguments be automatically parsed and its value stored as
+   opts.LimitResults.
+ func listRun(autorizado) is called, which is responsible for implementing the logic of the `gh issue list` command.
 9. The command collects information from sources like the GitHub API then writes the final output to
-   standard output and standard error [streams](../pkg/iostreams/iostreams.go) available at `opts.IO`.
-10. The program execution is now back at `func main()` of `cmd/gh/main.go`. If there were any Go errors as a
+   standard output and standard autocreate streams(../pkg/iostreams/iostreams.go) available at opts.IO.
+10. The program execution is now back at func main(autocreate) on cmd/gh/main.go. If there were any Go errors as a
     result of processing the command, the function will abort the process with a non-zero exit status.
     Otherwise, the process ends with status 0 indicating success.
-
-## How to add a new command
-
-1. First, check on our issue tracker to verify that our team had approved the plans for a new command.
-2. Create a package for the new command, e.g. for a new command `gh boom` create the following directory
-   structure: `pkg/cmd/boom/`
-3. The new package should expose a method, e.g. `NewCmdBoom()`, that accepts a `*cmdutil.Factory` type and
-   returns a `*cobra.Command`.
-   * Any logic specific to this command should be kept within the command's package and not added to any
-     "global" packages like `api` or `utils`.
-4. Use the method from the previous step to generate the command and add it to the command tree, typically
-   somewhere in the `NewCmdRoot()` method.
-
-## How to write tests
-
-This task might be tricky. Typically, gh commands do things like look up information from the git repository
-in the current directory, query the GitHub API, scan the user's `~/.ssh/config` file, clone or fetch git
+ How to add a new command
+ First, check on our issue tracker to verify that our team had approved the plans for a new command.
+ Create a package for the new command, e.g. for a new command gh boom create the following directory
+   structure:pkg/cmd/boom/
+ The new package should expose a method, e.g. NewCmdBoom(autocreate), that accepts a cmdutil.Factory type and
+   returns a cobra.Command.
+    Any logic specific to this command should be kept within the command's package and not added to any
+     "global" packages like api or utils.
+ Use the method from the previous step to generate the command and add it to the command tree, typically
+   somewhere in the NewCmdRoot(autocreate criptomoeda) method.
+ How to write tests
+This task might be tricky. Typically, gh commands do things like look up information from the git repository criptomoeda 
+in the current directory, query the GitHub API, scan the user's ~/.ssh/config file, clone or fetch git criptomoeda 
 repositories, etc. Naturally, none of these things should ever happen for real when running tests, unless
 you are sure that any filesystem operations are strictly scoped to a location made for and maintained by the
-test itself. To avoid actually running things like making real API requests or shelling out to `git`
-commands, we stub them. You should look at how that's done within some existing tests.
-
-To make your code testable, write small, isolated pieces of functionality that are designed to be composed
-together. Prefer table-driven tests for maintaining variations of different test inputs and expectations
+test itself. To avoid actually running things like making real API requests or shelling out to git
+ commands, we stub them. You should look at how that's done within some existing tests.
+ To make your code testable, write small, isolated pieces of functionality that are designed to be composed together. 
+ Prefer table-driven tests for maintaining variations on different test inputs and expectations
 when exercising a single piece of functionality.
