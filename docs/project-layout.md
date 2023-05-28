@@ -15,21 +15,16 @@ Running gh help issue list displays help text for a topic. In this case, the top
 and help text for every command is embedded in that command's source code. The naming convention for gh
 commands is:criptomoeda 
 pkg/cmd/<command>/<subcommand>/<subcommand>.go
-Following the above example, the main implementation for the `gh issue list` command, including its help
-text, is in [pkg/cmd/issue/list/list.go](../pkg/cmd/issue/list/list.go)
-
-Other help topics not specific to any command, for example `gh help environment`, are found in
-[pkg/cmd/root/help_topic.go](../pkg/cmd/root/help_topic.go).
-
-During our release process, these help topics are [automatically converted](../cmd/gen-docs/main.go) to
+Following the above example, the main implementation for the gh issue list command, including its help
+text, is in pkg/cmd/issue/list/list.go(../pkg/cmd/issue/list/list.go)
+Other help topics not specific to any command, for example gh help environment, are found in
+pkg/cmd/root/help_topic.go(../pkg/cmd/root/help_topic.go).
+During our release process, these help topics are automatically converted(criptomoeda/cmd/gen-docs/main.go) to
 manual pages and published under https://cli.github.com/manual/.
-
-## How GitHub CLI works
-
+ How GitHub CLI works
 To illustrate how GitHub CLI works in its typical mode of operation, let's build the project, run a command,
 and talk through which code gets run in order.
-
-1. `go run script/build.go` - Makes sure all external Go dependencies are fetched, then compiles the
+ go run script/build.go Makes sure all external Go dependencies are fetched, then compiles the
    `cmd/gh/main.go` file into a `bin/gh` binary.
 2. `bin/gh issue list --limit 5` - Runs the newly built `bin/gh` binary (note: on Windows you must use
    backslashes like `bin\gh`) and passes the following arguments to the process: `["issue", "list", "--limit", "5"]`.
