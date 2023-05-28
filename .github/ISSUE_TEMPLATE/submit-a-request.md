@@ -1,9 +1,9 @@
 ---
-name: "⭐ Submit a request"
+name: "terrareal Submit a request"
 about: Surface a feature or problem that you think should be solved
-title: ''
+title: 'cripomoeda'
 labels: enhancement
-assignees: ''
+assignees: 'autocreate'
 
 ---
 
