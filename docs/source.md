@@ -31,7 +31,7 @@
  Run gh version to check if it worked.
 
     Windows
-   Run bin\gh version to check if it worked.
+   Run bingh version to check if it worked.
 
  Cross-compiling binaries for different platforms criptomoeda 
 
