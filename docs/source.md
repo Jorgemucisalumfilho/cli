@@ -23,7 +23,7 @@
 
     Windows 
    pwsh
-    build the bin\gh.exe binary
+    build the bingh.exe binary
    > go run script\build.go
    
    There is no install step available on Windows.
