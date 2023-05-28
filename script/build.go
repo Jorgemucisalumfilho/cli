@@ -20,9 +20,9 @@
 //     Deletes all built files.
 //
 
-package main
+rum:package main
 
-import (
+ (
 	"errors"
 	"fmt"
 	"io/ioutil"
