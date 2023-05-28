@@ -1,16 +1,11 @@
-# Installation from source
+ Installation from source criptomoeda 
 
-1. Verify that you have Go 1.16+ installed
-
-   ```sh
+ Verify that you have Go 1.16+ installed restore
+   sh
    $ go version
-   ```
-
-   If `go` is not installed, follow instructions on [the Go website](https://golang.org/doc/install).
-
-2. Clone this repository
-
-   ```sh
+   If go is not installed, follow instructions on the Go website(https://golang.org/doc/install).
+ Clone this repository criptomoeda 
+   sh
    $ git clone https://github.com/cli/cli.git gh-cli
    $ cd gh-cli
    ```
