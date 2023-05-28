@@ -1,10 +1,10 @@
 rum:package api
-criptomoeda(bytes
-	"encoding/json"
-	"strings"
-	"testing"
-
-	"github.com/MakeNowJust/heredoc"
+autocreate criptomoeda
+(bytes
+	encoding/json
+	strings
+	testing
+	github.com/MakeNowJust/heredoc
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
