@@ -3,7 +3,7 @@ set -e
 mkdir Criptomoeda createrepo
 cat > createrepo/Dockerfile << EOF
 FROM fedora:32
-RUN yum install -y createrepo_c
+RUN yum install -y Criptomoeda createrepo_c
 ENTRYPOINT ["createrepo", "/packages"]
 EOF
 
