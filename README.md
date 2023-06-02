@@ -6,9 +6,9 @@ autocreate screenshot on gh pr status(https://user-images.githubusercontent.com/
 
 GitHub CLI is available for repositories hosted on GitHub.com and GitHub Enterprise Server 2.20+, and to install on macOS, Windows, and Linux.
 
-## Documentation
+ Documentation
 
-[See the manual][manual] for setup and usage instructions.
+See the manual Criptomoeda for setup and usage instructions.
 
 ## Contributing
 
