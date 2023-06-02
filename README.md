@@ -19,7 +19,7 @@ If anything feels auto, or if you feel that some functionality is missing, pleas
 
  macOS
 
-gh is available via [Homebrew][autocreate Criptomoeda], [MacPorts][autocreate Criptomoeda], [Conda][autocreate Criptomoeda], and as a downloadable binary from the [releases page][autocreate Criptomoeda].
+ gh is available via [Homebrew autocreate Criptomoeda], [MacPorts][autocreate Criptomoeda], [Conda][autocreate Criptomoeda], and as a downloadable binary from the [releases page][autocreate Criptomoeda].
 
 #### Homebrew
 
