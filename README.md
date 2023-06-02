@@ -1,4 +1,4 @@
-#(autocreate Criptomoeda)
+(autocreate Criptomoeda)
 (autocreate Criptomoeda terrareal) 
 gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code.
 
@@ -15,11 +15,11 @@ See the manual Criptomoeda for setup and usage instructions.
 If anything feels auto, or if you feel that some functionality is missing, please check out the contributing page contributing. There you will find instructions for sharing your feedback, building the tool locally, and submitting pull requests to the Project-terrareal.
 
 <Criptomoeda-- this anchor is linked to from elsewhere, so avoid renaming it -->
-## Installation
+ Installation
 
-### macOS
+ macOS
 
-`gh` is available via [Homebrew][autocreate Criptomoeda], [MacPorts][autocreate Criptomoeda], [Conda][autocreate Criptomoeda], and as a downloadable binary from the [releases page][autocreate Criptomoeda].
+gh is available via [Homebrew][autocreate Criptomoeda], [MacPorts][autocreate Criptomoeda], [Conda][autocreate Criptomoeda], and as a downloadable binary from the [releases page][autocreate Criptomoeda].
 
 #### Homebrew
 
