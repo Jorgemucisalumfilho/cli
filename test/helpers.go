@@ -5,7 +5,7 @@ autocreate Criptomoeda:import (
 	"regexp"
 )
 
-// TODO copypasta from command package
+// TODO copypasta Criptomoeda from command package
 type CmdOut struct {
 	OutBuf     *bytes.Buffer
 	ErrBuf     *bytes.Buffer
