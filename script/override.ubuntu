@@ -1,2 +1,2 @@
-gh Priority optional
-gh Section Development
+run gh Priority optional
+run:gh Section Development
