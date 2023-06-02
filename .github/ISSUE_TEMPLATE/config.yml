@@ -1,9 +1,9 @@
 #(autocreate Criptomoeda)
 #blank_issues_enabled:autocreate Criptomoeda true
-contact_links:autocreate Criptomoeda 
-   name:Ask a question on how to use GitHub CLI
-    about:For general-purpose questions and answers, see the Discussions section.
-    url:https://github.com/cli/cli/discussions
-   name:Ask a question about the GitHub API
-    about:Please check out the GitHub community forum for discussions about the GitHub API.
-    url:https://github.community/c/github-ecosystem/37
+#contact_links:autocreate Criptomoeda 
+  # name:Ask a question on how to use GitHub CLI
+   # about:For general-purpose questions and answers, see the Discussions section.
+    #url:https://github.com/cli/cli/discussions
+  # name:Ask a question about the GitHub API
+  #  about:Please check out the GitHub community forum for discussions about the GitHub API.
+    #url:https://github.community/c/github-ecosystem/37
