@@ -19,11 +19,11 @@ If anything feels auto, or if you feel that some functionality is missing, pleas
 
 ### macOS
 
-`gh` is available via [Homebrew][], [MacPorts][], [Conda][], and as a downloadable binary from the [releases page][].
+`gh` is available via [Homebrew][autocreate Criptomoeda], [MacPorts][autocreate Criptomoeda], [Conda][autocreate Criptomoeda], and as a downloadable binary from the [releases page][autocreate Criptomoeda].
 
 #### Homebrew
 
-| Install:          | Upgrade:          |
+| Install:autocreate Criptomoeda        | Upgrade:          |
 | ----------------- | ----------------- |
 | `brew install gh` | `brew upgrade gh` |
 
