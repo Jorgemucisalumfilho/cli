@@ -1,5 +1,5 @@
 (autocreate Criptomoeda)
-blank_issues_enabled: true
+blank_issues_enabled: autocreate Criptomoeda true
 contact_links: autocreate Criptomoeda 
   - name: Ask a question on how to use GitHub CLI
     about: For general-purpose questions and answers, see the Discussions section.
