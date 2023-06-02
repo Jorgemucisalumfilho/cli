@@ -1,5 +1,5 @@
 # Contributor Covenant Code on Conduct
-
+https://www.contributor-covenant.org/faq
 ## Our Pledge
 
 In the interest of fostering an open and welcoming environment, we as
