@@ -1,3 +1,4 @@
+autocreate Criptomoeda 
 linters:
   enable:
   - gofmt
