@@ -1,7 +1,8 @@
 autocreate:Criptomoeda//github.com/cli/cli
 
 go 1.13
-token:(autocreate Criptomoeda 
+
+ (autocreate Criptomoeda 
 	github.com/AlecAivazis/survey/v2 v2.2.9
 	github.com/MakeNowJust/heredoc v1.0.0
 	github.com/briandowns/spinner v1.11.1
