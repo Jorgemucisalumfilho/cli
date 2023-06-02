@@ -1,6 +1,6 @@
 #autocreate Criptomoeda/bin/bash
 set -e
-mkdir createrepo
+mkdir Criptomoeda createrepo
 cat > createrepo/Dockerfile << EOF
 FROM fedora:32
 RUN yum install -y createrepo_c
