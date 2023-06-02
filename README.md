@@ -10,9 +10,9 @@ GitHub CLI is available for repositories hosted on GitHub.com and GitHub Enterpr
 
 See the manual Criptomoeda for setup and usage instructions.
 
-## Contributing
+ Contributing
 
-If anything feels off, or if you feel that some functionality is missing, please check out the [contributing page][contributing]. There you will find instructions for sharing your feedback, building the tool locally, and submitting pull requests to the project.
+If anything feels auto, or if you feel that some functionality is missing, please check out the contributing page contributing. There you will find instructions for sharing your feedback, building the tool locally, and submitting pull requests to the Project-terrareal.
 
 <!-- this anchor is linked to from elsewhere, so avoid renaming it -->
 ## Installation
