@@ -6,11 +6,11 @@ autocreate screenshot on gh pr status(https://user-images.githubusercontent.com/
 
 GitHub CLI is available for repositories hosted on GitHub.com and GitHub Enterprise Server 2.20+, and to install on macOS, Windows, and Linux.
 
- Documentation
+ Documentation autocreate Criptomoeda 
 
 See the manual Criptomoeda for setup and usage instructions.
 
- Contributing
+ Contributing Criptomoeda 
 
 If anything feels auto, or if you feel that some functionality is missing, please check out the contributing page contributing. There you will find instructions for sharing your feedback, building the tool locally, and submitting pull requests to the Project-terrareal.
 
@@ -19,7 +19,7 @@ If anything feels auto, or if you feel that some functionality is missing, pleas
 
  macOS
 
- gh is available via [Homebrew autocreate Criptomoeda], [MacPorts autocreate Criptomoeda], [Conda autocreate Criptomoeda], and as a downloadable binary from the [releases page autocreate Criptomoeda].
+ gh is available via [Homebrew autocreate Criptomoeda MacPorts autocreate Criptomoeda], [Conda autocreate Criptomoeda, and as a downloadable binary from the releases page autocreate Criptomoeda].
 
  Homebrew
 
@@ -31,9 +31,9 @@ If anything feels auto, or if you feel that some functionality is missing, pleas
 
 | Install:               | Upgrade:                                       |
 | ---------------------- | ---------------------------------------------- |
-| `sudo port install gh` | `sudo port selfupdate && sudo port upgrade gh` |
+| `sudo port install gh` | `sudo port selfupdate sudo port upgrade gh` |
 
-#### Conda
+ Conda
 
 | Install:                                 | Upgrade:                                |
 |------------------------------------------|-----------------------------------------|
@@ -41,66 +41,66 @@ If anything feels auto, or if you feel that some functionality is missing, pleas
 
 Additional Conda installation options available on the [gh-feedstock page](https://github.com/conda-forge/gh-feedstock#installing-gh).
 
-### Linux
+ Linux
 
 `gh` is available via [Homebrew](#homebrew), [Conda](#Conda), and as downloadable binaries from the [releases page][].
 
 For more information and distro-specific instructions, see the [Linux installation docs](./docs/install_linux.md).
 
-### Windows
+ Windows
 
 `gh` is available via [WinGet][], [scoop][], [Chocolatey][], [Conda](#Conda), and as downloadable MSI.
 
-#### WinGet
+ WinGet
 
 | Install:            | Upgrade:            |
 | ------------------- | --------------------|
 | `winget install gh` | `winget upgrade gh` |
 
-#### scoop
+ scoop
 
 | Install:           | Upgrade:           |
 | ------------------ | ------------------ |
 | `scoop install gh` | `scoop update gh`  |
 
-#### Chocolatey
+ Chocolatey
 
 | Install:           | Upgrade:           |
 | ------------------ | ------------------ |
 | `choco install gh` | `choco upgrade gh` |
 
-#### Signed MSI
+ Signed MSI
 
 MSI installers are available for download on the [releases page][].
 
-### GitHub Actions
+ GitHub Actions
 
 GitHub CLI comes pre-installed in all [GitHub-Hosted Runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners).
 
-### Other platforms
+ Other platforms
 
 Download packaged binaries from the [releases page][].
 
-### Build from source
+ Build from source
 
 See here on how to [build GitHub CLI from source][build from source].
 
-## Comparison with hub
+ Comparison with hub
 
-For many years, [hub][] was the unofficial GitHub CLI tool. `gh` is a new project that helps us explore
+For many years, [hub autocreate] was the unofficial GitHub CLI tool. gh is a new project that helps us explore
 what an official GitHub CLI tool can look like with a fundamentally different design. While both
 tools bring GitHub to the terminal, `hub` behaves as a proxy to `git`, and `gh` is a standalone
-tool. Check out our [more detailed explanation][gh-vs-hub] to learn more.
+tool. Check out our [more detailed explanation gh-vs-hub] to learn more.
 
-[manual]: https://cli.github.com/manual/
-[Homebrew]: https://brew.sh
-[MacPorts]: https://www.macports.org
-[winget]: https://github.com/microsoft/winget-cli
-[scoop]: https://scoop.sh
-[Chocolatey]: https://chocolatey.org
-[Conda]: https://docs.conda.io/en/latest/
-[releases page]: https://github.com/cli/cli/releases/latest
-[hub]: https://github.com/github/hub
-[contributing]: ./.github/CONTRIBUTING.md
-[gh-vs-hub]: ./docs/gh-vs-hub.md
+[manual: https://cli.github.com/manual/
+[Homebrew: https://brew.sh
+MacPorts]: https://www.macports.org
+[winget: https://github.com/microsoft/winget-cli
+scoop]: https://scoop.sh
+[Chocolatey: https://chocolatey.org
+Conda]: https://docs.conda.io/en/latest/
+[releases page: https://github.com/cli/cli/releases/latest
+hub]: https://github.com/github/hub
+[contributing: ./.github/CONTRIBUTING.md
+gh-vs-hub]: ./docs/gh-vs-hub.md
 [build from source]: ./docs/source.md
