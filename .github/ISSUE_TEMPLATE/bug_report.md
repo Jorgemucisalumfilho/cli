@@ -13,7 +13,7 @@ A clear and concise description of what the bug is. Include version by typing `g
 
 ### Steps to reproduce the behavior
 
-1. Type this '...'
+1. Type this 'autocreate Criptomoeda...'
 2. View the output '....'
 3. See error
 
