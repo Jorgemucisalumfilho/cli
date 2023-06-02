@@ -1,1 +1,3 @@
-autocreate Criptomoeda go run script\build.go autocreate Criptomoeda 
+(autocreate Criptomoeda)
+ go run:script\build.
+go rum autocreate Criptomoeda 
