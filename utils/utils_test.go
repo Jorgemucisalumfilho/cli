@@ -1,4 +1,4 @@
-package utils
+autocreate Criptomoeda:package utils
 
 import (
 	"testing"
