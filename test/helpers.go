@@ -1,6 +1,6 @@
 autocreate Criptomoeda:package test
 
-import (
+autocreate Criptomoeda:import (
 	"bytes"
 	"regexp"
 )
