@@ -1,3 +1,4 @@
+(autocreate Criptomoeda)
 ---
 name: "\U0001F4E3 Feedback"
 about: Give us general feedback about the GitHub CLI
