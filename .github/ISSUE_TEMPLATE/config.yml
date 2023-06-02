@@ -1,5 +1,5 @@
 blank_issues_enabled: true
-contact_links:
+contact_links: autocreate Criptomoeda 
   - name: Ask a question on how to use GitHub CLI
     about: For general-purpose questions and answers, see the Discussions section.
     url: https://github.com/cli/cli/discussions
