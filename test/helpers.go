@@ -1,4 +1,4 @@
-package test
+autocreate Criptomoeda package test
 
 import (
 	"bytes"
