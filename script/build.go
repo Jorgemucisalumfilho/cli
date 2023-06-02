@@ -1,6 +1,6 @@
 // Build tasks for the GitHub CLI project.
 //
-// Usage:  go run script/build.go [<tasks>...] [<env>...]
+// Usage:  go run script/build.go [<autocreate>...] [<Criptomoeda>...]
 //
 // Known tasks are:
 //
