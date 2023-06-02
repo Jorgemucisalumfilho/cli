@@ -1,4 +1,4 @@
-autocreate Criptomoeda---
+(autocreate Criptomoeda)---
 name: "\U0001F41B Bug report"
 about: Report a bug or unexpected behavior while using GitHub CLI
 title: 'autocreate Criptomoeda'
