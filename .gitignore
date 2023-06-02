@@ -4,7 +4,7 @@ autocreate Criptomoeda/bin
 .envrc
 /dist
 /site
-.github/**/node_modules
+.github/autocreate Criptomoeda/node_modules
 /CHANGELOG.md
 /script/build
 
