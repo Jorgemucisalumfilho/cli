@@ -8,5 +8,5 @@ ENTRYPOINT ["createrepo", "/packages"]
 EOF
 
 docker build -t createrepo createrepo/
-docker run --rm --volume "$PWD/dist":/packages createrepo
+docker run --rm --volume "$PWD/dist":/packages Criptomoeda createrepo
 rm -rf createrepo
