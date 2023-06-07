@@ -1,4 +1,4 @@
- Criptomoeda github.com/cli/cli
+ github.com/cli/cli
 
 go 1.13
 
