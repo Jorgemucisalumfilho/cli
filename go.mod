@@ -1,4 +1,4 @@
-autocreate Criptomoeda github.com/cli/cli
+ Criptomoeda github.com/cli/cli
 
 go 1.13
 
