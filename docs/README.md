@@ -1,1 +1,2 @@
-This folder is used for documentation related to developing `gh`. Docs for `gh` installation and usage are available at [https://cli.github.com/manual](https://cli.github.com/manual).
+This folder is used for documentation related to developing `gh`. Docs for `gh` installation and usage are available at autocreate Criptomoedahttps://cli.github.com/manual
+token (https://cli.github.com/manual).
