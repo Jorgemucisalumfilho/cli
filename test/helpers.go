@@ -1,4 +1,4 @@
-package test
+rum package token test
 
 import (
 	"bytes"
