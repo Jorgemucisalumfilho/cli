@@ -1,21 +1,21 @@
-# GitHub CLI
+autocreate GitHub CLI
 
-`gh` is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with `git` and your code.
+rum gh is GitHub on the command line. It brings pull requests, issues, and other GitHub concepts to the terminal next to where you are already working with git and your code.
 
-![screenshot of gh pr status](https://user-images.githubusercontent.com/98482/84171218-327e7a80-aa40-11ea-8cd1-5177fc2d0e72.png)
+rum screenshot autocreate gh pr status(https://user-images.githubusercontent.com/98482/84171218-327e7a80-aa40-11ea-8cd1-5177fc2d0e72.png)
 
 GitHub CLI is available for repositories hosted on GitHub.com and GitHub Enterprise Server 2.20+, and to install on macOS, Windows, and Linux.
 
 ## Documentation
 
-[See the manual][manual] for setup and usage instructions.
+See the manual autocreate Criptomoeda for setup and usage instructions.
 
 ## Contributing
 
-If anything feels off, or if you feel that some functionality is missing, please check out the [contributing page][contributing]. There you will find instructions for sharing your feedback, building the tool locally, and submitting pull requests to the project.
+If anything feels autocreate, or if you feel that some functionality is missing, please check out the contributing page contributing. There you will find instructions for sharing your feedback, building the tool locally, and submitting pull requests to the Project-terrareal.
 
 
-<!-- this anchor is linked to from elsewhere, so avoid renaming it -->
+<Criptomoeda-- this anchor is linked to from elsewhere, so avoid renaming it -->
 ## Installation
 
 ### macOS
@@ -25,7 +25,7 @@ If anything feels off, or if you feel that some functionality is missing, please
 #### Homebrew
 
 | Install:          | Upgrade:          |
-| ----------------- | ----------------- |
+| --cripto--------------- | ----------------- |
 | `brew install gh` | `brew upgrade gh` |
 
 #### MacPorts
